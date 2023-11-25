@@ -1,0 +1,226 @@
+﻿/*----------------------------------Frame-content when select-------------------------------------------------------*/
+/*                                                                                                                  */
+/*------------------------------------------------------------------------------------------------------------------*/
+.frame-content-cart {
+    margin-top: 30px;
+    width: 100%;
+    height: 72vh;
+    border: 1px solid white;
+    display:none
+}
+
+.cart-bought-embrace {
+    overflow-y: auto; /* Make content scrollable when it overflows */
+    width: 100%;
+    height: 50vh;
+    /* Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+    .cart-bought-embrace::-webkit-scrollbar {
+        width: 0.5em;
+    }
+
+    .cart-bought-embrace::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+
+    .cart-bought-embrace::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    .cart-bought-embrace::-webkit-scrollbar-corner {
+        background-color: transparent;
+    }
+
+.cart-bought {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+}
+
+.img-cart-bought {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 40px;
+    background-color: #425742;
+}
+
+.content-cart-bought {
+    margin-left: 3px;
+    display: flex;
+    color: white;
+    width: 150px;
+    flex-direction: column;
+}
+
+.title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*-------------------------------------------------------------*/
+.Increase-decrease-quanlity {
+    display: flex;
+    margin-top: 5px;
+    width: 80%;
+    height: 20px;
+}
+
+.Increase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border: none
+}
+
+.Increase-decrease {
+    width: 40%;
+    border: none;
+}
+
+    .Increase-decrease:focus {
+        border: none;
+        outline: none;
+    }
+/*-----------------------------------------------*/
+.topping {
+    font-size: 15px;
+    font-weight: inherit;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*----------------------------------------------*/
+.order {
+    width: 100%;
+    border: 1px solid white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.into-money {
+    display: flex;
+    width: 100%;
+    font-weight: bolder;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.money {
+    position: fixed;
+    right: 3px;
+    color: yellow;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.discount-code-input {
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+    .discount-code-input:focus {
+        border: none;
+        outline: none;
+    }
+
+.btn-order {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 15px;
+}
+/*----------------------------------Frame-chat when select----------------------------------------------------------*/
+/*                                                                                                                  */
+/*------------------------------------------------------------------------------------------------------------------*/
+.frame-chat {
+    margin-top: 30px;
+    width: 100%;
+    height: 72vh;
+    border: 1px solid white;
+}
+.Name-chat
+{
+    width:100%;
+    height:30px;
+    border:1px solid white;
+    color:aliceblue;
+    font-weight:bolder;
+}
+@keyframes namechat {
+    0% {
+        visibility: visible;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
+.blinking-text {
+    animation: namechat 1s infinite; /* 1s là thời gian một chu kỳ chớp chớp */
+}
+.content-chat {
+    overflow-y: auto; /* Make content scrollable when it overflows */
+    width: 100%;
+    height: 50vh;
+    /* Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+
+
+
+.content-chat::-webkit-scrollbar {
+        width: 0.5em;
+}
+
+.content-chat::-webkit-scrollbar-thumb {
+        background-color: transparent;
+}
+
+.content-chat::-webkit-scrollbar-track {
+        background-color: transparent;
+}
+ .content-chat::-webkit-scrollbar-corner {
+        background-color: transparent;
+}
+.time-chat{
+    width:100%;
+    margin:5px 0 5px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:darkblue;
+}
+
+.massage-name {
+    display:flex;
+    color: yellowgreen;
+    font-family: bolder;
+}
+.Massage-object {
+    width: 100%;
+    border: 1px solid white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}

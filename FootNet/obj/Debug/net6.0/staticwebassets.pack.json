@@ -1,0 +1,1209 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FootNet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FootNet.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\bacxiu.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\bacxiu.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\cacao_caphesua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\cacao_caphesua.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\cacaosua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\cacaosua.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\caphe_caramel.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\caphe_caramel.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\caphemuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\caphemuoi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\den.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\den.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\milodam.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\milodam.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\sua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\sua.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\com_boviensate.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\com_boviensate.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comboxao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comboxao.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comcahoisotca.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comcahoisotca.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_caman.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_caman.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_canhgachiengion.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_canhgachiengion.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_duongchau.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_duongchau.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_trung.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_xucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_xucxich.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comphalau.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comphalau.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comthitkhotrungcut.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comthitkhotrungcut.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comthitrimman.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comthitrimman.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\bapxao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\bapxao.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\bovien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\bovien.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\canhgachien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\canhgachien.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\cavien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\cavien.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\combo_anvat.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\combo_anvat.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\comchay_khoga.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\comchay_khoga.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\ga_popcorn_lacphomai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\ga_popcorn_lacphomai.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\garan_khoanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\garan_khoanh.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoaitaychien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoaitaychien.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoaitaychien_lacphomai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoaitaychien_lacphomai.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoaitaydeo_lacphomai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoaitaydeo_lacphomai.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoboxe.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoboxe.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khogalachanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khogalachanh.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\nemchuaran.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\nemchuaran.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\phomaique.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\phomaique.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\topmo_mamtoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\topmo_mamtoi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\xucxich_locxoay.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\xucxich_locxoay.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\xucxichduc_xongkhoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\xucxichduc_xongkhoi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\lau\\lauthaivien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\lau\\lauthaivien.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\lau\\lauthaixucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\lau\\lauthaixucxich.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mibonuoc_hanquoc.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mibonuoc_hanquoc.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mihanquoc_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mihanquoc_trung.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mihanquoc_xucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mihanquoc_xucxich.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\minuoc_bokho.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\minuoc_bokho.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\minuoc_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\minuoc_trung.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\minuoc_xucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\minuoc_xucxich.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_khobo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_khobo.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_trung.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_trungtopmo_dacbiet.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_trungtopmo_dacbiet.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_xucxichtopmo_dacbiet.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_xucxichtopmo_dacbiet.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_xucxichxongkhoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_xucxichxongkhoi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mituongden_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mituongden_trung.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mituongden_xucxichxongkhoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mituongden_xucxichxongkhoi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mixao_bo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mixao_bo.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaobo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaobo.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaoboviensate.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaoboviensate.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaotrung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaotrung.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaoxucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaoxucxich.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\aquarius.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\aquarius.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\c2.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\c2.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\c2_dao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\c2_dao.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\caphe_wakeup.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\caphe_wakeup.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\coca.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\coca.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_chanhdayvahatchia.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_chanhdayvahatchia.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_chanhsa.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_chanhsa.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_daovahatchia.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_daovahatchia.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\mirinda_cam.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\mirinda_cam.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\mirinda_xaxi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\mirinda_xaxi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergy.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergy.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergymango.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergymango.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergyultra.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergyultra.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterultraparadise.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterultraparadise.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\nuocsuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\nuocsuoi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\redbull.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\redbull.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\revive.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\revive.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\revive_chanhmuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\revive_chanhmuoi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\sting.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\sting.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\stingcompact.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\stingcompact.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\stingcompact_kiwi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\stingcompact_kiwi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\stingvang.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\stingvang.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\teaplus.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\teaplus.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\trabidao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\trabidao.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\traxangkhongdo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\traxangkhongdo.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\twistercam.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\twistercam.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\warrior_dau.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\warrior_dau.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\warrior_nho.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\warrior_nho.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\soda\\soda_blueocean.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\soda\\soda_blueocean.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\soda\\soda_chanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\soda\\soda_chanh.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\soda\\soda_redsunset.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\soda\\soda_redsunset.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\hongtratacmatong.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\hongtratacmatong.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\matcha_macchiato.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\matcha_macchiato.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\samduasua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\samduasua.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\trachanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\trachanh.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\trachanhday.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\trachanhday.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tradao_camsa.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tradao_camsa.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tradao_dualuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tradao_dualuoi.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tradao_macchiato.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tradao_macchiato.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tralai_macchiato.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tralai_macchiato.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\traoihong.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\traoihong.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tratao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tratao.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_dao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_dao.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_khoaimon.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_khoaimon.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_lai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_lai.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_matcha.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_matcha.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_nguyenla.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_nguyenla.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF004.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF005.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF006.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF007.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C004.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C005.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C006.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C007.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C008.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C009.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C010.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C011.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN004.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN005.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN006.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN007.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN008.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN009.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN010.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN011.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN012.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN012.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN013.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN013.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN014.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN014.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN015.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN015.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN016.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN016.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN017.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN017.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN018.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN018.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\lau\\L001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\lau\\L001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\lau\\L002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\lau\\L002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M004.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M005.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M006.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M007.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M008.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M009.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M010.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M011.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M012.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M012.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M013.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M013.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M014.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M014.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N004.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D004.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D005.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D006.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D007.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D008.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D009.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D010.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D011.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D012.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D012.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D013.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D013.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D014.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D014.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D015.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D015.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D016.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D016.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D017.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D017.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D018.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D018.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D019.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D019.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D020.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D020.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D021.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D021.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D022.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D022.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D023.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D023.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D024.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D024.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D025.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D025.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D026.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D026.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D027.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D027.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D028.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D028.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\soda\\SD001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\soda\\SD001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\soda\\SD002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\soda\\SD002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\soda\\SD003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\soda\\SD003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\MC001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\MC001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\MC002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\MC002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\MC003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\MC003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE004.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE005.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE006.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE007.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE008.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT001.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT002.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT003.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT004.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT005.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\AOV.png",
+      "PackagePath": "staticwebassets\\Image\\AOV.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Banner.jpg",
+      "PackagePath": "staticwebassets\\Image\\Banner.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Bannergame.png",
+      "PackagePath": "staticwebassets\\Image\\Bannergame.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\FCO.png",
+      "PackagePath": "staticwebassets\\Image\\FCO.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Fix_tea.png",
+      "PackagePath": "staticwebassets\\Image\\Fix_tea.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\GI.png",
+      "PackagePath": "staticwebassets\\Image\\GI.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Game.jpg",
+      "PackagePath": "staticwebassets\\Image\\Game.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\LOL.png",
+      "PackagePath": "staticwebassets\\Image\\LOL.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Logo.png",
+      "PackagePath": "staticwebassets\\Image\\Logo.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\LogoQ.png",
+      "PackagePath": "staticwebassets\\Image\\LogoQ.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\NameGroup.png",
+      "PackagePath": "staticwebassets\\Image\\NameGroup.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\TaiNghe.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\TaiNghe.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\attitude.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\attitude.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\clearchair.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\clearchair.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\clearkeyboard.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\clearkeyboard.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\cool.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\cool.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\fooddrink.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\fooddrink.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\hot.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\hot.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\keyboard.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\keyboard.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\money.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\money.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\mouse.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\mouse.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\noisy.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\noisy.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\screen.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\screen.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\smoking.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\smoking.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Service\\update.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\update.jpg"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\Tras.png",
+      "PackagePath": "staticwebassets\\Image\\Tras.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\Image\\VAL.png",
+      "PackagePath": "staticwebassets\\Image\\VAL.png"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\css\\cart_chat.css",
+      "PackagePath": "staticwebassets\\css\\cart_chat.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\css\\menu_all.css",
+      "PackagePath": "staticwebassets\\css\\menu_all.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\FoodNet\\FootNet\\FootNet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FootNet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FootNet.props",
+      "PackagePath": "build\\FootNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FootNet.props",
+      "PackagePath": "buildMultiTargeting\\FootNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FootNet.props",
+      "PackagePath": "buildTransitive\\FootNet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
