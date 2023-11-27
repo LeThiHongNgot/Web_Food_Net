@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6-Turtle</title>
+    <link rel="shortcut icon" type="image/png" href="Image/Logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" class="css">
+    <link rel="stylesheet" href="css/admin.css" class="css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="pro-web-app">
+        <!-- Header -->
+        <header>
+            <div class="aside-header" id="navbarToggleExternalContent">
+                <img src="Image/Namegroup.png" class="Namegroup">
+
+                <a href="/" class="aside-menu-link">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button>
+                </a>
+            </div>
+            <div class="content-header">
+                <nav class="nav">
+                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#555" d="M19.295346,12 C19.683732,11.997321 20,12.315434 20,12.7087815 L20,15.9132194 C20,16.3046684 19.6866632,16.6220005 19.3001428,16.6220005 C18.9136223,16.6220005 18.6002855,16.3046684 18.6002855,15.9132194 L18.6006646,14.7880072 C16.7783174,17.8441657 13.3981233,20 9.75558622,20 C5.34669464,20 1.65005079,17.2790232 0.0473577091,13.0847914 C-0.0921406706,12.7197255 0.0869918429,12.3092534 0.447461376,12.1679763 C0.80793091,12.0266992 1.21323498,12.2081158 1.35273336,12.5731817 C2.75210409,16.2353209 5.94083219,18.5824378 9.75558622,18.5824378 C13.1270432,18.5824378 16.2763668,16.4010153 17.7430824,13.4292559 L16.2715084,13.4386023 C15.884997,13.4412853 15.56952,13.1261356 15.566854,12.7346958 C15.5642216,12.343256 15.8754035,12.0237564 16.2619149,12.0210734 L19.295346,12 Z M10.2444138,0 C14.6533054,0 18.3499492,2.72097676 19.9526423,6.9152086 C20.0921407,7.28027447 19.9130082,7.69074656 19.5525386,7.83202368 C19.1920691,7.9733008 18.786765,7.79188418 18.6472666,7.4268183 C17.2478959,3.76467906 14.0591678,1.4175622 10.2444138,1.4175622 C6.87295684,1.4175622 3.72363319,3.59898468 2.25691759,6.57074409 L3.72849164,6.56139765 C4.11500304,6.5587147 4.43048002,6.87386439 4.43314598,7.26530419 C4.43577836,7.65674399 4.12459654,7.97624361 3.73808514,7.97892656 L0.704653993,8 C0.316268039,8.00267895 4.36983782e-13,7.68456603 4.36983782e-13,7.29121854 L4.36983782e-13,4.0867806 C4.36983782e-13,3.69533161 0.31333676,3.3779995 0.699857241,3.3779995 C1.08637772,3.3779995 1.39971448,3.69533161 1.39971448,4.0867806 L1.39933538,5.21199282 C3.22168264,2.1558343 6.60187665,0 10.2444138,0 Z" />
+                    </svg>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Body -->
+        <div class="body">
+            <!-- Navbar -->
+            <div class="column offcanvas-body">
+                <div class="pd-20">
+                    <div class="simplebar-content">
+                        <div class="aside-loggedin">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <span class="avatar">
+                                    <img src="Image/avatar.png" class="rounded-circle" alt="User Avatar">
+                                </span>
+                                <div class="aside-alert-link">
+                                    <a href="/logout">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                            <polyline points="16 17 21 12 16 7"></polyline>
+                                            <line x1="21" y1="12" x2="9" y2="12"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="aside-loggedin-user">
+                                <a href="/" class="d-flex align-items-center justify-content-between mg-b-2" aria-controls="user-menu" aria-expanded="false">
+                                    <h6 class="tx-semibold mg-b-0">NLP Feigner</h6>
+                                </a>
+                            </div>
+                        </div>
+
+                        <nav class="navbar-dark">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/">
+                                        <span class="me-2">
+                                            <i class="bi bi-brightness-high"></i>
+                                        </span>
+                                        <span>Xin Chào!</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/">
+                                        <span class="me-2">
+                                            <i class="bi bi-graph-up-arrow"></i>
+                                        </span>
+                                        <span>Thống Kê</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link sidebar-link" data-bs-toggle="collapse" role="button" href="#baocao" aria-expanded="false">
+                                        <span>
+                                            <span class="me-2">
+                                                <i class="bi bi-bar-chart"></i>
+                                            </span>
+                                            Báo Cáo
+                                        </span>
+                                        <span class="ms-auto">
+                                            <span class="right-icon">
+                                                <i class="bi bi-chevron-down"></i>
+                                            </span>
+                                        </span>
+                                    </a>
+                                    <div class="collapse" id="baocao">
+                                        <ul class="navbar-nav ps-3">
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Bán Hàng</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Giao Ca</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Nhập/Xuất Kho</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Kho</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link sidebar-link collapsed"
+                                       data-bs-toggle="collapse"
+                                       href="#qlbanhang"
+                                       aria-expanded="false">
+                                        <span>
+                                            <span class="me-2">
+                                                <i class="bi bi-cup-hot"></i>
+                                            </span>
+                                            Hàng Bán
+                                        </span>
+                                        <span class="ms-auto">
+                                            <span class="right-icon">
+                                                <i class="bi bi-chevron-down"></i>
+                                            </span>
+                                        </span>
+                                    </a>
+                                    <div class="collapse" id="qlbanhang" style>
+                                        <ul class="navbar-nav ps-3" aria-labelledby="qlbanhang">
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Danh Mục</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Mặt Hàng</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Nguyên Liệu</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Nhóm Mặt Hàng</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <button type="button" class="btn btn-outline-light btn-function btn-lg">
+              <span class="font-size-lg">  Sử dụng lớp để tăng kích thước chữ
+                <iconify-icon class="icon_mar" icon="bx:home"></iconify-icon> Trang Chủ
+              </span>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-function btn-lg">
+              <span class="font-size-lg">  Sử dụng lớp để tăng kích thước chữ
+                <iconify-icon class="icon_mar" icon="uil:food"></iconify-icon></iconify-icon> Quản Lý Đặt Món
+              </span>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-function btn-lg">
+              <span class="font-size-lg">  Sử dụng lớp để tăng kích thước chữ
+                <iconify-icon class="icon_mar" icon="uis:history"></iconify-icon></iconify-icon>Lịch Sử
+              </span>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-function btn-lg">
+              <span class="font-size-lg">  Sử dụng lớp để tăng kích thước chữ
+                Báo Cáo
+              </span>
+            </button> -->
+            <!-- Content -->
+            <div class="column">
+                <div data-simplebar="init" class="content-body">
+                    <div class="simplebar-wrapper" style="margin: -25px;">
+                        <div class="simplebar-height-auto-observer-wrapper">
+                            <div class="simplebar-height-auto-observer"></div>
+                        </div>
+                        <div class="simplebar-mask">
+                            <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" tabindex="0" role="region" aria-label="scrollable content" style="height: 100%; overflow: hidden;">
+                                    <div class="simplebar-content" style="padding: 25px;">
+                                        <div class="pd-x-0 container-fluid">
+                                            <div class="row-xs mg-b-10 row">
+                                                <div class="col">
+                                                    <div class="row-xs mg-b-10 row">
+                                                        <div class="col-xl-6 col-lg-6">
+                                                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                                                <h5 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal mg-b-20">Chào mừng bạn đến với 6-Turtle!</h5>
+                                                                <p class="tx-color-03 tx-center mg-b-10">Nếu bạn là chủ phòng máy, xin vui lòng liên hệ với chúng tôi để được hướng dẫn sử dụng và kích hoạt 6-Turtle cho phòng máy của mình.</p>
+                                                                <p class="tx-color-03 tx-center mg-b-30">Nếu bạn là nhân viên, hãy liên hệ với chủ phòng máy để được cấp quyền sử dụng 6-Turtle. <em class="tx-gray-800">Vui lòng đăng xuất và đăng nhập lại sau khi được chủ phòng máy cấp quyền.</em></p>
+                                                                <div class="tx-center mg-b-10">
+                                                                    <a target="_blank" rel="noopener noreferrer" href="/">
+                                                                        <img src="Image/Svg/ios-download.svg" alt="ios" style="height: 60px;">
+                                                                    </a>
+                                                                    <a target="_blank" rel="noopener noreferrer" href="/">
+                                                                        <img src="Image/Svg/chPlay.svg" alt="android" style="height: 60px;">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-xl-6 col-lg-6">
+                                                            <div class="d-flex flex-column align-items-center justify-content-center">
+                                                                <div class="wd-70p wd-sm-250 wd-lg-350 mg-b-15">
+                                                                    <img src="Image/hello.png" class="img-fluid" alt="Chào mừng đến với GCMenu">
+                                                                    <div class="divider-text">LIÊN HỆ VỚI CHÚNG TÔI QUA</div>
+                                                                    <div class="d-flex flex-column align-items-center">
+                                                                        <p class="mg-b-10 d-flex align-items-center" style="font-size: 16px;">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-info mg-r-4">
+                                                                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                                                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                                                            </svg>
+                                                                            <a class="text-info" href="/" target="_blank" rel="noopener noreferrer">Trang Chủ</a>
+                                                                        </p>
+                                                                        <p class="mg-b-10 d-flex align-items-center" style="font-size: 16px;">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-danger mg-r-4">
+                                                                                <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                                                            </svg>
+                                                                            <a class="text-danger" href="/" target="_blank" rel="noopener noreferrer">0942 230 189</a>
+                                                                        </p>
+                                                                        <p class="mg-b-10 d-flex align-items-center" style="font-size: 16px;">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary mg-r-4">
+                                                                                <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+                                                                                <line x1="8" y1="12" x2="16" y2="12"></line>
+                                                                            </svg>
+                                                                            <a class="text-primary" href="/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                                                                        </p>
+                                                                        <p class="mg-b-0 d-flex align-items-center" style="font-size: 16px;">
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary mg-r-4">
+                                                                                <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
+                                                                                <line x1="8" y1="12" x2="16" y2="12"></line>
+                                                                            </svg>
+                                                                            <a class="text-primary" href="/" target="_blank" rel="noopener noreferrer">Zalo</a>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="simplebar-placeholder" style="width: auto; height: 494px;"></div> -->
+            </div>
+
+            <!-- Khung Chat-->
+            <div class="column">
+                <div class="chat-container chat-expand">
+                    <button class="btn btn-xs btn-icon chat-toggle btn-primary chat-expand">
+                        GG Chat
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="7 13 12 18 17 13"></polyline>
+                            <polyline points="7 6 12 11 17 6"></polyline>
+                        </svg>
+                    </button>
+                    <div>
+                        <div class="tx-center">
+                            <h1>GGChat</h1><p>Tạo phòng máy để bắt đầu trò chuyện!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer pd-y-0 align-items-center" style="height: 46px;">
+                <div>
+                    <span>© 2023</span>
+                    <img src="Image/NameGroup.png" alt="GCP" style="height: 20px; margin: 0px 5px;">
+                </div>
+                <div>
+                    <nav class="nav"></nav>
+                </div>
+            </footer>
+
+            <div class="global-toast--container global-toast--container--bottom-right"></div>
+            <!-- Modal Thông tin máy -->
+            <!-- <div class="modal fade js-com-modal" id="comInfoModal" aria-hidden="true" aria-labelledby="comInfoModal"
+              tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content dangky-div">
+                  <div class="modal-content-border"></div>
+                  <div>
+                    <p class="modal-h">Tên Máy</p>
+                    <button type="button" class="btn-close com-info-close modal-close" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-b">
+                    <p>Trạng Thái: Đang hoạt động/ Ngỉ</p>
+                    <p>Tài khoản đang sử dụng:</p>
+                    <div>
+                      <div class="row rounded-pill">
+                        <div class="col-md-3 rounded-start text-end col-title">User:</div>
+                        <div class="col rounded-end col-content">1234fjsh</div>
+                      </div>
+                      <div class="row rounded-pill">
+                        Lấy dữ liệu user, pass từ csdl
+                        <div class="col-md-3 rounded-start text-end col-title">Pass:</div>
+                        <div class="col rounded-end col-content">1234fjsh</div>
+                      </div>
+                    </div>
+                    <p>Thời gian hoạt động: 30p/ 1h50p</p>
+                  </div>
+                  <div class="modal-f">
+                    <button type="button" class="btn btn-outline-light" data-bs-target="#stopActiveModal"
+                      data-bs-toggle="modal" data-bs-dismiss="modal" style="width: 200px; margin-right: 5px;">Ngưng
+                      chạy</button>
+                    <button type="button" class="btn btn-outline-light" style="width: 200px; margin-left: 5px;">Lưu thay
+                      đổi</button>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- Modal xác nhận ngừng hoạt động của máy -->
+            <!-- <div class="modal fade js-stop-active-modal" id="stopActiveModal" aria-hidden="true"
+              aria-labelledby="stopActiveModal" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content ">
+                  <div class="modal-content-border"></div>
+                  <div>
+                    <p class="modal-h">XÁC NHẬN MÁY NVHP-01 NGƯNG HOẠT ĐỘNG</p>
+                    <button type="button" class="btn-close stop-active-close modal-close" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="col">
+                    <div class="row rounded">
+                      <button type="button" class="btn-lg color-yes" style="border-radius: 8px; border: #fff;">
+                        <iconify-icon icon="dashicons:yes-alt"></iconify-icon>
+                        XÁC NHẬN
+                      </button>
+                    </div>
+                    <div class="row rounded" style="border-radius: 8px; border: #fff;">
+                      <button type="button" class="btn-lg color-no" style="border-radius: 8px; border: #fff;">
+                        <iconify-icon icon="healthicons:no"></iconify-icon>
+                        HỦY
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            <!-- Viết JavaScript cho modal Thông tin máy -->
+            <!-- <script>
+              const comInfoCards = document.querySelectorAll('.js-computer-info');
+              const comInfoModal = new bootstrap.Modal(document.getElementById('comInfoModal'));
+              const stopActiveModal = new bootstrap.Modal(document.getElementById('stopActiveModal'));
+              const comInfoCloseButton = document.querySelector('.com-info-close');
+              const stopActiveCloseButton = document.querySelector('.stop-active-close');
+              const modalBackdrop = document.querySelector('.modal-backdrop');
+
+              for (const comInfoCard of comInfoCards) {
+                comInfoCard.addEventListener('click', function () {
+                  comInfoModal.show();
+                });
+              }
+
+              comInfoCloseButton.addEventListener('click', function () {
+                comInfoModal.hide();
+              });
+
+              stopActiveCloseButton.addEventListener('click', function () {
+
+                stopActiveModal.hide();
+              });
+              if (modalBackdrop) {
+                // Ẩn modal backdrop
+                modalBackdrop.classList.remove('show');
+              }
+
+              // document.addEventListener("DOMContentLoaded", function () {
+              //   const computerName = document.getElementById("computer01");
+              //   const xacNhanButton = document.querySelector(".color-yes");
+
+              //   xacNhanButton.addEventListener("click", function () {
+              //     // Thay đổi màu văn bản "NHVP-01" sang màu trắng (#ffffff)
+              //     computerName.style.color = "#ffffff";
+              //   });
+              // });
+
+              // SỐ thông báo của phản hồi khách hàng
+              let numberOfNotifications = 0; // Thay đổi số này để thử nghiệm
+
+              // Thay đổi số lượng thông báo
+              function changeNotificationCount(newCount) {
+                numberOfNotifications = newCount;
+                // Cập nhật số lượng thông báo
+                document.querySelector('.notification-count').textContent = numberOfNotifications;
+                // Hiển thị hoặc ẩn .notification-count dựa trên số lượng thông báo
+                const notificationCountElement = document.querySelector('.notification-count');
+                if (numberOfNotifications > 0) {
+                  notificationCountElement.style.display = 'block';
+                } else {
+                  notificationCountElement.style.display = 'none';
+                }
+              }
+              // Gọi hàm để thay đổi số lượng thông báo
+              changeNotificationCount(3); // Thay đổi số này để kiểm tra
+            </script> -->
+            <script src="lib/jquery/dist/jquery.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+            <script src="https://kit.fontawesome.com/1fdfb84bdf.js" crossorigin="anonymous"></script>
+        </div>
+    </div>
+</body>
+
+</html>

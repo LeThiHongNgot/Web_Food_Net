@@ -1,0 +1,485 @@
+body {
+  margin: 0;
+}
+/* Header */
+.header {
+  width: 100%; /* Width to 100% for responsiveness */
+  height: 50px;
+  background-color: rgba(141, 59, 54, 1);
+}
+.ro
+{
+  float: left;
+  height:50px;
+  
+}
+.ro:nth-child(1)
+{
+  display: flex;
+  width:13% ;
+  justify-content: center;
+ align-items: center;
+}
+.ro:nth-child(2)
+{
+  
+  width:67% ;
+  /* border: 1px solid white; */
+
+}
+.ro:nth-child(2) .Namegroup
+{
+  height: 50px;
+}
+.ro:nth-child(3)
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:20% ;
+  color: aliceblue;
+  font-weight: bolder;
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: Diplomata;
+
+}
+
+/* Body */
+/* Bố cục 3 phần của body */
+.body
+{
+  width: 100%;
+  height: 50%;
+  background-color: aqua;
+  border-top: 3px solid white;
+}
+.column {
+  float: left;
+  height: 840px;
+}
+/* KHu vục bên trái */
+.column:nth-child(1) {
+  width: 13%;
+  border-right: 1px solid white;
+  background-image: linear-gradient(rgba(141, 59, 54, 1), rgba(9, 3, 45, 1));
+  text-align: center;
+}
+/* Khu vưc center */
+.column:nth-child(2) {
+  width: 67%; /* Adjusted width */
+  background-image: linear-gradient(rgba(141, 59, 54, 1), rgba(49, 14, 33, 1),rgba(7, 11, 48, 1));
+  border-right: 1px solid white;
+}
+/* Khu vưc phải*/
+.column:nth-child(3) {
+  width:20%;
+  background-image: linear-gradient(rgba(141, 59, 54, 1), rgba(9, 3, 45, 1));
+}
+/* Phần tử bên trong khu vực bên trái */
+.logoquan
+{
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.column:nth-child(1) .divu
+{
+  width: 100%;
+  font-size: 25px;
+  color: azure;
+  font-weight: bold;
+  font-family: Diplomata;
+  margin-bottom: 10px;
+}
+.column:nth-child(1) .bannerdv
+{
+  /* border: 1px solid white; */
+  width: 368px;
+  height: 410px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.column:nth-child(1) .lehe{
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Diplomata;
+  color: aliceblue;
+} 
+ .tele {
+  display: flex;
+  justify-content: center; /* Canh chỉnh icon theo chiều ngang (trục X) */
+  align-items: center; /* Canh chỉnh icon theo chiều dọc (trục Y) */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 0 auto; 
+}
+/* Phân từ khu vực center */
+.column:nth-child(2) .bannerchinh
+{
+  border: 1px solid white;
+  width: 100%;
+  margin: 0 auto; 
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Phần từ khu vực bên phải */
+.column:nth-child(3) .Account
+{
+  display: flex;
+  margin: 0 auto; 
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: Diplomata;
+  font-weight: bold;
+  color: #e6dbdb;
+  margin: 0 auto; 
+  text-shadow: 1px 1px 2px rgb(11, 39, 57), 0 0 25px rgb(35, 55, 183), 0 0 5px rgb(161, 200, 245);
+  
+}
+.column:nth-child(3) .imgtron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  box-shadow: 1px 1px 2px rgb(11, 39, 57), 0 0 25px rgb(35, 55, 183), 0 0 5px rgb(161, 200, 245);
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: white; /* Để nền button trong suốt */
+  cursor: pointer; /* Hiển thị cursor khi di chuyển vào button */
+}
+.bannergame
+{
+  display:flex;
+  width:380px;
+  height: 143px;
+}
+.Imggame
+{
+  width:380px;
+  height: 143px;
+}
+.t{
+
+  display: flex;
+  background-image: linear-gradient(to top, rgba(141, 59, 54, 1), rgba(9, 3, 45, 1));
+  margin-left: 10px;
+  align-items: center;
+  font-size: 20px;
+  font-family:Diplomata ;
+  font-weight: bold;
+  color: #f2ebeb;
+}
+.tb
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #e6dbdb;
+  font-weight: bold;
+  font-family:Diplomata ;
+  font-size: 25px;
+  /* border:1px solid white; */
+  height:35px;
+  background-image:linear-gradient(to top, rgba(141, 59, 54, 1), rgba(9, 3, 45, 1)) ;
+}
+.tbls
+{
+  width: 100%;
+  height: 490px;
+  display: flex;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+.kbtn
+{
+  display: flex;
+  width: 100%;
+}
+.tbls .form-GH
+{
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+/* Giỏ hàng */
+.form_GH .item-GH
+{
+  float:left;
+
+  
+}
+.item-GH:nth-child(1)
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #faf8f8;
+  width: 25%;
+  border:1px solid white;
+  height: 80px;
+  border-radius:50%;
+ 
+}
+.item-GH:nth-child(2)
+{
+  width: 75%;
+  border:1px solid white;
+  height: 80px;
+  color: #e6dbdb;
+  font-weight: 900;
+  font-size: 15px;
+  text-align: center;
+}
+.btnGH
+{
+  font-weight: bold;
+  width: 50%;
+  height: 45px; 
+  background-color: #e8a5a5;
+}
+.btnTB
+{
+
+  width: 50%;
+  height: 45px; 
+  font-weight: bold;
+  background-color: #a5e6f9;
+}
+ .search
+{
+  background-image: linear-gradient(to top, rgba(141, 59, 54, 1), rgba(9, 3, 45, 1));
+}
+.fsearch
+{
+  background-image: linear-gradient(to top, rgb(219, 199, 198), rgb(217, 229, 233));
+}
+.listcart
+{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border: 1px solid white;
+}
+#test{
+  display: flex;
+  margin-top: 20px;
+  width:100%;
+  height:610px;
+  overflow-x:hidden;
+  overflow-y:auto;
+  justify-content: center;
+}
+
+#test .kcard
+{
+  width: 75%;
+  height: 200px;
+}
+.headcard
+{
+  display: flex;
+  justify-content: space-between;
+  font-size:25px;
+}
+.img{
+  height: 200px;
+  width:100%;
+  background: no-repeat scroll center center transparent;
+  background: transparent;
+  background-size: cover;
+}
+div [class^="col-"]{
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom: 40px;
+}
+.card{
+  transition:0.5s;
+  cursor:pointer;
+  /* background: rgb(67, 61, 61); */
+  --bs-card-bg: #ba9c9c;
+  background-image: linear-gradient(to top, rgb(215, 242, 244), rgb(173, 143, 143));
+}
+.card-title{  
+  font-size:20px;
+  transition:1s;
+  color: #5a2424;
+  font-weight: bold;
+  font-family: Diplomata;
+  cursor:pointer;
+  text-align: center;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.card-text{
+  height:80px;  
+}
+
+.card::before, .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+.card::before {
+  transform-origin: left top;
+}
+.card::after {
+  transform-origin: right bottom;
+}
+.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+.them
+{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #f0f0f0;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* đăng nhập đăng ký */
+.modal-backdrop.show {
+  background-color: rgba(0, 0, 0, 0.1); /* 0.5 là độ trong suốt (từ 0.0 đến 1.0) */
+}
+
+.modal-content {
+  background-image: linear-gradient(to top, rgba(9, 3, 45, 1), rgba(141, 59, 54, 1));
+  justify-content: center;
+  align-items: center;
+ 
+}
+.modal-content-border
+{
+  border: 2px solid #f0f0f0;
+  width: 100%;
+}
+.f-modal{
+  background-image: linear-gradient(to top, rgba(9, 3, 45, 1), rgba(141, 59, 54, 1));
+  justify-content: center;
+  align-items: center;
+  border-top: 6px solid #f0f0f0;
+}
+.modal-h {
+  display: flex;
+  color: #ffffff; /* Change modal header text color */
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: 900;
+ 
+}
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 156px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #ece9e9;
+  font-size: 25px;
+}
+.login__icon:hover
+{
+  font-size: 30px;
+}
+.login__input {
+	border: none;
+	border-bottom: 3px solid #fefefe;
+	background: none;
+	padding: 10px;
+	padding-left: 40px;
+	font-weight: 700;
+  font-size: 20px;
+	width: 100%;
+	transition: .2s;
+  color: #ece9e9;
+}
+
+.login__input::placeholder {
+  color: #ebe0e0; /* Đổi màu tùy ý, ví dụ: đỏ (#FF0000) */
+}
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #030303;
+}
+
+.account
+{
+  margin-top: 20px;
+  width: 80%;
+  height: 40px;
+  border: none;
+  background-color: #f0f0f0; /* Background color */
+}
+.pas
+{
+  margin-top: 20px;
+  width: 80%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.modal-b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-f {
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.dangky-div
+{
+  font-size: 20px;
+  font-weight: 200;
+  color: #ece9e9
+}
+.dangky-div:hover
+{
+font-size: 25px;
+}
+.QMK-div
+{
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 60px;
+  color: #ece9e9;
+}
+.QMK-div:hover
+{
+  font-size: 25px;
+}
+/* CSS cho class open modal */
+.open {
+  display: flex;
+}
+ /* hiển thị giỏ hàng khi vừa đặt hàng  */
