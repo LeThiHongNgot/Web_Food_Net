@@ -23,6 +23,7 @@ namespace FootNet.ViewModels
 
         [Required]
         [DataType(DataType.Password)]
+        [Display(Name = "Verify Password")]
         [Compare("Password", ErrorMessage = "Mật khẩu không khớp vui lòng nhập lại")]
         public string? Verify { get; set; }
     }

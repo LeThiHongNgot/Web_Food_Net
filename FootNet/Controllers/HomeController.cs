@@ -1,4 +1,5 @@
 ﻿using FootNet.Models;
+using FootNet.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -11,6 +12,7 @@ namespace FootNet.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+
         }
 
         public IActionResult Index()
@@ -27,6 +29,22 @@ namespace FootNet.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public IActionResult Add()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult Add(AddUserViewModels addUserViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                return View("Index");
+            }
+
+            return View(addUserViewModel);
         }
     }
 }

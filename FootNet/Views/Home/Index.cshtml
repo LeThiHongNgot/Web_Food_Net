@@ -7,8 +7,7 @@
     @* ------------------------Content on the left------------------------- *@
     <div class="center"> 
         <img src="~/Image/LogoQ.png" class="Logonet" />
-        <div class="menu-service"><iconify-icon onclick="service()" icon="file-icons:service-fabric" class="icon"></iconify-icon>DỊCH VỤ</div>
-        <div class="frame-contact"><iconify-icon icon="mdi:face-agent" class="icon-contact"></iconify-icon></div>
+        <div class="frame-contact"><iconify-icon icon="mdi:face-agent" onclick="service()" class="icon-contact"></iconify-icon></div>
         <h class="font-support">HỖ TRỢ VÀ LIÊN LẠC</h>
     </div>
     @* --------------------------Content on the center----------------------------- *@
@@ -204,29 +203,33 @@
                         <label>Email</label>
                         <input class="input-login-register" type="text" />
                         <label>Mật khẩu</label>
-                        <input class="input-login-register" type="text" />
+                        <input asp-for ="Password" class="input-login-register"  />
                         <div class=" btn-login-register"><button class="btn btn-danger">ĐĂNG NHẬP</button> <button class="btn btn-secondary" onclick="showregister()">ĐĂNG KÝ</button></div>
                     </div>
                 </div>
              </div>
+            @model FootNet.ViewModels.AddUserViewModels
             <div class="hide-show" id="register">
-                <div class="from-register">
+                <div class="from-register" method="post" >
                     <div style="margin-bottom:30px">ĐĂNG KÝ</div>
                     <div class="content-login">
                         <label>Email</label>
-                        <input class="input-login-register" type="text" />
+                        <input class="input-login-register" asp-for="Email" type="text" />
+                        <span asp-validation-for="Email"></span>
                         <label>Mật khẩu</label>
-                        <input class="input-login-register" type="text" />
+                        <input asp-for="Password" class="input-login-register" />
+                        <span asp-validation-for="Password"></span>
                         <label>Xác nhận mật khẩu</label>
-                        <input class="input-login-register" type="text" />
+                        <input asp-for="Verify" class="input-login-register" />
+                        <span asp-validation-for="Verify"></span>
                         <label>Tên hiển thị</label>
-                        <input class="input-login-register" type="text" />
-                        <div class=" btn-login-register"><button class="btn btn-danger">ĐĂNG KÝ</button> <button class="btn btn-secondary" onclick="showregister()">ĐĂNG NHẬP</button></div>
+                        <input class="input-login-register" asp-for="Username" type="text" />
+                        <div class=" btn-login-register"><button class="btn btn-danger" asp-controller="HomeController" asp-action="Add" type="submit">ĐĂNG KÝ</button> <button class="btn btn-secondary" onclick="showregister()">ĐĂNG NHẬP</button></div>
                     </div>
                 </div>
             </div>
     </div>
-    </div>
+ </div>
 </div>
 
 

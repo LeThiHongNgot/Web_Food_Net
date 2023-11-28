@@ -2,15 +2,13 @@
 using FootNet.ViewModels;
 namespace FootNet.Controllers
 {
-    public class User : Controller
+    public class UserController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-       public IActionResult Privacy()
-        {
-            return View();
-        }
+       
+
     }
 }
