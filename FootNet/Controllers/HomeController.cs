@@ -43,7 +43,7 @@ namespace FootNet.Controllers
             {
                 return View("Index");
             }
-
+/*gh*/
             return View(addUserViewModel);
         }
     }
