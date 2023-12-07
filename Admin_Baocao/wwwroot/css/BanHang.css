@@ -1,0 +1,22 @@
+﻿#customDropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    height: 6vh;
+    width: 19vw;
+    text-align: left;
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+}
+#dropdownArrow {
+    height: 4vh;
+    width: 2vw;
+    border-left:solid;
+    border-left-width: 1px;
+/*    background-color: red;*/
+    background-image: url("/Image/Svg/chevron-down-solid.svg");
+    background-position: 80% 50%;
+    background-repeat: no-repeat;
+}

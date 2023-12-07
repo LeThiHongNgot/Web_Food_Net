@@ -1,0 +1,118 @@
+﻿@{
+	Layout = "_AdminLayout";
+}
+<div class="container mt-xl-4 d-flex flex-column" style="margin-left: 18vw">
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item active text-black fw-bold">BÁO CÁO</li>
+				<li class="breadcrumb-item active text-black fw-bold">BÁN HÀNG</li>
+			</ol>
+		</nav>
+		<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black mg-b-20">BÁN HÀNG</h4>
+	</div>
+	<div class="border border-bottom-0 rounded bg-white align-items-center d-flex flex-column" style="height: 89.5vh; width: 75vw; margin-top: 5vh">
+		<div class="d-flex flex-column" style="width: 74vw; height: 19vh; min-height: 19vh; margin-top: 1vh">
+			<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black">BÁO CÁO TỔNG HỢP</h4>
+			<h5 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 text-black-50 fs-5">Báo cáo số lượng mặt hàng đã bán theo thời điểm</h5>
+			<div style="width: 12vw; height: 7.5vh; display: flex; flex-direction: row; justify-content:space-between; margin-top: 1.5vh">
+				<div class="border rounded border-0" style="width: 3.75vw; align-items: center; justify-content: center; display:flex; background-color:#053ef7">
+					<i class="fa-solid fa-dollar-sign fa-2xl" style="color: #fffafa"></i>
+				</div>
+				<div class="d-flex flex-column" style="text-align: center; position: absolute; margin-left: 4.25vw">
+					<h6 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black-50 fw-bold">TỔNG DOANH THU</h6>
+					<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black fs-2" id="revenue" style="text-align:justify"></h4>
+				</div>
+			</div>
+		</div>
+		<div class="border border-start-0 border-end-0 align-items-center justify-content-center d-flex flex-column" style="height: 10vh; min-height: 10vh; width: 75vw">
+			<div style="width: 74vw; height: 7vh">
+				<div class="d-flex flex-row justify-content-between align-items-center" style="width: 53vw; height: 7vh">
+					<div class="d-flex flex-row align-items-center justify-content-between" style="width: 18vw">
+						<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black-50 fw-bold">TỪ NGÀY</label>
+						<div class="d-flex flex-row" style="width: 14vw; height: 5vh">
+							<input class="border border-secondary rounded-start" readonly id="datepicker" type="text" style="width: 12vw" />
+							<div class="border border-secondary border-start-0 rounded-end d-flex align-items-center justify-content-center" style="width: 2vw; background-color: white; cursor: pointer">
+								<i class="fa fa-calendar"></i>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex flex-row align-items-center justify-content-between" style="width: 19vw">
+						<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black-50 fw-bold">ĐẾN NGÀY</label>
+						<div class="d-flex flex-row" style="width: 14vw; height: 5vh">
+							<input class="border border-secondary rounded-start" readonly id="datepicker1" type="text" style="width: 12vw" />
+							<div class="border border-secondary border-start-0 rounded-end d-flex align-items-center justify-content-center" style="width: 2vw; background-color: white; cursor: pointer">
+								<i class="fa fa-calendar"></i>
+							</div>
+						</div>
+					</div>
+					<div class="rounded d-flex align-items-center justify-content-center" id="applyButton" style="height: 5vh; width: 7vw; background-color: #747b91; cursor: pointer">
+						<div class="d-flex flex-row text-center justify-content-between align-items-center" style="width: 5vw; cursor: pointer">
+							<i class="fa-regular fa-circle-check fa-sm" style="color: #ffffff; cursor: pointer"></i>
+							<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-white fw-bold" style="cursor: pointer">ÁP DỤNG</label>
+						</div>
+					</div>
+					<div class="rounded d-flex align-items-center justify-content-center" id="refreshDateButton" style="height: 5vh; width: 8vw; background-color: #747b91; cursor: pointer">
+						<div class="d-flex flex-row text-center justify-content-between align-items-center" style="width: 5.5vw; cursor: pointer">
+							<i class="fa-solid fa-arrows-rotate fa-sm" style="color: #ffffff; cursor: pointer"></i>
+							<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-white fw-bold" style="cursor: pointer">HOÀN TÁC</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="border border-start-0 border-end-0 border-top-0 align-items-center justify-content-center d-flex flex-column" style="height: 12vh; min-height: 12vh; width: 75vw">
+			<div style="width: 74vw; height: 9vh">
+				<div class="d-flex flex-column" style="width: 39vw; height: 9vh">
+					<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal fw-bold fs-6" style="color: gray">BỘ LỌC</label>
+					<div class="d-flex flex-row justify-content-between" style="width: 39vw; height: 6vh">
+						<div class="dropdown" style="background-color: white">
+							<button class="btn btn-secondary" id="customDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<div id="danhmucContent">Danh Mục</div>
+								<div id="dropdownArrow"/>
+							</button>
+							<ul class="dropdown-menu" id="danhmucMenu" style="width: 19vw">
+							</ul>
+						</div>
+						<div class="dropdown" style="background-color: white">
+							<button class="btn btn-secondary" id="customDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<div id="mathangContent" style="width: 15vw;height: 3vh; max-width: 15vw; overflow: hidden">Mặt Hàng</div>
+								<div id="dropdownArrow"/>
+							</button>
+							<ul class="dropdown-menu" id="mathangMenu" style="width: 19vw; max-height: 25vh; overflow:auto">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		@*<div class="border border-start-0 border-end-0 border-top-0 align-items-center justify-content-center d-flex flex-column" style="height: 12vh; width: 75vw">
+		</div>*@
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col" style="color: gray; font-weight: bold">STT</th>
+					<th scope="col" style="color: gray; font-weight: bold; width: 19vw">MẶT HÀNG</th>
+					<th scope="col" style="color: gray; font-weight: bold">DANH MỤC</th>
+					<th scope="col" style="color: gray; font-weight: bold; text-align: right; width: 6vw">SỐ LƯỢNG</th>
+					<th scope="col" style="color: gray; font-weight: bold; text-align: right">THÀNH TIỀN</th>
+				</tr>
+			</thead>
+			<tbody id="reportTableBody">
+			</tbody>
+		</table>
+	</div>
+	<div class="d-flex justify-content-center" style="height: 12vh; width: 75vw">
+		<div class="d-flex flex-row justify-content-between align-items-center" style="width: 75vw; height: 5vh">
+			<div>
+				<i class="fa-solid fa-circle-arrow-left fa-2xl" id="previousButton" style="color: #005eff; cursor: pointer"></i>
+			</div>
+			<div>
+				<i class="fa-solid fa-circle-arrow-left fa-rotate-180 fa-2xl" id="nextButton" style="color: #005eff; cursor: pointer"></i>
+			</div>
+		</div>
+	</div>
+</div>
+@section Scripts{
+	<script src="~/js/BaoCao.js"></script>
+}

@@ -1,0 +1,64 @@
+﻿@{
+	Layout = "_AdminLayout";
+}
+<div class="container mt-xl-4 d-flex flex-column" style="margin-left: 18vw">
+	<div class="container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item active text-black fw-bold">HÀNG BÁN</li>
+				<li class="breadcrumb-item active text-black fw-bold">DANH MỤC</li>
+			</ol>
+		</nav>
+		<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black mg-b-20">DANH MỤC</h4>
+	</div>
+	<div class="border border-bottom-0 rounded bg-white align-items-center d-flex flex-column" style="height: 68.3vh; width: 75vw; margin-top: 5vh">
+		<div class="d-flex flex-column" style="width: 74vw; height: 8vh; min-height: 8vh; margin-top: 1vh">
+			<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black">DANH MỤC TỔNG HỢP</h4>
+			<h5 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 text-black-50 fs-5">Tổng hợp các danh mục trong hệ thống</h5>
+		</div>
+		<div class="border border-start-0 border-end-0 align-items-center justify-content-center d-flex flex-column" style="height: 12vh; min-height: 12vh; width: 75vw">
+			<div style="width: 74vw; height: 9vh">
+				<div class="d-flex flex-column" style="width: 39vw; height: 9vh">
+					<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal fw-bold fs-6" style="color: gray">BỘ LỌC</label>
+					<div class="d-flex flex-row justify-content-between" style="width: 39vw; height: 6vh">
+						<div class="dropdown" style="background-color: white">
+							<button class="btn btn-secondary" id="customDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<div id="danhmucContent">Danh Mục</div>
+								<div id="dropdownArrow" />
+							</button>
+							<ul class="dropdown-menu" id="danhmucMenu" style="width: 19vw; max-height: 25vh; overflow:auto">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		@*<div class="border border-start-0 border-end-0 border-top-0 align-items-center justify-content-center d-flex flex-column" style="height: 12vh; width: 75vw">
+		</div>*@
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col" style="color: gray; font-weight: bold; width: 15vw">STT</th>
+					<th scope="col" style="color: gray; font-weight: bold; width: 25vw">MÃ DANH MỤC</th>
+					<th scope="col" style="color: gray; font-weight: bold">TÊN DANH MỤC</th>
+					<th scope="col" style="color: gray; font-weight: bold; text-align: right; width: 6vw">SỐ LƯỢNG</th>
+				</tr>
+			</thead>
+			<tbody id="reportTableBody">
+			</tbody>
+		</table>
+	</div>
+	<div class="d-flex justify-content-center" style="height: 12vh; width: 75vw">
+		<div class="d-flex flex-row justify-content-between align-items-center" style="width: 75vw; height: 5vh">
+			<div>
+				<i class="fa-solid fa-circle-arrow-left fa-2xl" id="previousButton" style="color: #005eff; cursor: pointer"></i>
+			</div>
+			<div>
+				<i class="fa-solid fa-circle-arrow-left fa-rotate-180 fa-2xl" id="nextButton" style="color: #005eff; cursor: pointer"></i>
+			</div>
+		</div>
+	</div>
+</div>
+@section Scripts{
+	<script src="/js/DanhMuc.js"></script>
+}

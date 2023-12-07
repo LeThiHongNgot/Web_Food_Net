@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6-Turtle</title>
+    <link rel="shortcut icon" type="image/png" href="/Image/Logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css" class="css">
+    <link rel="stylesheet" href="/css/admin.css" class="css">
+    <link rel="stylesheet" href="/css/BanHang.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/css/bootstrap-datepicker.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <div id="pro-web-app">
+        <!-- Header -->
+        <header>
+            <div class="aside-header" id="navbarToggleExternalContent">
+                <img src="/Image/Namegroup.png" class="Namegroup">
+
+                <a href="/" class="aside-menu-link">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </button>
+                </a>
+            </div>
+            <div class="content-header">
+                <nav class="nav">
+                    <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#555" d="M19.295346,12 C19.683732,11.997321 20,12.315434 20,12.7087815 L20,15.9132194 C20,16.3046684 19.6866632,16.6220005 19.3001428,16.6220005 C18.9136223,16.6220005 18.6002855,16.3046684 18.6002855,15.9132194 L18.6006646,14.7880072 C16.7783174,17.8441657 13.3981233,20 9.75558622,20 C5.34669464,20 1.65005079,17.2790232 0.0473577091,13.0847914 C-0.0921406706,12.7197255 0.0869918429,12.3092534 0.447461376,12.1679763 C0.80793091,12.0266992 1.21323498,12.2081158 1.35273336,12.5731817 C2.75210409,16.2353209 5.94083219,18.5824378 9.75558622,18.5824378 C13.1270432,18.5824378 16.2763668,16.4010153 17.7430824,13.4292559 L16.2715084,13.4386023 C15.884997,13.4412853 15.56952,13.1261356 15.566854,12.7346958 C15.5642216,12.343256 15.8754035,12.0237564 16.2619149,12.0210734 L19.295346,12 Z M10.2444138,0 C14.6533054,0 18.3499492,2.72097676 19.9526423,6.9152086 C20.0921407,7.28027447 19.9130082,7.69074656 19.5525386,7.83202368 C19.1920691,7.9733008 18.786765,7.79188418 18.6472666,7.4268183 C17.2478959,3.76467906 14.0591678,1.4175622 10.2444138,1.4175622 C6.87295684,1.4175622 3.72363319,3.59898468 2.25691759,6.57074409 L3.72849164,6.56139765 C4.11500304,6.5587147 4.43048002,6.87386439 4.43314598,7.26530419 C4.43577836,7.65674399 4.12459654,7.97624361 3.73808514,7.97892656 L0.704653993,8 C0.316268039,8.00267895 4.36983782e-13,7.68456603 4.36983782e-13,7.29121854 L4.36983782e-13,4.0867806 C4.36983782e-13,3.69533161 0.31333676,3.3779995 0.699857241,3.3779995 C1.08637772,3.3779995 1.39971448,3.69533161 1.39971448,4.0867806 L1.39933538,5.21199282 C3.22168264,2.1558343 6.60187665,0 10.2444138,0 Z" />
+                    </svg>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Body -->
+        <div class="body">
+            <!-- Navbar -->
+            <div class="column offcanvas-body">
+                <div class="pd-20">
+                    <div class="simplebar-content">
+                        <div class="aside-loggedin">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <span class="avatar">
+                                    <img src="/Image/avatar.png" class="rounded-circle" alt="User Avatar">
+                                </span>
+                                <div class="aside-alert-link">
+                                    <a href="/logout">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                            <polyline points="16 17 21 12 16 7"></polyline>
+                                            <line x1="21" y1="12" x2="9" y2="12"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="aside-loggedin-user">
+                                <a href="/" class="d-flex align-items-center justify-content-between mg-b-2" aria-controls="user-menu" aria-expanded="false">
+                                    <h6 class="tx-semibold mg-b-0">NLP Feigner</h6>
+                                </a>
+                            </div>
+                        </div>
+
+                        <nav class="navbar-dark">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/">
+                                        <span class="me-2">
+                                            <i class="bi bi-brightness-high"></i>
+                                        </span>
+                                        <span>Xin Chào!</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/">
+                                        <span class="me-2">
+                                            <i class="bi bi-graph-up-arrow"></i>
+                                        </span>
+                                        <span>Thống Kê</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link sidebar-link" data-bs-toggle="collapse" role="button" href="#baocao" aria-expanded="false">
+                                        <span>
+                                            <span class="me-2">
+                                                <i class="bi bi-bar-chart"></i>
+                                            </span>
+                                            Báo Cáo
+                                        </span>
+                                        <span class="ms-auto">
+                                            <span class="right-icon">
+                                                <i class="bi bi-chevron-down"></i>
+                                            </span>
+                                        </span>
+                                    </a>
+                                    <div class="collapse" id="baocao">
+                                        <ul class="navbar-nav ps-3">
+                                            <li>
+                                                <a href="/Admin/BaoCao" class="nav-link px-3" onclick="sessionStorage.setItem('firstRender', true)">
+                                                    <span>Bán Hàng</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Giao Ca</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Nhập/Xuất Kho</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Kho</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link sidebar-link collapsed"
+                                       data-bs-toggle="collapse"
+                                       href="#qlbanhang"
+                                       aria-expanded="false">
+                                        <span>
+                                            <span class="me-2">
+                                                <i class="bi bi-cup-hot"></i>
+                                            </span>
+                                            Hàng Bán
+                                        </span>
+                                        <span class="ms-auto">
+                                            <span class="right-icon">
+                                                <i class="bi bi-chevron-down"></i>
+                                            </span>
+                                        </span>
+                                    </a>
+                                    <div class="collapse" id="qlbanhang" style>
+                                        <ul class="navbar-nav ps-3" aria-labelledby="qlbanhang">
+                                            <li>
+                                                <a href="/Admin/DanhMuc" class="nav-link px-3" onclick="sessionStorage.setItem('firstRender', true)">
+                                                    <span>Danh Mục</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Admin/MatHang" class="nav-link px-3" onclick="sessionStorage.setItem('firstRender', true)">
+                                                    <span>Mặt Hàng</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Nguyên Liệu</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="nav-link px-3">
+                                                    <span>Nhóm Mặt Hàng</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+    <footer class="footer pd-y-0 align-items-center" style="height: 40vh">
+        <div>
+            <span>© 2023</span>
+            <img src="/Image/NameGroup.png" alt="GCP" style="height: 20px; margin: 0px 5px;">
+        </div>
+        <div>
+            <nav class="nav"></nav>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.10.0/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://kit.fontawesome.com/1fdfb84bdf.js" crossorigin="anonymous"></script>
+    @RenderSection("scripts", required: false)
+    </body>
+</html>
