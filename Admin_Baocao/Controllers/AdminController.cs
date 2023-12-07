@@ -33,6 +33,11 @@ namespace Admin_Baocao.Controllers
 			return View();
 		}
 
+		public IActionResult DonHang()
+		{
+			return View();
+		}
+
         [HttpGet]
         public async Task<ActionResult<List<Category>>> GetCategories()
         {
@@ -280,7 +285,180 @@ namespace Admin_Baocao.Controllers
 		}
 
 
-        public IActionResult Privacy()
+		[HttpGet]
+		public async Task<ActionResult> GetOrder()
+		{
+			var result = await _context.BillSelectedFnbs
+		.Include(bsf => bsf.Fnb)
+		.Include(bsf => bsf.BillnoNavigation)
+		.ThenInclude(bill => bill.User)
+		.OrderByDescending(order => order.BillnoNavigation.Daytime)
+		.Select(order => new
+		{
+			daytime = order.BillnoNavigation.Daytime,
+			userId = order.BillnoNavigation.Userid,
+			fnbName = order.Fnb.FnbName,
+			amount = order.Amount,
+			total = order.Amount * order.Fnb.Price
+		})
+		.ToListAsync();
+			return Ok(result);
+		}
+
+		/*[HttpGet]
+		[Route("/Admin/GetOrderCat")]
+		public async Task<ActionResult> GetOrderCat()
+		{
+			var result = await _context.BillSelectedFnbs
+				.Include(bsf => bsf.Fnb)
+				.ThenInclude(fnb => fnb.Category)
+				.Include(bsf => bsf.BillnoNavigation)
+				.ThenInclude(bill => bill.User)
+				.GroupBy(order => new { order.Fnb.Category.Categoryname, order.BillnoNavigation.User.Username })
+				.Select(order => new
+				{
+					username = order.Key.Username,
+					categoryName = order.Key.Categoryname,
+					totalAmount = order.Sum(r => r.Amount),
+					price = order.Sum(r => r.Fnb.Price * r.Amount)
+				})
+				.ToListAsync();
+			return Ok(result);
+		}*/
+
+		[HttpGet]
+		[Route("/Admin/GetOrder/ByDate/{fromDate}&{toDate}")]
+		public async Task<ActionResult> GetOrdersByDateRange(DateTime fromDate, DateTime toDate)
+		{
+			var result = await _context.BillSelectedFnbs
+				.Include(bsf => bsf.Fnb)
+				.Include(bsf => bsf.BillnoNavigation)
+				.ThenInclude(bill => bill.User)
+				.Where(order => order.BillnoNavigation.Daytime.Value.Date >= fromDate.Date && order.BillnoNavigation.Daytime.Value.Date <= toDate.Date)
+				.OrderByDescending(order => order.BillnoNavigation.Daytime)
+				.Select(order => new
+				{
+					daytime = order.BillnoNavigation.Daytime,
+					userId = order.BillnoNavigation.Userid,
+					fnbName = order.Fnb.FnbName,
+					amount = order.Amount,
+					total = order.Amount * order.Fnb.Price
+				})
+				.ToListAsync();
+			return Ok(result);
+		}
+
+		[HttpGet]
+		[Route("/Admin/GetOrder/ByFnbId/{fnbId}")]
+		public async Task<ActionResult> GetOrderByFnbId(string fnbId)
+		{
+			var result = await _context.BillSelectedFnbs
+		.Include(bsf => bsf.Fnb)
+		.Include(bsf => bsf.BillnoNavigation)
+		.ThenInclude(bill => bill.User)
+		.Where(order => order.FnbId == fnbId)
+		.OrderByDescending(order => order.BillnoNavigation.Daytime)
+		.Select(order => new
+		{
+			daytime = order.BillnoNavigation.Daytime,
+			userId = order.BillnoNavigation.Userid,
+			fnbName = order.Fnb.FnbName,
+			amount = order.Amount,
+			total = order.Amount * order.Fnb.Price
+		})
+		.ToListAsync();
+			return Ok(result);
+		}
+
+		[HttpGet]
+		[Route("/Admin/GetOrdersByFnbIdAndDateRange/{fnbId}&{fromDate}&{toDate}")]
+		public async Task<ActionResult> GetOrdersByFnbIdAndDateRange(string fnbId, DateTime fromDate, DateTime toDate)
+		{
+			var result = await _context.BillSelectedFnbs
+				.Include(bsf => bsf.Fnb)
+				.Include(bsf => bsf.BillnoNavigation)
+				.ThenInclude(bill => bill.User)
+				.Where(order => order.FnbId == fnbId && order.BillnoNavigation.Daytime.Value.Date >= fromDate.Date && order.BillnoNavigation.Daytime.Value.Date <= toDate.Date)
+				.OrderByDescending(order => order.BillnoNavigation.Daytime)
+				.Select(order => new
+				{
+					daytime = order.BillnoNavigation.Daytime,
+					userId = order.BillnoNavigation.Userid,
+					fnbName = order.Fnb.FnbName,
+					amount = order.Amount,
+					total = order.Amount * order.Fnb.Price
+				})
+				.ToListAsync();
+			return Ok(result);
+		}
+
+		[HttpGet]
+		[Route("/Admin/GetOrdersByCategoryId/{categoryId}")]
+		public async Task<ActionResult> GetOrdersByCategoryId(string categoryId)
+		{
+			var result = await _context.BillSelectedFnbs
+				.Include(bsf => bsf.Fnb)
+				.Include(bsf => bsf.BillnoNavigation)
+				.ThenInclude(bill => bill.User)
+				.Where(order => order.Fnb.Categoryid == categoryId)
+				.OrderByDescending(order => order.BillnoNavigation.Daytime)
+				.Select(order => new
+				{
+					daytime = order.BillnoNavigation.Daytime,
+					userId = order.BillnoNavigation.Userid,
+					fnbName = order.Fnb.FnbName,
+					amount = order.Amount,
+					total = order.Amount * order.Fnb.Price
+				})
+				.ToListAsync();
+			return Ok(result);
+		}
+
+		[HttpGet]
+		[Route("/Admin/GetOrdersByCategoryIdAndDateRange/{categoryId}&{fromDate}&{toDate}")]
+		public async Task<ActionResult> GetOrdersByCategoryIdAndDateRange(string categoryId, DateTime fromDate, DateTime toDate)
+		{
+			var result = await _context.BillSelectedFnbs
+				.Include(bsf => bsf.Fnb)
+				.Include(bsf => bsf.BillnoNavigation)
+				.ThenInclude(bill => bill.User)
+				.Where(order => order.Fnb.Categoryid == categoryId && order.BillnoNavigation.Daytime.Value.Date >= fromDate.Date && order.BillnoNavigation.Daytime.Value.Date <= toDate.Date)
+				.OrderByDescending(order => order.BillnoNavigation.Daytime)
+				.Select(order => new
+				{
+					daytime = order.BillnoNavigation.Daytime,
+					userId = order.BillnoNavigation.Userid,
+					fnbName = order.Fnb.FnbName,
+					amount = order.Amount,
+					total = order.Amount * order.Fnb.Price
+				})
+				.ToListAsync();
+			return Ok(result);
+		}
+
+		[HttpPost]
+		public IActionResult CreateOrder([FromBody] Fnb fnb)
+		{
+			if (fnb != null)
+			{
+				var sameFnbsCount = _context.Fnbs.Count(aFnb => aFnb.FnbId == fnb.FnbId);
+				if (sameFnbsCount > 0)
+				{
+					return BadRequest("Mã mặt hàng đã tồn tại trong hệ thống !");
+				}
+				else
+				{
+					_context.Fnbs.Add(fnb);
+					_context.SaveChanges();
+					return Ok();
+				}
+			}
+			return BadRequest("Không tìm thấy thông tin mặt hàng cần thêm !");
+		}
+
+
+
+		public IActionResult Privacy()
         {
             return View();
         }

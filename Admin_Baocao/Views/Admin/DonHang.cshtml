@@ -1,0 +1,373 @@
+﻿@{
+	Layout = "_AdminLayout";
+}
+<div data-simplebar="init" class="content-body">
+	<div class="simplebar-wrapper" style="margin: -25px">
+		<div class="simplebar-height-auto-observer-wrapper">
+			<div class="simplebar-height-auto-observer"></div>
+		</div>
+		<div class="simplebar-mask">
+			<div class="simplebar-offset" style="right: 0px; bottom: 0px">
+				<div class="simplebar-content-wrapper"
+					 tabindex="0"
+					 role="region"
+					 aria-label="scrollable content"
+					 style="height: 100%; overflow: hidden">
+					<div class="simplebar-content" style="padding: 25px">
+						<div class="pd-x-0 container-fluid">
+							<div class="row-xs mg-b-10 row">
+								<div class="col">
+									<div class="row-xs mg-b-4 row">
+										<div class="col-xl-6 col-lg-6 pb-0">
+											<h3 class="pt-3">Đơn Hàng</h3>
+										</div>
+										<div class="col-xl-6 col-lg-6 pb-0 d-flex justify-content-end align-items-center">
+											<div class="dropdown">
+												<button class="btn btn-primary me-2 dropdown-toggle" type="button" data-bs-toggle="dropdown">
+													<i class="bi bi-lightning-charge"></i>
+													THIẾT LẬP CA
+												</button>
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="#" style="color: aqua;">Nhận Đơn</a></li>
+													<li><a class="dropdown-item blue-text" href="#" style="color: red;">Kết Thúc Ca</a></li>
+												</ul>
+											</div>
+											<button type="button" class="btn btn-outline-secondary ps-3" data-bs-toggle="modal" data-bs-target="#themDHModal">
+												<i class="bi bi-plus-circle me-1"></i>TẠO ĐƠN HÀNG
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row-xs mg-b-10 row">
+								<div class="row">
+									<div class="container-fluid">
+										<div class="card">
+											<div class="card-header">
+												<div class="row d-flex">
+													<div class="col-6 col-md-4 flex-column pb-0">
+														<h6>THÔNG TIN CA HIỆN TẠI</h6>
+														<span class="text-success small mb-4 fw-bold">Đang nhận đơn</span>
+														<p class="mb-0">Nhận ca</p>
+														<p class="mb-0">Ngo Lam Phong - 09:24, 29/11/23</p>
+													</div>
+													<div class="col-6 col-md-4 d-flex align-items-center pb-0">
+														<div class="card-icon rounded-2 d-flex align-items-center justify-content-center" style="background-color: #65E0E0;">
+															<i class="bi bi-cup-hot"></i>
+														</div>
+														<div class="ps-3">
+															<h6>DOANH THU DỊCH VỤ</h6>
+															<h4 class="text-success small pt-1 fw-bold" id="servicesRevenue"></h4>
+														</div>
+													</div>
+													<div class="col-6 col-md-4 d-flex align-items-center pb-0">
+														<div class="card-icon rounded-2 d-flex align-items-center justify-content-center" style="background-color: #F87FBA;">
+															<i class="bi bi-clock"></i>
+														</div>
+														<div class="ps-3">
+															<h6>DOANH THU KHÁC</h6>
+															<span class="text-success small pt-1 fw-bold">0 đ</span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="card-body">
+												<div class="">
+													<div class="search">
+														<div class="row">
+															@*<div class="col">
+															<div class="form-group mb-3">
+															<label for="color" class="mg-b-2">Trạng Thái</label>
+															<select class="form-select" name="trangThai" id="trangThai">
+															<option>
+															Trạng Thái
+															</option>
+															</select>
+															</div>
+															</div> *@
+															<div class="border border-start-0 border-end-0 border-top-0 align-items-center justify-content-center d-flex flex-column" style="height: 10vh; min-height: 10vh; width: 75vw">
+																<div style="width: 74vw; height: 7vh">
+																	<div class="d-flex flex-row justify-content-between align-items-center" style="width: 53vw; height: 7vh">
+																		<div class="d-flex flex-row align-items-center justify-content-between" style="width: 18vw">
+																			<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black-50 fw-bold">TỪ NGÀY</label>
+																			<div class="d-flex flex-row" style="width: 14vw; height: 5vh">
+																				<input class="border border-secondary rounded-start" readonly id="datepicker" type="text" style="width: 12vw" />
+																				<div class="border border-secondary border-start-0 rounded-end d-flex align-items-center justify-content-center" style="width: 2vw; background-color: white; cursor: pointer">
+																					<i class="fa fa-calendar"></i>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="d-flex flex-row align-items-center justify-content-between" style="width: 19vw">
+																			<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black-50 fw-bold">ĐẾN NGÀY</label>
+																			<div class="d-flex flex-row" style="width: 14vw; height: 5vh">
+																				<input class="border border-secondary rounded-start" readonly id="datepicker1" type="text" style="width: 12vw" />
+																				<div class="border border-secondary border-start-0 rounded-end d-flex align-items-center justify-content-center" style="width: 2vw; background-color: white; cursor: pointer">
+																					<i class="fa fa-calendar"></i>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="rounded d-flex align-items-center justify-content-center" id="applyButton" style="height: 5vh; width: 7vw; background-color: #747b91; cursor: pointer">
+																			<div class="d-flex flex-row text-center justify-content-between align-items-center" style="width: 5vw; cursor: pointer">
+																				<i class="fa-regular fa-circle-check fa-sm" style="color: #ffffff; cursor: pointer"></i>
+																				<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-white fw-bold" style="cursor: pointer">ÁP DỤNG</label>
+																			</div>
+																		</div>
+																		<div class="rounded d-flex align-items-center justify-content-center" id="refreshDateButton" style="height: 5vh; width: 8vw; background-color: #747b91; cursor: pointer">
+																			<div class="d-flex flex-row text-center justify-content-between align-items-center" style="width: 5.5vw; cursor: pointer">
+																				<i class="fa-solid fa-arrows-rotate fa-sm" style="color: #ffffff; cursor: pointer"></i>
+																				<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-white fw-bold" style="cursor: pointer">HOÀN TÁC</label>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="border border-start-0 border-end-0 border-top-0 align-items-center justify-content-center d-flex flex-column" style="height: 12vh; min-height: 12vh; width: 75vw">
+																<div style="width: 74vw; height: 9vh">
+																	<div class="d-flex flex-column" style="width: 39vw; height: 9vh">
+																		<label class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal fw-bold fs-6" style="color: gray">BỘ LỌC</label>
+																		<div class="d-flex flex-row justify-content-between" style="width: 39vw; height: 6vh">
+																			<div class="dropdown" style="background-color: white">
+																				<button class="btn btn-secondary" id="customDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+																					<div id="danhmucContent">Danh Mục</div>
+																					<div id="dropdownArrow" />
+																				</button>
+																				<ul class="dropdown-menu" id="danhmucMenu" style="width: 19vw">
+																				</ul>
+																			</div>
+																			<div class="dropdown" style="background-color: white">
+																				<button class="btn btn-secondary" id="customDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+																					<div id="mathangContent" style="width: 15vw;height: 3vh; max-width: 15vw; overflow: hidden">Mặt Hàng</div>
+																					<div id="dropdownArrow" />
+																				</button>
+																				<ul class="dropdown-menu" id="mathangMenu" style="width: 19vw; max-height: 25vh; overflow:auto">
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<table id="tbDonHang"
+														   class="table data-table"
+														   style="width: 100%">
+														<thead>
+															<tr>
+																<th>STT</th>
+																<th>THỜI GIAN</th>
+																<th>ID KHÁCH HÀNG</th>
+																<th>MẶT HÀNG</th>
+																<th>SL</th>
+																<th>THÀNH TIỀN</th>
+																<th>THAO TÁC</th>
+																<th>TỔNG BILL</th>
+															</tr>
+														</thead>
+														<tbody id="orderTableBody">
+															@*<tr>
+															<td>15:30, 25/11/2023</td>
+															<td class="blue-text">DESKTOP-M8AD9FG</td>
+															<td class="nowrap">
+															<p class="blue-text mb-0">Cơm Sườn Xào Chua Ngọt</p>
+															<div>
+															<i class="bi bi-receipt-cutoff me-2"><span class="red-text ms-2">tesst</span></i>
+															</div>
+															</td>
+															<td class="red-text">1</td>
+															<td class="red-text">35.000 đ</td>
+															<td>
+															<button type="button" class="btn btn-success me-2">Hoàn Thành</button>
+															<span class="qua-text"><i class="bi bi-person-check"></i></span>
+															</td>
+															<td>
+															<button type="button" class="btn btn-light"><i class="bi bi-printer"></i></button>
+															<span></span>
+															</td>
+															<td class="red-text">35.000 đ</td>
+															</tr>
+															<tr>
+															<td>15:29, 25/11/2023</td>
+															<td class="blue-text">DESKTOP-M8AD9FG</td>
+															<td class="blue-text mb-0">Snack Tôm Thái</td>
+															<td class="red-text">1</td>
+															<td class="red-text">7.000 đ</td>
+															<td>
+															<button type="button" class="btn btn-success me-2">Hoàn Thành</button>
+															<span class="qua-text"><i class="bi bi-person-check"></i></span>
+															</td>
+															<td>
+															<button type="button" class="btn btn-light"><i class="bi bi-printer"></i></button>
+															<span></span>
+															</td>
+															<td class="red-text">7.000 đ</td>
+															</tr>
+															<tr>
+															<td>13:08, 24/11/2023</td>
+															<td class="blue-text">DESKTOP-M8AD9FG</td>
+															<td class="blue-text mb-0">Nutri Boost</td>
+															<td class="red-text">1</td>
+															<td class="red-text">12.000 đ</td>
+															<td>
+															<button type="button" class="btn btn-success me-2">Hoàn Thành</button>
+															<span class="qua-text"><i class="bi bi-person-check"></i></span>
+															</td>
+															<td>
+															<button type="button" class="btn btn-light"><i class="bi bi-printer"></i></button>
+															<span></span>
+															</td>
+															<td class="red-text">12.000 đ</td>
+															</tr>
+															<tr>
+															<td>13:08, 24/11/2023</td>
+															<td class="blue-text">DESKTOP-M8AD9FG</td>
+															<td class="blue-text mb-0">Trà sữa</td>
+															<td class="red-text">1</td>
+															<td class="red-text">20.000 đ</td>
+															<td>
+															<button type="button" class="btn btn-danger">HỦY</button>
+															<span class="text-danger"><i class="bi bi-info-circle"></i></span>
+															<span class="qua-text"><i class="bi bi-person-check"></i></span>
+															</td>
+															<td>
+
+															</td>
+															<td class="red-text">0 đ</td>
+															</tr>
+															<tr>
+															<td>11:16, 24/11/2023</td>
+															<td class="blue-text">DESKTOP-M8AD9FG</td>
+															<td >
+															<p class="blue-text mb-0">Trà đào</p>
+															<div>
+															<i class="bi bi-receipt-cutoff me-2"><span class="red-text ms-2">zxc</span></i>
+															</div>
+															</td>
+															<td class="red-text">1</td>
+															<td class="red-text">20.000 đ</td>
+															<td>
+															<button type="button" class="btn btn-success me-2">Hoàn Thành</button>
+															<span class="qua-text"><i class="bi bi-person-check"></i></span>
+															</td>
+															<td>
+															<button type="button" class="btn btn-light"><i class="bi bi-printer"></i></button>
+															<span></span>
+															</td>
+															<td class="red-text">20.000 đ</td>
+															</tr>
+															<tr>
+															<td>10:26, 24/11/2023</td>
+															<td class="blue-text">DESKTOP-M8AD9FG</td>
+															<td>
+															<p class="blue-text mb-0">Trà Chanh</p>
+															<div>
+															<i class="bi bi-receipt-cutoff me-2"><span class="red-text ms-2">xzc</span></i>
+															</div>
+															</td>
+															<td class="red-text">1</td>
+															<td class="red-text">35.000 đ</td>
+															<td>
+															<button type="button" class="btn btn-success me-2">Hoàn Thành</button>
+															<span class="qua-text"><i class="bi bi-person-check"></i></span>
+															</td>
+															<td>
+															<button type="button" class="btn btn-light"><i class="bi bi-printer"></i></button>
+															<span></span>
+															</td>
+															<td class="red-text">35.000 đ</td>
+															</tr>
+															<tr>
+															<td>07:35, 24/11/2023</td>
+															<td class="blue-text">DESKTOP-M8AD9FG</td>
+															<td class="blue-text">Trà sữa</td>
+															<td class="red-text">1</td>
+															<td class="red-text">20.000 đ</td>
+															<td>
+															<button type="button" class="btn btn-danger">HỦY</button>
+															<span class="text-danger"><i class="bi bi-info-circle"></i></span>
+															<span class="qua-text"><i class="bi bi-person-check"></i></span>
+															</td>
+															<td>
+
+															</td>
+															<td class="red-text">0 đ</td>
+															</tr>*@
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="d-flex justify-content-center" style="height: 12vh; width: 75vw">
+									<div class="d-flex flex-row justify-content-between align-items-center" style="width: 75vw; height: 5vh">
+										<div>
+											<i class="fa-solid fa-circle-arrow-left fa-2xl" id="previousButton" style="color: #005eff; cursor: pointer"></i>
+										</div>
+										<div>
+											<i class="fa-solid fa-circle-arrow-left fa-rotate-180 fa-2xl" id="nextButton" style="color: #005eff; cursor: pointer"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="themDHModal" tabindex="-1" aria-labelledby="themDHModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h1 class="modal-title fs-5" id="themDMModalLabel">Thêm Đơn Hàng</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form action="#">
+					<div class="form-group mb-3">
+						<label for="name">ID KHÁCH HÀNG</label>
+						<input type="text" id="name" class="form-control">
+					</div>
+					<div class="form-group mb-3">
+						<label for="description">MÔ TẢ</label>
+						<textarea class="form-control" name="description" id="description" cols="60" rows="2" placeholder="Nhập mô tả danh mục"></textarea>
+					</div>
+					<div class="form-group mb-2">
+						<label for="danhmuccha">Danh Mục Cha</label>
+						<select class="form-control" name="danhmuccha" id="danhmuccha">
+							<option value="" selected>Không có danh mục cha</option>
+							<option value="">Đồ Uống</option>
+							<option value="">Đồ Ăn</option>
+						</select>
+					</div>
+					<div class="form-group mb-2">
+						<label for="color" class="mg-b-2">Màu</label>
+						<select class="form-select" name="danhmuccha" id="color">
+							<option value="redcolor" style="color: red;">
+								<span style="color: red;">&#x25CF;</span> Màu 1
+							</option>
+							<option value="greencolor" style="color:green;">
+								&#x25CF;
+								Màu 2
+							</option>
+							<option value="yellowcolor" style="color:yellow;">
+								<span style="color: yellow;">&#x25CF;</span> Màu 3
+							</option>
+						</select>
+						<label for="color" style="text-transform: none;">Khi chọn màu cho Danh Mục, các Mặt Hàng thuộc Danh Mục sẽ hiện thêm màu tương ứng tại trang Đơn Hàng</label>
+					</div>
+					
+					<div class="form-group d-md-flex">
+						<button type="submit" class="form-control btn btn-secondary rounded submit px-3" style="background-color: #3B4863;">Lưu</button>
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</div>
+@section Scripts{
+	<script src="~/js/DonHang.js"></script>
+}

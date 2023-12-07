@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\Admin_Baocao.csproj": {}
+    "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\Admin_Baocao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\Admin_Baocao.csproj": {
+    "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\Admin_Baocao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\Admin_Baocao.csproj",
+        "projectUniqueName": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\Admin_Baocao.csproj",
         "projectName": "Admin_Baocao",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\Admin_Baocao.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\obj\\",
+        "projectPath": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\Admin_Baocao.csproj",
+        "packagesPath": "C:\\Users\\Phong Ngô\\.nuget\\packages\\",
+        "outputPath": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Phong Ngô\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

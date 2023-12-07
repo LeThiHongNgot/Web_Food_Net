@@ -52,7 +52,7 @@ body {
   width: 100%;
   height: 50%;
   background-color: aqua;
-  border-top: 3px solid white;
+  border-top: 1px solid white;
 }
 .column {
   float: left;
@@ -210,86 +210,7 @@ body {
   width: 100%;
   height: 70px;
 }
-/* Giỏ hàng */
-.form_GH .item-GH
-{
-  float:left;
 
-  
-}
-.item-GH:nth-child(1)
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #faf8f8;
-  width: 25%;
-  border:1px solid white;
-  height: 80px;
-  border-radius:50%;
- 
-}
-.item-GH:nth-child(2)
-{
-  width: 75%;
-  border:1px solid white;
-  height: 80px;
-  color: #e6dbdb;
-  font-weight: 900;
-  font-size: 15px;
-  text-align: center;
-}
-.btnGH
-{
-  font-weight: bold;
-  width: 50%;
-  height: 45px; 
-  background-color: #e8a5a5;
-}
-.btnTB
-{
-
-  width: 50%;
-  height: 45px; 
-  font-weight: bold;
-  background-color: #a5e6f9;
-}
- .search
-{
-  background-image: linear-gradient(to top, rgba(141, 59, 54, 1), rgba(9, 3, 45, 1));
-}
-.fsearch
-{
-  background-image: linear-gradient(to top, rgb(219, 199, 198), rgb(217, 229, 233));
-}
-.listcart
-{
-  position: relative;
-  width: 100%;
-  height: 200px;
-  border: 1px solid white;
-}
-#test{
-  display: flex;
-  margin-top: 20px;
-  width:100%;
-  height:610px;
-  overflow-x:hidden;
-  overflow-y:auto;
-  justify-content: center;
-}
-
-#test .kcard
-{
-  width: 75%;
-  height: 200px;
-}
-.headcard
-{
-  display: flex;
-  justify-content: space-between;
-  font-size:25px;
-}
 .img{
   height: 200px;
   width:100%;
@@ -302,184 +223,57 @@ div [class^="col-"]{
   padding-right:20px;
   padding-bottom: 40px;
 }
-.card{
-  transition:0.5s;
-  cursor:pointer;
-  /* background: rgb(67, 61, 61); */
-  --bs-card-bg: #ba9c9c;
-  background-image: linear-gradient(to top, rgb(215, 242, 244), rgb(173, 143, 143));
-}
-.card-title{  
-  font-size:20px;
-  transition:1s;
-  color: #5a2424;
-  font-weight: bold;
-  font-family: Diplomata;
-  cursor:pointer;
-  text-align: center;
-}
-.card:hover{
-  transform: scale(1.05);
-  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-}
-.card-text{
-  height:80px;  
-}
 
-.card::before, .card::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: scale3d(0, 0, 1);
-  transition: transform .3s ease-out 0s;
-  background: rgba(255, 255, 255, 0.1);
-  content: '';
-  pointer-events: none;
-}
-.card::before {
-  transform-origin: left top;
-}
-.card::after {
-  transform-origin: right bottom;
-}
-.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
-  transform: scale3d(1, 1, 1);
-}
-.them
-{
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  color: #f0f0f0;
-  font-size: 25px;
-  font-weight: bold;
-}
-/* đăng nhập đăng ký */
-.modal-backdrop.show {
-  background-color: rgba(0, 0, 0, 0.1); /* 0.5 là độ trong suốt (từ 0.0 đến 1.0) */
-}
-
-.modal-content {
-  background-image: linear-gradient(to top, rgba(9, 3, 45, 1), rgba(141, 59, 54, 1));
-  justify-content: center;
-  align-items: center;
- 
-}
-.modal-content-border
-{
-  border: 2px solid #f0f0f0;
-  width: 100%;
-}
-.f-modal{
-  background-image: linear-gradient(to top, rgba(9, 3, 45, 1), rgba(141, 59, 54, 1));
-  justify-content: center;
-  align-items: center;
-  border-top: 6px solid #f0f0f0;
-}
-.modal-h {
-  display: flex;
-  color: #ffffff; /* Change modal header text color */
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  margin-top: 30px;
-  font-weight: 900;
- 
-}
-.login {
-	width: 320px;
-	padding: 30px;
-	padding-top: 156px;
-}
-
-.login__field {
-	padding: 20px 0px;	
-	position: relative;	
-}
-
-.login__icon {
-	position: absolute;
-	top: 30px;
-	color: #ece9e9;
-  font-size: 25px;
-}
-.login__icon:hover
-{
-  font-size: 30px;
-}
-.login__input {
-	border: none;
-	border-bottom: 3px solid #fefefe;
-	background: none;
-	padding: 10px;
-	padding-left: 40px;
-	font-weight: 700;
-  font-size: 20px;
-	width: 100%;
-	transition: .2s;
-  color: #ece9e9;
-}
-
-.login__input::placeholder {
-  color: #ebe0e0; /* Đổi màu tùy ý, ví dụ: đỏ (#FF0000) */
-}
-.login__input:active,
-.login__input:focus,
-.login__input:hover {
-	outline: none;
-	border-bottom-color: #030303;
-}
-
-.account
-{
-  margin-top: 20px;
-  width: 80%;
-  height: 40px;
-  border: none;
-  background-color: #f0f0f0; /* Background color */
-}
-.pas
-{
-  margin-top: 20px;
-  width: 80%;
-  height: 40px;
-  margin-bottom: 10px;
-}
-.modal-b{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-f {
-
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.dangky-div
-{
-  font-size: 20px;
-  font-weight: 200;
-  color: #ece9e9
-}
-.dangky-div:hover
-{
-font-size: 25px;
-}
-.QMK-div
-{
-  font-size: 20px;
-  font-weight: 200;
-  margin-left: 60px;
-  color: #ece9e9;
-}
-.QMK-div:hover
-{
-  font-size: 25px;
-}
 /* CSS cho class open modal */
 .open {
   display: flex;
 }
  /* hiển thị giỏ hàng khi vừa đặt hàng  */
+.modal-content .modal-body label {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.form-check-label {
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+/* hiển thị giỏ hàng khi vừa đặt hàng  */
+.red-text {
+    color: red !important;
+}
+
+.blue-text {
+    color: blue !important;
+}
+
+.qua-text {
+    color: aqua;
+    font-size: 20px;
+}
+
+.text-danger {
+    font-size: 20px;
+}
+
+.card-icon {
+    height: 48px;
+    width: 48px;
+}
+
+.card:hover {
+    box-shadow: none;
+    transform: none;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.inline-block {
+    display: inline-block;
+}

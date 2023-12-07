@@ -9,57 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Admin_Baocao
 build_property.RootNamespace = Admin_Baocao
-build_property.ProjectDir = C:\Users\Admin\Desktop\CN NET\Admin_Baocao\Admin_Baocao\
+build_property.ProjectDir = D:\Semester1_3th\Web_Food_Net\Admin_Baocao\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\CN NET\Admin_Baocao\Admin_Baocao
+build_property.MSBuildProjectDirectory = D:\Semester1_3th\Web_Food_Net\Admin_Baocao
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Admin/BaoCao.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Admin/BaoCao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmFvQ2FvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Admin/DanhMuc.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Admin/DanhMuc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFuaE11Yy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Admin/Index.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Admin/DonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9uSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Admin/MatHang.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Admin/MatHang.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWF0SGFuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Home/Index.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Home/Privacy.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Shared/Error.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Shared/_AdminLayout.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/_ViewImports.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/_ViewStart.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/CN NET/Admin_Baocao/Admin_Baocao/Views/Shared/_Layout.cshtml]
+[D:/Semester1_3th/Web_Food_Net/Admin_Baocao/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6jgd46djoe

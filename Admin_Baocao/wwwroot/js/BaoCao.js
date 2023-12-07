@@ -121,7 +121,6 @@ $(document).ready(function () {
         });
     })
 
-
     if (sessionStorage.getItem('danhmucId') != 'undefined' && sessionStorage.getItem('danhmucId') != null) {
         var itemId = sessionStorage.getItem('danhmucId')
         $.ajax({
@@ -158,8 +157,6 @@ $(document).ready(function () {
     sessionStorage.getItem('mathangContent') === null ? sessionStorage.setItem('mathangContent', 'Mặt Hàng') : console.log("Mat hang content exists")
     document.querySelector("#mathangContent").innerText = sessionStorage.getItem('mathangContent')
     sessionStorage.getItem('currentReportPage') === null ? sessionStorage.setItem('currentReportPage', 1) : console.log('Current page exists')
-
-
 
 
     if ((sessionStorage.getItem('danhmucId') === null || sessionStorage.getItem('danhmucId') === 'undefined') && (sessionStorage.getItem('mathangId') === null || sessionStorage.getItem('mathangId') === 'undefined')) {

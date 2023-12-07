@@ -1,303 +1,311 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Admin_Baocao.bundle.scp.css",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Admin_Baocao.bundle.scp.css",
       "PackagePath": "staticwebassets\\Admin_Baocao.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\AOV.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\AOV.png",
       "PackagePath": "staticwebassets\\Image\\AOV.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Banner.jpg",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Banner.jpg",
       "PackagePath": "staticwebassets\\Image\\Banner.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Bannergame.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Bannergame.png",
       "PackagePath": "staticwebassets\\Image\\Bannergame.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\FCO.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\FCO.png",
       "PackagePath": "staticwebassets\\Image\\FCO.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Fix_tea.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Fix_tea.png",
       "PackagePath": "staticwebassets\\Image\\Fix_tea.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\GI.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\GI.png",
       "PackagePath": "staticwebassets\\Image\\GI.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\LOL.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\LOL.png",
       "PackagePath": "staticwebassets\\Image\\LOL.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Logo.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Logo.png",
       "PackagePath": "staticwebassets\\Image\\Logo.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\LogoQ.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\LogoQ.png",
       "PackagePath": "staticwebassets\\Image\\LogoQ.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\NameGroup.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\NameGroup.png",
       "PackagePath": "staticwebassets\\Image\\NameGroup.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Svg\\chPlay.svg",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Svg\\chPlay.svg",
       "PackagePath": "staticwebassets\\Image\\Svg\\chPlay.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Svg\\chevron-down-solid.svg",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Svg\\chevron-down-solid.svg",
       "PackagePath": "staticwebassets\\Image\\Svg\\chevron-down-solid.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Svg\\ios-download.svg",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Svg\\ios-download.svg",
       "PackagePath": "staticwebassets\\Image\\Svg\\ios-download.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Svg\\menu-svgrepo-com.svg",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Svg\\menu-svgrepo-com.svg",
       "PackagePath": "staticwebassets\\Image\\Svg\\menu-svgrepo-com.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Svg\\reload-svgrepo-com.svg",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Svg\\reload-svgrepo-com.svg",
       "PackagePath": "staticwebassets\\Image\\Svg\\reload-svgrepo-com.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\Tras.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\Tras.png",
       "PackagePath": "staticwebassets\\Image\\Tras.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\VAL.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\VAL.png",
       "PackagePath": "staticwebassets\\Image\\VAL.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\avatar.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\avatar.png",
       "PackagePath": "staticwebassets\\Image\\avatar.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\computer.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\computer.png",
       "PackagePath": "staticwebassets\\Image\\computer.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\hello.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\hello.png",
       "PackagePath": "staticwebassets\\Image\\hello.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\nhanvien.png",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\nhanvien.png",
       "PackagePath": "staticwebassets\\Image\\nhanvien.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\css\\BanHang.css",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\css\\BanHang.css",
       "PackagePath": "staticwebassets\\css\\BanHang.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\css\\admin.css",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\css\\DonHang.css",
+      "PackagePath": "staticwebassets\\css\\DonHang.css"
+    },
+    {
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\css\\admin.css",
       "PackagePath": "staticwebassets\\css\\admin.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\css\\site.css",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\css\\style.css",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\favicon.ico",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\js\\BaoCao.js",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\js\\BaoCao.js",
       "PackagePath": "staticwebassets\\js\\BaoCao.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\js\\DanhMuc.js",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\js\\DanhMuc.js",
       "PackagePath": "staticwebassets\\js\\DanhMuc.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\js\\MatHang.js",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\js\\DonHang.js",
+      "PackagePath": "staticwebassets\\js\\DonHang.js"
+    },
+    {
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\js\\MatHang.js",
       "PackagePath": "staticwebassets\\js\\MatHang.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\js\\site.js",
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
