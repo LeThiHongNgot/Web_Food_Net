@@ -1,0 +1,1213 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FootNet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FootNet.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\bacxiu.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\bacxiu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\cacao_caphesua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\cacao_caphesua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\cacaosua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\cacaosua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\caphe_caramel.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\caphe_caramel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\caphemuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\caphemuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\den.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\den.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\milodam.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\milodam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\cafe\\sua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\sua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\com_boviensate.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\com_boviensate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comboxao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comboxao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comcahoisotca.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comcahoisotca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_caman.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_caman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_canhgachiengion.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_canhgachiengion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_duongchau.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_duongchau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_xucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_xucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comphalau.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comphalau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comthitkhotrungcut.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comthitkhotrungcut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\com\\comthitrimman.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comthitrimman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\bapxao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\bapxao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\bovien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\bovien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\canhgachien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\canhgachien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\cavien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\cavien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\combo_anvat.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\combo_anvat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\comchay_khoga.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\comchay_khoga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\ga_popcorn_lacphomai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\ga_popcorn_lacphomai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\garan_khoanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\garan_khoanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoaitaychien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoaitaychien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoaitaychien_lacphomai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoaitaychien_lacphomai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoaitaydeo_lacphomai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoaitaydeo_lacphomai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoboxe.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoboxe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khogalachanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khogalachanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\nemchuaran.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\nemchuaran.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\phomaique.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\phomaique.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\topmo_mamtoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\topmo_mamtoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\xucxich_locxoay.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\xucxich_locxoay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\doanvat\\xucxichduc_xongkhoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\xucxichduc_xongkhoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\lau\\lauthaivien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\lau\\lauthaivien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\lau\\lauthaixucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\lau\\lauthaixucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mibonuoc_hanquoc.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mibonuoc_hanquoc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mihanquoc_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mihanquoc_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mihanquoc_xucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mihanquoc_xucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\minuoc_bokho.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\minuoc_bokho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\minuoc_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\minuoc_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\minuoc_xucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\minuoc_xucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_khobo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_khobo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_trungtopmo_dacbiet.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_trungtopmo_dacbiet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_xucxichtopmo_dacbiet.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_xucxichtopmo_dacbiet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_xucxichxongkhoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_xucxichxongkhoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mituongden_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mituongden_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mituongden_xucxichxongkhoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mituongden_xucxichxongkhoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\mi\\mixao_bo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mixao_bo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaobo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaobo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaoboviensate.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaoboviensate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaotrung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaotrung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaoxucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaoxucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\aquarius.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\aquarius.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\c2.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\c2_dao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\c2_dao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\caphe_wakeup.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\caphe_wakeup.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\coca.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\coca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\fuzetea_chanhdayvahatchia.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\fuzetea_chanhdayvahatchia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\fuzetea_chanhsa.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\fuzetea_chanhsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\fuzetea_daovahatchia.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\fuzetea_daovahatchia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\mirinda_cam.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\mirinda_cam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\mirinda_xaxi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\mirinda_xaxi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\monsterenergy.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\monsterenergy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\monsterenergymango.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\monsterenergymango.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\monsterenergyultra.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\monsterenergyultra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\monsterultraparadise.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\monsterultraparadise.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\nuocsuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\nuocsuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\redbull.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\redbull.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\revive.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\revive.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\revive_chanhmuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\revive_chanhmuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\sting.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\sting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\stingcompact.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\stingcompact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\stingcompact_kiwi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\stingcompact_kiwi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\stingvang.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\stingvang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\teaplus.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\teaplus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\trabidao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\trabidao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\traxanhkhongdo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\traxanhkhongdo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\twistercam.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\twistercam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\warrior_dau.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\warrior_dau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhat\\warrior_nho.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhat\\warrior_nho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\soda\\soda_blueocean.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\soda\\soda_blueocean.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\soda\\soda_chanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\soda\\soda_chanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\soda\\soda_redsunset.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\soda\\soda_redsunset.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\hongtratacmatong.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\hongtratacmatong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\matcha_macchiato.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\matcha_macchiato.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\samduasua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\samduasua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\trachanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\trachanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\trachanhday.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\trachanhday.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tradao_camsa.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tradao_camsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tradao_dualuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tradao_dualuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tradao_macchiato.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tradao_macchiato.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tralai_macchiato.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tralai_macchiato.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\traoihong.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\traoihong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\tra\\tratao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tratao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_dao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_dao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_khoaimon.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_khoaimon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_lai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_lai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_matcha.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_matcha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_nguyenla.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_nguyenla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN012.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN013.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN014.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN015.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN016.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN017.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN018.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\lau\\L001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\lau\\L001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\lau\\L002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\lau\\L002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M012.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M013.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M014.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D012.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D013.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D014.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D015.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D016.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D017.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D018.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D019.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D020.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D020.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D021.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D021.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D022.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D022.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D023.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D024.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D024.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D025.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D026.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D026.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D027.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D027.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D028.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D028.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\soda\\SD001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\soda\\SD001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\soda\\SD002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\soda\\SD002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\soda\\SD003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\soda\\SD003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\MC001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\MC001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\MC002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\MC002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\MC003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\MC003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\AOV.png",
+      "PackagePath": "staticwebassets\\Image\\AOV.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Banner.jpg",
+      "PackagePath": "staticwebassets\\Image\\Banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Bannergame.png",
+      "PackagePath": "staticwebassets\\Image\\Bannergame.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\FCO.png",
+      "PackagePath": "staticwebassets\\Image\\FCO.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Fix_tea.png",
+      "PackagePath": "staticwebassets\\Image\\Fix_tea.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\GI.png",
+      "PackagePath": "staticwebassets\\Image\\GI.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Game.jpg",
+      "PackagePath": "staticwebassets\\Image\\Game.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\LOL.png",
+      "PackagePath": "staticwebassets\\Image\\LOL.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Logo.png",
+      "PackagePath": "staticwebassets\\Image\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\LogoQ.png",
+      "PackagePath": "staticwebassets\\Image\\LogoQ.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\NameGroup.png",
+      "PackagePath": "staticwebassets\\Image\\NameGroup.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\TaiNghe.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\TaiNghe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\attitude.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\attitude.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\clearchair.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\clearchair.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\clearkeyboard.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\clearkeyboard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\cool.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\cool.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\fooddrink.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\fooddrink.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\hot.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\hot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\keyboard.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\keyboard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\money.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\money.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\mouse.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\mouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\noisy.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\noisy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\screen.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\screen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\smoking.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\smoking.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Service\\update.jpg",
+      "PackagePath": "staticwebassets\\Image\\Service\\update.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\Tras.png",
+      "PackagePath": "staticwebassets\\Image\\Tras.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\VAL.png",
+      "PackagePath": "staticwebassets\\Image\\VAL.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\Image\\nonecart.png",
+      "PackagePath": "staticwebassets\\Image\\nonecart.png"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\css\\cart_chat.css",
+      "PackagePath": "staticwebassets\\css\\cart_chat.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\css\\menu_all.css",
+      "PackagePath": "staticwebassets\\css\\menu_all.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lehon\\Downloads\\DEMOCSDL\\Web_Food_Net\\Web_Food_Net\\FootNet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FootNet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FootNet.props",
+      "PackagePath": "build\\FootNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FootNet.props",
+      "PackagePath": "buildMultiTargeting\\FootNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FootNet.props",
+      "PackagePath": "buildTransitive\\FootNet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

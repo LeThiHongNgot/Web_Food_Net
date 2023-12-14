@@ -1,17 +1,18 @@
 
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     position: fixed;
     bottom: 0;
     left: 0;
-    width:100%;
-    height:100vh;
+    width: 100%;
+    height: 100vh;
 }
+
 .navbar {
     background-color: rgba(141, 59, 54, 1);
     margin-bottom: 1px;
@@ -19,15 +20,17 @@ body {
     padding-bottom: 0.2rem;
     height: 6vh;
 }
-.NameGroupImg{
-    height:30px;
+
+.NameGroupImg {
+    height: 30px;
 }
+
 .NameLaptop {
-    margin-right:20px;
+    margin-right: 20px;
     font-size: 15px;
     color: white;
     font-family: Diplomata;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 /*---------------------------------------------------------------------------*/
 .main-center {
@@ -36,27 +39,28 @@ body {
     border: 1px solid black;
     background-color: aqua;
     height: 93vh;
-  
 }
-.center{
-    float:left;
-   
-}/*-------------------------------------------------------------------------*/
-.center:nth-child(1) {
+
+.center {
+    float: left;
+}
+    /*-------------------------------------------------------------------------*/
+    .center:nth-child(1) {
         width: 12%;
         height: 94vh;
         border: 1px solid white;
         background-image: linear-gradient(rgba(141, 59, 54, 1), rgba(9, 3, 45, 1));
         display: flex;
         flex-direction: column;
-        align-items:center;
-}
+        align-items: center;
+    }
 
 .Logonet {
     margin-top: 20px;
     height: 100px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
+
 .menu-service {
     display: flex;
     justify-content: center;
@@ -69,12 +73,13 @@ body {
     font-weight: bolder;
     font-size: 20px;
 }
-.icon{
-    margin-top:1px;
-    font-size:25px;
-    color:white;
-    margin-right:5px;
-    font-weight:bolder;
+
+.icon {
+    margin-top: 1px;
+    font-size: 25px;
+    color: white;
+    margin-right: 5px;
+    font-weight: bolder;
 }
 
 .frame-contact {
@@ -83,41 +88,42 @@ body {
     border-radius: 50%;
     border: 1px solid white;
     position: fixed;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 40px;
 }
+
 @keyframes motion {
     0% {
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);  
-}
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
 
     50% {
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);  
-}
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    }
 
     100% {
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
 }
 
-.frame-contact{
-    animation: motion 1s infinite; 
-    border: 2px solid rgba(255, 255, 255, 0.5); 
+.frame-contact {
+    animation: motion 1s infinite;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
 
+.icon-contact {
+    color: white;
+    font-size: 30px;
 }
-.icon-contact
-{
-    color:white;
-    font-size:30px;
-}
+
 .font-support {
     position: fixed;
-    bottom:8px;
-    color:white;
-    font-weight:bolder;
-    font-size:14px;
+    bottom: 8px;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
 }
 /*-------------------------------------------------------------------------*/
 .center:nth-child(2) {
@@ -131,7 +137,7 @@ body {
 .frame-menu {
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     height: 50px;
     width: 100%;
     border: 1px solid white;
@@ -141,46 +147,49 @@ body {
 .slider-banner {
     box-shadow: 0 0 20px #0b0b65;
 }
-.btn
-{
-    font-size:15px;
-    font-weight:bolder;
+
+.btn {
+    font-size: 15px;
+    font-weight: bolder;
 }
+
 .btn {
     box-shadow: 0 0 20px #0b0b65;
 }
+
 .icon-menu {
-    color:black;
-    margin-right:5px;
+    color: black;
+    margin-right: 5px;
     font-size: 15px;
 }
-.search
-{
-    display:flex;
-    height:30px;
-    width:300px;
-    justify-content:center;
-    align-items:center;
-    border:1px solid white;
-    background-color:white;
-    border-radius:3px;
-}
-.search:hover {
-        box-shadow: 0 0 20px #0b0b65;
- }
 
-.input-search
-{
-    width:269px;
-    border:none;
+.search {
+    display: flex;
+    height: 30px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 3px;
 }
-.input-search:focus {
+
+    .search:hover {
+        box-shadow: 0 0 20px #0b0b65;
+    }
+
+.input-search {
+    width: 269px;
+    border: none;
+}
+
+    .input-search:focus {
         border: none;
         outline: none;
-}
+    }
 
 .icon-search {
-    font-size: 30px; 
+    font-size: 30px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------*/
@@ -195,18 +204,18 @@ body {
     border: 1px solid white;
     background-image: linear-gradient(rgba(141, 59, 54, 1), rgba(9, 3, 45, 1));
 }
-.login-register
-{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-top:20px;
-    font-size:15px;
-    height:30px;
-    width:90%;
-    border:1px solid white;
-    color:white;
-    font-weight:bolder;
+
+.login-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+    height: 30px;
+    width: 90%;
+    border: 1px solid white;
+    color: white;
+    font-weight: bolder;
 }
 
 /* Create a keyframe animation flicker */
@@ -233,11 +242,11 @@ body {
 .menu-history-cart {
     display: flex;
     justify-content: space-around;
-    height:30px;
-    width:100%;
+    height: 30px;
+    width: 100%;
     border: 1px solid white;
-    color:white;
-    font-weight:bolder;
+    color: white;
+    font-weight: bolder;
 }
 /*---------------------------------------------------------------------------------------------*/
 .frame-cart-chat {
@@ -248,8 +257,9 @@ body {
     bottom: 0;
     border: 1px solid white;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
+
 .select-cart {
     height: 50px;
     display: flex;
@@ -269,10 +279,9 @@ body {
     flex-direction: column;
     color: white;
     justify-content: space-around;
-    font-weight:bolder;
-}
-.icon-cart-chat
-{
-   font-size:20px;
+    font-weight: bolder;
 }
 
+.icon-cart-chat {
+    font-size: 20px;
+}

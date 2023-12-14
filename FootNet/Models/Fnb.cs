@@ -7,8 +7,8 @@ namespace FootNet.Models
     {
         public Fnb()
         {
-            Billnos = new HashSet<Bill>();
-            Toppings = new HashSet<Topping>();
+            BillSelectedFnbs = new HashSet<BillSelectedFnb>();
+            FnbSelectedToppings = new HashSet<FnbSelectedTopping>();
         }
 
         public string FnbId { get; set; } = null!;
@@ -17,11 +17,10 @@ namespace FootNet.Models
         public int? Amountno { get; set; }
         public double? Price { get; set; }
         public string? Status { get; set; }
-        public byte[]? Image { get; set; }
+        public string? Image { get; set; }
 
         public virtual Category Category { get; set; } = null!;
-
-        public virtual ICollection<Bill> Billnos { get; set; }
-        public virtual ICollection<Topping> Toppings { get; set; }
+        public virtual ICollection<BillSelectedFnb> BillSelectedFnbs { get; set; }
+        public virtual ICollection<FnbSelectedTopping> FnbSelectedToppings { get; set; }
     }
 }

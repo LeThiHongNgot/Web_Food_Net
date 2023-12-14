@@ -7,7 +7,7 @@ namespace FootNet.Models
     {
         public Bill()
         {
-            Fnbs = new HashSet<Fnb>();
+            BillSelectedFnbs = new HashSet<BillSelectedFnb>();
         }
 
         public string Billno { get; set; } = null!;
@@ -20,7 +20,6 @@ namespace FootNet.Models
 
         public virtual User User { get; set; } = null!;
         public virtual Voucher? Voucher { get; set; }
-
-        public virtual ICollection<Fnb> Fnbs { get; set; }
+        public virtual ICollection<BillSelectedFnb> BillSelectedFnbs { get; set; }
     }
 }

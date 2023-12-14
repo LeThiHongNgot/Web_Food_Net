@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS9057: The analyzer assembly references a newer version of the compiler than the currently running version.
+dotnet_diagnostic.CS9057.severity = none
