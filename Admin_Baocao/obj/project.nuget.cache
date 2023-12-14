@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yuScZFEEW/CN5dcq4V8SGrWgHjcPOvUWkUZtPOB9S2P2p1jRd+BTUbSSAXVOJP+dX2HgPjne/FzrlpLpbthW+A==",
+  "dgSpecHash": "rloGNv+RlCBQBRbNlkeaGswKrwFbrHOyB8BPlThSBCSMAM41itpy3dj5BOASGz2VyxYVd21Z0SqWNmAEEKUP0Q==",
   "success": true,
-  "projectFilePath": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\Admin_Baocao.csproj",
+  "projectFilePath": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\FoodNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Phong Ngô\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\Phong Ngô\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

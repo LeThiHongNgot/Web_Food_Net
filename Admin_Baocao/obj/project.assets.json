@@ -2344,9 +2344,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\Admin_Baocao.csproj",
-      "projectName": "Admin_Baocao",
-      "projectPath": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\Admin_Baocao.csproj",
+      "projectUniqueName": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\FoodNet.csproj",
+      "projectName": "FoodNet",
+      "projectPath": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\FoodNet.csproj",
       "packagesPath": "C:\\Users\\Phong Ngô\\.nuget\\packages\\",
       "outputPath": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\obj\\",
       "projectStyle": "PackageReference",

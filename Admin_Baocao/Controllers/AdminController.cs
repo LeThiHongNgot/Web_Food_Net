@@ -305,27 +305,6 @@ namespace Admin_Baocao.Controllers
 			return Ok(result);
 		}
 
-		/*[HttpGet]
-		[Route("/Admin/GetOrderCat")]
-		public async Task<ActionResult> GetOrderCat()
-		{
-			var result = await _context.BillSelectedFnbs
-				.Include(bsf => bsf.Fnb)
-				.ThenInclude(fnb => fnb.Category)
-				.Include(bsf => bsf.BillnoNavigation)
-				.ThenInclude(bill => bill.User)
-				.GroupBy(order => new { order.Fnb.Category.Categoryname, order.BillnoNavigation.User.Username })
-				.Select(order => new
-				{
-					username = order.Key.Username,
-					categoryName = order.Key.Categoryname,
-					totalAmount = order.Sum(r => r.Amount),
-					price = order.Sum(r => r.Fnb.Price * r.Amount)
-				})
-				.ToListAsync();
-			return Ok(result);
-		}*/
-
 		[HttpGet]
 		[Route("/Admin/GetOrder/ByDate/{fromDate}&{toDate}")]
 		public async Task<ActionResult> GetOrdersByDateRange(DateTime fromDate, DateTime toDate)

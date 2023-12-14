@@ -101,7 +101,6 @@ function FetchOrderData(result) {
                 $(`#chapNhanBtn${index}`).click(function () {
                     $(this).text("HOÀN THÀNH");
                     $(`#huyBtn${index}`).hide();
-                    /*$(`.info-icon:eq(${index})`).hide();*/
                     totalPrice = currentValue.total;
                     totalRevenue += totalPrice;
                     $(`#totalPrice${index}`).text(FormatCurrency(totalPrice) + ' đ');
