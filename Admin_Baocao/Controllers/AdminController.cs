@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using System.Net;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Admin_Baocao.Controllers
@@ -31,6 +32,158 @@ namespace Admin_Baocao.Controllers
 		public IActionResult MatHang()
 		{
 			return View();
+		}
+
+		[HttpPost]
+		public IActionResult CreateCategory([FromBody]Category category)
+		{
+			_context.Categories.Add(category);
+			_context.SaveChanges();
+			return Ok();
+		}
+
+		[HttpPost]
+		public IActionResult UpdateCategory([FromQuery]string targetCatId, [FromBody]Category category)
+		{
+			if (category.Categoryname != null)
+			{
+				var newCategory = _context.Categories.Find(targetCatId);
+				if (newCategory != null)
+				{
+					newCategory.Categoryname = category.Categoryname;
+				}
+				_context.SaveChanges();
+				return Ok();
+			}
+			return NotFound("Không tìm thấy danh mục cần sửa !");
+		}
+
+
+		[HttpDelete]
+		public IActionResult DeleteCategory([FromQuery]string targetCatId)
+		{
+			var category = _context.Categories.Find(targetCatId);
+			if(category != null)
+			{
+				var fnbs = _context.Fnbs.Where(fnb => fnb.Categoryid == targetCatId);
+				if (fnbs.Count() > 0)
+				{
+					return BadRequest("Không thể xóa danh mục vì đang có mặt hàng thuộc danh mục này !");
+				}
+				else
+				{
+					_context.Categories.Remove(category);
+					_context.SaveChanges();
+					return Ok();
+				}
+			}
+			return NotFound("Không tìm thấy danh mục !");
+		}
+
+
+		[HttpPost]
+		public IActionResult CreateFnb([FromBody]Fnb fnb)
+		{
+			if (fnb != null)
+			{
+				var sameFnbsCount = _context.Fnbs.Count(aFnb => aFnb.FnbId == fnb.FnbId);
+				if (sameFnbsCount > 0)
+				{
+					return BadRequest("Mã mặt hàng đã tồn tại trong hệ thống !");
+				}
+				else
+				{
+					_context.Fnbs.Add(fnb);
+					_context.SaveChanges();
+					return Ok();
+				}
+			}
+			return BadRequest("Không tìm thấy thông tin mặt hàng cần thêm !");
+		}
+
+		[HttpPost]
+		public IActionResult UpdateFnb([FromQuery]string targetFnbId, [FromBody]Fnb fnb)
+		{
+			var targetFnb = _context.Fnbs.Where(fnb => fnb.FnbId == targetFnbId).Include(fnb => fnb.Toppings).FirstOrDefault();
+			if (targetFnb != null)
+			{
+				var fnbExistInBillCount = _context.BillSelectedFnbs.Count(bill => bill.FnbId == targetFnbId);
+				var fnbExistInToppingCount = targetFnb.Toppings.Count;
+				if (fnb.FnbName != null)
+				{
+					if(fnbExistInBillCount > 0 || fnbExistInToppingCount > 0)
+					{
+						return BadRequest("Không được sửa tên mặt hàng đang được lưu trong hóa đơn khách hàng hoặc hóa đơn topping !");
+					}
+					else
+					{
+						targetFnb.FnbName = fnb.FnbName;	
+					}
+				}
+
+				if(fnb.Price != null)
+				{
+					if(fnbExistInBillCount > 0 || fnbExistInToppingCount > 0)
+					{
+						return BadRequest("Không được sửa giá của mặt hàng đang được lưu trong hóa đơn khách hàng hoặc hóa đơn topping !");
+					}
+					else
+					{
+						targetFnb.Price = fnb.Price;
+					}
+				}
+
+				if(fnb.Image != null)
+				{
+					targetFnb.Image = fnb.Image;
+				}
+
+				if(fnb.Categoryid != null)
+				{
+					var catExist = _context.Categories.Count(cat=>cat.Categoryid == fnb.Categoryid);
+                    if (catExist == 0)
+                    {
+						return BadRequest("Không tìm thấy danh mục trong hệ thống !");
+                    }
+					else
+					{
+						targetFnb.Categoryid = fnb.Categoryid;
+					}
+				}
+				_context.SaveChanges();
+				return Ok();
+			}
+			return BadRequest("Không tìm thấy mặt hàng cần sửa !");
+		}
+
+		[HttpDelete]
+		public IActionResult DeleteFnb([FromQuery]string targetFnbId)
+		{
+			var fnb = _context.Fnbs.Where(fnb=>fnb.FnbId == targetFnbId).Include(fnb=>fnb.Toppings).FirstOrDefault();
+			if(fnb != null)
+			{
+				var fnbExistInBillCount = _context.BillSelectedFnbs.Count(bill=>bill.FnbId == targetFnbId);
+				var fnbExistInToppingCount = fnb.Toppings.Count;
+				if(fnbExistInBillCount > 0 || fnbExistInToppingCount > 0)
+				{
+					return BadRequest("Không thể xóa mặt hàng đang được lưu trong hóa đơn khách hàng hoặc hóa đơn topping !");
+				}
+				else
+				{
+					_context.Fnbs.Remove(fnb);
+					_context.SaveChanges();
+					return Ok();
+				}
+			}
+			return NotFound("Không tìm thấy mặt hàng !");
+		}
+
+		[HttpGet]
+		[Route("/Admin/CheckCategoryExists/{categoryId}")]
+		public async Task<IActionResult> CheckCatExist(string categoryId)
+		{
+			var result = await _context.Categories.CountAsync(category => category.Categoryid == categoryId);
+			return Ok(result);
 		}
 
         [HttpGet]
@@ -67,6 +220,7 @@ namespace Admin_Baocao.Controllers
 				   categoryName = report.Category.Categoryname,
 				   fnbId = report.FnbId,
 				   fnbName = report.FnbName,
+				   fnbImage = report.Image,
 				   Price = report.Price,
 			   })
 			   .ToListAsync();
@@ -135,7 +289,7 @@ namespace Admin_Baocao.Controllers
 			   .Include(billfnb => billfnb.Fnb)
 			   .ThenInclude(fnb => fnb.Category)
 			   .Include(billfnb => billfnb.BillnoNavigation)
-				.Where(report => report.Fnb.Categoryid == categoryId && report.BillnoNavigation.Daytime.Value.Date >= fromDate.Date && report.BillnoNavigation.Daytime.Value.Date <= toDate.Date)
+				.Where(report => report.Fnb.Categoryid == categoryId && report.BillnoNavigation.Daytime.Value.Date >= fromDate && report.BillnoNavigation.Daytime.Value.Date <= toDate.Date)
 			   .GroupBy(report => new { report.FnbId, report.Fnb.Categoryid, report.Fnb.FnbName, report.Fnb.Category.Categoryname, report.Fnb.Price})
 			   .Select(report => new
 			   {
@@ -163,6 +317,7 @@ namespace Admin_Baocao.Controllers
 				   categoryName = report.Category.Categoryname,
 				   fnbId = report.FnbId,
 				   fnbName = report.FnbName,
+				   fnbImage = report.Image,
 				   Price = report.Price,
 			   })
 			   .ToListAsync();
@@ -227,6 +382,7 @@ namespace Admin_Baocao.Controllers
 				   categoryName = report.Category.Categoryname,
 				   fnbId = report.FnbId,
 				   fnbName = report.FnbName,
+				   fnbImage = report.Image,
 				   Price = report.Price,
 			   })
 			   .ToListAsync();

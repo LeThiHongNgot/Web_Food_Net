@@ -2,18 +2,25 @@
 	Layout = "_AdminLayout";
 }
 <div class="container mt-xl-4 d-flex flex-column" style="margin-left: 18vw">
-	<div class="container">
-		<nav aria-label="breadcrumb">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item active text-black fw-bold">HÀNG BÁN</li>
-				<li class="breadcrumb-item active text-black fw-bold">MẶT HÀNG</li>
-			</ol>
-		</nav>
-		<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black mg-b-20">MẶT HÀNG</h4>
+	<div class="d-flex flex-row justify-content-between align-items-center" style="width: 75vw">
+		<div class="d-flex flex-column" style="width: 20vw">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item active text-black fw-bold">HÀNG BÁN</li>
+					<li class="breadcrumb-item active text-black fw-bold">MẶT HÀNG</li>
+				</ol>
+			</nav>
+			<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black mg-b-20">QUẢN LÝ MẶT HÀNG</h4>
+		</div>
+		<button type="button" class="btn btn-primary d-flex flex-row justify-content-between align-items-center" data-bs-toggle="modal" data-bs-target="#addMHModal" style="height: 4vh;width: 9.75vw; font-weight: 500">
+			<i class="fa-regular fa-square-plus fa-lg" style="color: #ffffff;"></i>
+			<div>THÊM MẶT HÀNG</div>
+		</button>
 	</div>
-	<div class="border border-bottom-0 rounded bg-white align-items-center d-flex flex-column" style="height: 68.3vh; width: 75vw; margin-top: 5vh">
+
+	<div class="border border-bottom-0 rounded bg-white align-items-center d-flex flex-column" style="height: 88.3vh; width: 75vw; margin-top: 5vh">
 		<div class="d-flex flex-column" style="width: 74vw; height: 8vh; min-height: 8vh; margin-top: 1vh">
-			<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black">MẶT HÀNG TỔNG HỢP</h4>
+			<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black">DANH SÁCH MẶT HÀNG</h4>
 			<h5 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 text-black-50 fs-5">Tổng hợp các mặt hàng có trong hệ thống</h5>
 		</div>
 		<div class="border border-start-0 border-end-0 align-items-center justify-content-center d-flex flex-column" style="height: 12vh; min-height: 12vh; width: 75vw">
@@ -43,19 +50,153 @@
 		</div>
 		@*<div class="border border-start-0 border-end-0 border-top-0 align-items-center justify-content-center d-flex flex-column" style="height: 12vh; width: 75vw">
 		</div>*@
-		<table class="table">
+		<table class="table table-striped">
 			<thead>
 				<tr>
-					<th scope="col" style="color: gray; font-weight: bold; width: 5vw">STT</th>
-					<th scope="col" style="color: gray; font-weight: bold; width: 10vw">DANH MỤC</th>
-					<th scope="col" style="color: gray; font-weight: bold; width: 12vw">MÃ MẶT HÀNG</th>
-					<th scope="col" style="color: gray; font-weight: bold; width: 25vw">TÊN MẶT HÀNG</th>
-					<th scope="col" style="color: gray; font-weight: bold; text-align: right">GIÁ TIỀN</th>
+					<th scope="col" style="color: gray; font-weight: bold; width: 3vw">STT</th>
+					<th scope="col" style="color: gray; font-weight: bold; text-align: center; width: 3vw">ẢNH</th>
+					<th scope="col" style="color: gray; font-weight: bold; width: 3vw">MÃ MẶT HÀNG</th>
+					<th scope="col" style="color: gray; font-weight: bold; width: 30vw">TÊN MẶT HÀNG</th>
+					<th scope="col" style="color: gray; font-weight: bold; width: 22vw">DANH MỤC</th>
+					<th scope="col" style="color: gray; font-weight: bold; text-align: right; width: 17vw">ĐƠN GIÁ</th>
+					<th scope="col" style="color: gray; font-weight: bold; text-align: center; width: 15vw">THAO TÁC</th>
 				</tr>
 			</thead>
 			<tbody id="reportTableBody">
 			</tbody>
 		</table>
+	</div>
+	<div class="modal fade" id="addMHModal" tabindex="-1" aria-labelledby="themMHModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" id="addMHModalDialog" style="min-width: 21vw">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="themMHModalLabel">Thêm Mặt Hàng</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body d-flex justify-content-center">
+					<form class="d-flex flex-column align-items-center justify-content-between" style="width: 20vw; height: 75vh">
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw;min-height: 10vh">
+							<label for="name" style="color: gray; font-weight: 500">MÃ MẶT HÀNG</label>
+							<input type="text" autocomplete="off" id="createFnbIdInput" class="form-control" style="min-width: 20vw; max-width: 15vw">
+							<div style="height: 5vh; width: 20vw">
+								<label id="FnbIdError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">TÊN MẶT HÀNG</label>
+							<input type="text" autocomplete="off" id="createFnbNameInput" class="form-control" style="min-width: 20vw; max-width: 20vw">
+							<div style="height: 3vh; width: 20vw">
+								<label id="FnbNameError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">ĐƠN GIÁ</label>
+							<input type="text" autocomplete="off" id="createFnbPriceInput" class="form-control" style="min-width: 20vw; max-width: 20vw">
+							<div style="height: 3vh; width: 20vw">
+								<label id="FnbPriceError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">HÌNH ẢNH</label>
+							<input type="file" accept=".jpg,.jpeg,.png" autocomplete="off" id="createFnbImageInput" class="form-control" style="min-width: 20vw; max-width: 20vw">
+							<div style="height: 5vh; width: 20vw; color: gray; font-weight: 500">
+								Chấp nhận file định dạng <label style="color: #FF239B">.jpg, .jpeg, .png</label> và kích thước file <= 2MB. Nếu không chọn hình, hệ thống sẽ dùng ảnh mặc định.
+							</div>
+						</div>
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">DANH MỤC</label>
+							<div class="dropup" style="background-color: white">
+								<button class="btn btn-secondary" id="customDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 20vw">
+									<div id="createFnbCatContent">Danh Mục</div>
+									<div id="dropdownArrow" />
+								</button>
+								<ul class="dropdown-menu" id="createDanhMucMenu" style="width: 20vw; max-height: 25vh; overflow:auto">
+								</ul>
+							</div>
+							<div style="height: 3vh; width: 20vw">
+								<label id="FnbCatError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-md-flex">
+							<button type="button" class="form-control btn btn-secondary rounded px-3" id="createFnbButton" style="background-color: #3B4863; width: 20vw" onclick="CreateFnbButtonPress()">Lưu</button>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="updateMHModal" tabindex="-1" aria-labelledby="suaMHModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" id="updateMHModalDialog" style="min-width: 21vw">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="suaMHModalLabel">Sửa Mặt Hàng</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body d-flex justify-content-center">
+					<form class="d-flex flex-column align-items-center justify-content-between" style="width: 20vw; height: 65vh">
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">TÊN MẶT HÀNG</label>
+							<input type="text" autocomplete="off" id="updateFnbNameInput" class="form-control" style="min-width: 20vw; max-width: 20vw">
+							<div style="height: 3vh; width: 20vw">
+								<label id="updateFnbNameError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">ĐƠN GIÁ</label>
+							<input type="text" autocomplete="off" id="updateFnbPriceInput" class="form-control" style="min-width: 20vw; max-width: 20vw">
+							<div style="height: 3vh; width: 20vw">
+								<label id="updateFnbPriceError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">HÌNH ẢNH</label>
+							<input type="file" accept=".jpg,.jpeg,.png" autocomplete="off" id="updateFnbImageInput" class="form-control" style="min-width: 20vw; max-width: 20vw">
+							<div style="height: 5vh; width: 20vw; color: gray; font-weight: 500">
+								Chấp nhận file định dạng <label style="color: #FF239B">.jpg, .jpeg, .png</label> và kích thước file <= 2MB. Nếu không chọn hình, hệ thống sẽ dùng ảnh mặc định.
+							</div>
+						</div>
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">DANH MỤC</label>
+							<div style="background-color: white">
+								<button class="btn btn-secondary" id="customDropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 20vw">
+									<div id="updateFnbCatContent">Danh Mục</div>
+									<div id="dropdownArrow" />
+								</button>
+								<ul class="dropdown-menu" id="updateDanhMucMenu" style="width: 20vw; max-height: 25vh; overflow:auto">
+								</ul>
+							</div>
+							<div style="height: 3vh; width: 20vw">
+								<label id="updateFnbCatError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-md-flex">
+							<button type="button" class="form-control btn btn-secondary rounded px-3" id="createFnbButton" style="background-color: #3B4863; width: 20vw" onclick="UpdateFnbButtonPress()">Lưu</button>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="deleteMHModal" tabindex="-1" aria-labelledby="xoaMHModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" id="deleteMHModalDialog" style="min-width: 15vw">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="xoaMHModalLabel">Xóa Mặt Hàng</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body d-flex justify-content-center">
+					<div class="d-flex flex-column align-items-center justify-content-between" style="width: 15vw; height: 9vh">
+						<label>Bạn có chắc muốn xóa mặt hàng này ?</label>
+						<div class="d-flex flex-row justify-content-between" style="width: 15vw">
+							<button type="button" class="form-control btn btn-primary rounded px-3" id="deleteFnbButton" style="width: 7vw" onclick="DeleteFnbButtonPress()">Xác nhận</button>
+							<button type="button" class="form-control btn btn-secondary rounded px-3" style="width: 7vw" data-bs-dismiss="modal">Hủy</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="d-flex justify-content-center" style="height: 12vh; width: 75vw">
 		<div class="d-flex flex-row justify-content-between align-items-center" style="width: 75vw; height: 5vh">

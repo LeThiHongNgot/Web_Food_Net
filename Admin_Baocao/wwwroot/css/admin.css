@@ -457,54 +457,6 @@ span .font-size-lg {
   text-transform: uppercase;
 }
 
-/* Modal */
-.modal-backdrop.show {
-  background-color: rgba(0, 0, 0, 0.1);
-  /* 0.5 là độ trong suốt (từ 0.0 đến 1.0) */
-}
-
-.modal-content-border {
-  border: 2px solid #f0f0f0;
-  width: 100%;
-}
-
-.f-modal {
-  background-image: linear-gradient(to top, rgba(9, 3, 45, 1), rgba(141, 59, 54, 1));
-  justify-content: center;
-  align-items: center;
-  border-top: 6px solid #f0f0f0;
-}
-
-.modal-h {
-  display: flex;
-  color: #ffffff;
-  /* Change modal header text color */
-  justify-content: center;
-  align-items: center;
-  text-wrap: nowrap;
-  font-size: 30px;
-  margin-top: 30px;
-  font-weight: 900;
-}
-
-.modal-content {
-  background-image: linear-gradient(to top, rgba(9, 3, 45, 1), rgba(141, 59, 54, 1));
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-content-border {
-  border: 2px solid #f0f0f0;
-  width: 100%;
-}
-
-.modal-b {
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  color: #ece9e9;
-}
 
 .dangky-div {
   font-size: 20px;
@@ -542,22 +494,6 @@ span .font-size-lg {
   color: #F24E1E;
 }
 
-.modal-close {
-  position: absolute;
-  right: 8px;
-  top: 10px;
-  /* margin: 24px; */
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-.modal-f {
-  display: flex;
-  flex-direction: row;
-  margin-top: 30px;
-  margin-left: 5px;
-  margin-bottom: 30px;
-}
 
 /* Reponsive */
 @media (min-width: 1200px){

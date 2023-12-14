@@ -168,7 +168,9 @@ namespace Admin_Baocao.Models
                     .HasMaxLength(50)
                     .HasColumnName("FNB_NAME");
 
-                entity.Property(e => e.Image).HasColumnName("IMAGE");
+                entity.Property(e => e.Image)
+                    .IsUnicode(false)
+                    .HasColumnName("IMAGE");
 
                 entity.Property(e => e.Price).HasColumnName("PRICE");
 

@@ -1,6 +1,7 @@
 ﻿var currentReportPage = 1;
 var totalReportPage = 0;
-var Revenue = 0
+var selectedCategory = '';
+const regex = /^CT[0-9]{3}$/
 
 
 function FormatCurrency(value) {
@@ -55,6 +56,136 @@ function WorkWithPages() {
 }
 
 
+function CreateCategory(category) {
+    console.log(category)
+    console.log(JSON.stringify(category))
+    $.ajax({
+        url: `/Admin/CheckCategoryExists/${category.Categoryid}`,
+        type: "GET"
+    })
+        .done(function (result) {
+            console.log(result)
+            if (result > 0) {
+                alert("Danh mục đã tồn tại trong hệ thống !")
+            }
+            else {
+               $.ajax({
+                   url: '/Admin/CreateCategory',
+                   contentType: "application/json; charset=utf-8",
+                   type: "POST",
+                   data: JSON.stringify(category)
+               })
+               .done(function (result) {
+                    alert("Thêm danh mục thành công !")
+                    location.reload()
+               })
+               .fail(function (error) {
+                    alert("Đã xảy ra lỗi khi thêm danh mục !")
+               })
+            }
+        })
+        .fail(function (error) {
+            alert("Đã xảy ra lỗi khi thêm danh mục !")
+        })
+}
+
+
+function CreateCatButtonPress() {
+    var CategoryId = document.getElementById("createCatIdInput").value
+    var CategoryName = document.getElementById("createCatNameInput").value
+    if (CategoryId === "" || CategoryName === "") {
+        if (CategoryId === "") {
+            document.getElementById("catIdError").textContent = "Vui lòng nhập mã danh mục !"
+        }
+        else {
+            if (!regex.test(CategoryId)) {
+                document.getElementById("catIdError").textContent = "Mã danh mục có độ dài 5 kí tự, bao gồm 2 chữ cái đầu là CT, còn lại là các số từ 0 đến 9!"
+            }
+            else {
+                document.getElementById("catIdError").textContent = ""
+            }
+        }
+        if (CategoryName === "") {
+            document.getElementById("catNameError").textContent = "Vui lòng nhập tên danh mục !"
+        }
+        else {
+            document.getElementById("catNameError").textContent = ""
+        }
+    }
+    else {
+        document.getElementById("catIdError").textContent = ""
+        document.getElementById("catNameError").textContent = ""
+        if (!regex.test(CategoryId)) {
+            document.getElementById("catIdError").textContent = "Mã danh mục có độ dài 5 kí tự, bao gồm 2 chữ cái đầu là CT, còn lại là các số từ 0 đến 9!"
+        }
+        else {
+            var category = {
+                Categoryid: CategoryId,
+                Categoryname: CategoryName
+            }
+            document.getElementById("catIdError").textContent = ""
+            CreateCategory(category);
+        }
+    }
+}
+
+
+function UpdateCatButtonPress() {
+    var CategoryName = document.getElementById("updateCatNameInput").value
+    if (CategoryName === "") {
+        document.getElementById("updateCatNameError").textContent = "Vui lòng nhập thông tin bạn muốn sửa !"
+    }
+    else {
+        document.getElementById("updateCatNameError").textContent = ""
+        var catIdValid = true;
+        var category = {
+            Categoryid: null,
+            Categoryname: null
+        }
+
+        if (CategoryName != "") {
+            category.Categoryname = CategoryName
+        }
+
+        if (catIdValid === true) {
+            updateCategory(selectedCategory.toString().trim(), category)
+        }
+    }
+}
+
+
+function updateCategory(targetCatId, category) {
+    $.ajax({
+        url: `/Admin/UpdateCategory?targetCatId=${targetCatId}`,
+        contentType: "application/json; charset=utf-8",
+        type: "POST",
+        data: JSON.stringify(category)
+    })
+        .done(function (result) {
+            alert("Cập nhật thông tin danh mục thành công !")
+            location.reload()
+        })
+        .fail(function (error) {
+            alert("Đã xảy ra lỗi khi cập nhật thông tin !")
+        })
+}
+
+
+function DeleteCatButtonPress() {
+    $.ajax({
+        url: `/Admin/DeleteCategory?targetCatId=${selectedCategory}`,
+        type: "DELETE"
+    })
+        .done(function (result) {
+            alert("Xóa danh mục thành công !")
+            location.reload()
+        })
+        .fail(function (error, textStatus, errorThrown) {
+            alert(error.responseText)
+        })
+}
+
+
 function FetchReportData(result) {
     if (result != null && result.length > 0) {
         totalReportPage = Math.ceil(result.length / 10)
@@ -65,10 +196,21 @@ function FetchReportData(result) {
         reportData.forEach(function (currentValue, index, arr) {
             if (index + 1 > currentReportPage * 10 - 10 && index + 1 <= currentReportPage * 10) {
                 $("#reportTableBody").append(`<tr id='reportRow${index + 1}'></tr>`)
-                $(`#reportRow${index + 1}`).append(`<th scope='row' style='font-weight: normal; width: 9vw'>${index + 1}</th>`)
-                $(`#reportRow${index + 1}`).append(`<td style='width: 19vw'>${currentValue.categoryId}</td>`)
-                $(`#reportRow${index + 1}`).append(`<td>${currentValue.categoryName}</td>`)
-                $(`#reportRow${index + 1}`).append(`<td style='color: red;width: 15vw; font-weight: bold; text-align: right'>${currentValue.totalAmount}</td>`)
+                $(`#reportRow${index + 1}`).append(`<th class='align-middle' scope='row' style='font-weight: normal'>${index + 1}</th>`)
+                $(`#reportRow${index + 1}`).append(`<td class='align-middle' style='width: 19vw'>${currentValue.categoryId}</td>`)
+                $(`#reportRow${index + 1}`).append(`<td class='align-middle'>${currentValue.categoryName}</td>`)
+                $(`#reportRow${index + 1}`).append(`
+                <td class='d-flex align-items-center justify-content-center'>
+                <div class='d-flex flex-row justify-content-between' style='width: 4.5vw; height: 3.75vh'>
+                <div class='d-flex align-items-center justify-content-center rounded border border-2 updateCatButton' style='background-color: #d5d6e4; cursor: pointer; width: 2vw; border-color: red' id='update${currentValue.categoryId}' data-bs-toggle="modal" data-bs-target="#updateDMModal" data-cat-id = "${currentValue.categoryId}">
+                <i class="fa-solid fa-pen-to-square fa-sm" style="color: #808080;"></i>
+                </div>
+                <div class='d-flex align-items-center justify-content-center rounded deleteCatButton' style='background-color: #e60b0b; cursor: pointer; width: 2vw' id='delete${currentValue.categoryId}' data-bs-toggle="modal" data-bs-target="#deleteDMModal" data-cat-id = "${currentValue.categoryId}">
+                <i class="fa-regular fa-trash-can fa-sm" style="color: #ffffff;"></i>
+                </div>
+                </div>
+                </td>
+                `)
             }
         })
     }
@@ -176,6 +318,40 @@ $(document).ready(function () {
         sessionStorage.setItem('currentReportPage', currentReportPage)
         console.log("Go Next");
         location.reload()
+    });
+
+
+    $("#addDMModal").on('show.bs.modal', function () {
+        document.getElementById("catIdError").textContent = ""
+        document.getElementById("catNameError").textContent = ""
+    });
+
+
+    $("#updateDMModal").on('show.bs.modal', function (event) {
+        document.getElementById("updateCatNameError").textContent = ""
+        selectedCategory = $(event.relatedTarget).data('cat-id')
+    });
+
+
+    $("#deleteDMModal").on('show.bs.modal', function (event) {
+        selectedCategory = $(event.relatedTarget).data('cat-id')
+    });
+
+
+    $('#createCatIdInput').on('input', function (e) {
+        var CategoryId = document.getElementById("createCatIdInput").value
+        document.getElementById("catIdError").textContent = ""
+        if (CategoryId === "") {
+            document.getElementById("catIdError").textContent = ""
+        }
+        else {
+            if (!regex.test(CategoryId)) {
+                document.getElementById("catIdError").textContent = "Mã danh mục có độ dài 5 kí tự, bao gồm 2 chữ cái đầu là CT, còn lại là các số từ 0 đến 9!"
+            }
+            else {
+                document.getElementById("catIdError").textContent = ""
+            }
+        }
     });
 
 

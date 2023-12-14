@@ -181,6 +181,838 @@
       "PackagePath": "staticwebassets\\Admin_Baocao.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\Question_mark_(black).svg.png",
+      "PackagePath": "staticwebassets\\Image\\5TT\\Question_mark_(black).svg.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\cafe\\bacxiu.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\bacxiu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\cafe\\cacao_caphesua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\cacao_caphesua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\cafe\\cacaosua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\cacaosua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\cafe\\caphe_caramel.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\caphe_caramel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\cafe\\caphemuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\caphemuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\cafe\\den.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\den.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\cafe\\milodam.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\milodam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\cafe\\sua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\cafe\\sua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\com_boviensate.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\com_boviensate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comboxao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comboxao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comcahoisotca.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comcahoisotca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_caman.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_caman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_canhgachiengion.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_canhgachiengion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_duongchau.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_duongchau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comchien_xucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comchien_xucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comphalau.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comphalau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comthitkhotrungcut.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comthitkhotrungcut.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\com\\comthitrimman.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\com\\comthitrimman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\bapxao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\bapxao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\bovien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\bovien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\canhgachien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\canhgachien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\cavien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\cavien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\combo_anvat.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\combo_anvat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\comchay_khoga.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\comchay_khoga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\ga_popcorn_lacphomai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\ga_popcorn_lacphomai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\garan_khoanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\garan_khoanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoaitaychien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoaitaychien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoaitaychien_lacphomai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoaitaychien_lacphomai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoaitaydeo_lacphomai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoaitaydeo_lacphomai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khoboxe.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khoboxe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\khogalachanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\khogalachanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\nemchuaran.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\nemchuaran.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\phomaique.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\phomaique.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\topmo_mamtoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\topmo_mamtoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\xucxich_locxoay.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\xucxich_locxoay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\doanvat\\xucxichduc_xongkhoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\doanvat\\xucxichduc_xongkhoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\lau\\lauthaivien.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\lau\\lauthaivien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\lau\\lauthaixucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\lau\\lauthaixucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mibonuoc_hanquoc.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mibonuoc_hanquoc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mihanquoc_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mihanquoc_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mihanquoc_xucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mihanquoc_xucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\minuoc_bokho.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\minuoc_bokho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\minuoc_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\minuoc_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\minuoc_xucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\minuoc_xucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_khobo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_khobo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_trungtopmo_dacbiet.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_trungtopmo_dacbiet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_xucxichtopmo_dacbiet.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_xucxichtopmo_dacbiet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mitron_xucxichxongkhoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mitron_xucxichxongkhoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mituongden_trung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mituongden_trung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mituongden_xucxichxongkhoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mituongden_xucxichxongkhoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\mi\\mixao_bo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\mi\\mixao_bo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaobo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaobo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaoboviensate.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaoboviensate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaotrung.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaotrung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nui\\nuixaoxucxich.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nui\\nuixaoxucxich.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\aquarius.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\aquarius.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\c2.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\c2_dao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\c2_dao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\caphe_wakeup.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\caphe_wakeup.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\coca.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\coca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_chanhdayvahatchia.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_chanhdayvahatchia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_chanhsa.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_chanhsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_daovahatchia.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\fuzetea_daovahatchia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\mirinda_cam.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\mirinda_cam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\mirinda_xaxi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\mirinda_xaxi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergy.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergymango.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergymango.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergyultra.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterenergyultra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterultraparadise.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\monsterultraparadise.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\nuocsuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\nuocsuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\redbull.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\redbull.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\revive.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\revive.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\revive_chanhmuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\revive_chanhmuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\sting.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\sting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\stingcompact.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\stingcompact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\stingcompact_kiwi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\stingcompact_kiwi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\stingvang.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\stingvang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\teaplus.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\teaplus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\trabidao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\trabidao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\traxangkhongdo.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\traxangkhongdo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\twistercam.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\twistercam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\warrior_dau.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\warrior_dau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\nuocgiaikhac\\warrior_nho.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\nuocgiaikhac\\warrior_nho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\soda\\soda_blueocean.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\soda\\soda_blueocean.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\soda\\soda_chanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\soda\\soda_chanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\soda\\soda_redsunset.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\soda\\soda_redsunset.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\hongtratacmatong.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\hongtratacmatong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\matcha_macchiato.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\matcha_macchiato.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\samduasua.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\samduasua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\trachanh.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\trachanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\trachanhday.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\trachanhday.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\tradao_camsa.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tradao_camsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\tradao_dualuoi.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tradao_dualuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\tradao_macchiato.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tradao_macchiato.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\tralai_macchiato.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tralai_macchiato.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\traoihong.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\traoihong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\tra\\tratao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\tra\\tratao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_dao.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_dao.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_khoaimon.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_khoaimon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_lai.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_lai.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_matcha.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_matcha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh\\trasua\\trasua_nguyenla.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh\\trasua\\trasua_nguyenla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\cafe\\CF007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\com\\C011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\com\\C011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN012.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN013.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN014.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN015.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN016.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN017.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN018.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\doanvat\\SN018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\lau\\L001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\lau\\L001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\lau\\L002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\lau\\L002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M012.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M013.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\mi\\M014.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\mi\\M014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nui\\N004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nui\\N004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D009.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D010.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D011.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D012.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D013.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D014.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D015.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D016.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D017.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D018.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D019.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D020.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D020.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D021.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D021.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D022.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D022.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D023.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D024.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D024.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D025.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D026.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D026.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D027.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D027.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D028.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\nuocgiaikhac\\D028.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\soda\\SD001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\soda\\SD001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\soda\\SD002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\soda\\SD002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\soda\\SD003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\soda\\SD003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\MC001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\MC001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\MC002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\MC002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\MC003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\MC003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE006.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE007.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\tra\\TE008.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\tra\\TE008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT001.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT002.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT003.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT004.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT005.jpg",
+      "PackagePath": "staticwebassets\\Image\\5TT\\hinh_da ma hoa\\trasua\\MT005.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\wwwroot\\Image\\AOV.png",
       "PackagePath": "staticwebassets\\Image\\AOV.png"
     },

@@ -356,38 +356,6 @@ div [class^="col-"]{
   font-size: 25px;
   font-weight: bold;
 }
-/* đăng nhập đăng ký */
-.modal-backdrop.show {
-  background-color: rgba(0, 0, 0, 0.1); /* 0.5 là độ trong suốt (từ 0.0 đến 1.0) */
-}
-
-.modal-content {
-  background-image: linear-gradient(to top, rgba(9, 3, 45, 1), rgba(141, 59, 54, 1));
-  justify-content: center;
-  align-items: center;
- 
-}
-.modal-content-border
-{
-  border: 2px solid #f0f0f0;
-  width: 100%;
-}
-.f-modal{
-  background-image: linear-gradient(to top, rgba(9, 3, 45, 1), rgba(141, 59, 54, 1));
-  justify-content: center;
-  align-items: center;
-  border-top: 6px solid #f0f0f0;
-}
-.modal-h {
-  display: flex;
-  color: #ffffff; /* Change modal header text color */
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  margin-top: 30px;
-  font-weight: 900;
- 
-}
 .login {
 	width: 320px;
 	padding: 30px;
@@ -447,16 +415,6 @@ div [class^="col-"]{
   height: 40px;
   margin-bottom: 10px;
 }
-.modal-b{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-f {
-
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 .dangky-div
 {
   font-size: 20px;
@@ -478,8 +436,3 @@ font-size: 25px;
 {
   font-size: 25px;
 }
-/* CSS cho class open modal */
-.open {
-  display: flex;
-}
- /* hiển thị giỏ hàng khi vừa đặt hàng  */

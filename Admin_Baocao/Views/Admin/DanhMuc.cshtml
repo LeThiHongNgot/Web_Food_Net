@@ -2,18 +2,24 @@
 	Layout = "_AdminLayout";
 }
 <div class="container mt-xl-4 d-flex flex-column" style="margin-left: 18vw">
-	<div class="container">
+	<div class="d-flex flex-row justify-content-between align-items-center" style="width: 75vw">
+		<div class="d-flex flex-column"  style="width: 20vw">
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item active text-black fw-bold">HÀNG BÁN</li>
 				<li class="breadcrumb-item active text-black fw-bold">DANH MỤC</li>
 			</ol>
 		</nav>
-		<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black mg-b-20">DANH MỤC</h4>
+		<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black mg-b-20">QUẢN LÝ DANH MỤC HÀNG BÁN</h4>
+		</div>
+		<button type="button" class="btn btn-primary d-flex flex-row justify-content-between align-items-center" data-bs-toggle="modal" data-bs-target="#addDMModal" style="height: 4vh;width: 9.75vw; font-weight: 500">
+			<i class="fa-regular fa-square-plus fa-lg" style="color: #ffffff;"></i>
+			<div>THÊM DANH MỤC</div>
+		</button>
 	</div>
-	<div class="border border-bottom-0 rounded bg-white align-items-center d-flex flex-column" style="height: 68.3vh; width: 75vw; margin-top: 5vh">
+	<div class="border border-bottom-0 rounded bg-white align-items-center d-flex flex-column" style="height: 80.995vh; width: 75vw; margin-top: 4vh">
 		<div class="d-flex flex-column" style="width: 74vw; height: 8vh; min-height: 8vh; margin-top: 1vh">
-			<h4 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black">DANH MỤC TỔNG HỢP</h4>
+			<h5 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 tx-normal text-black">DANH SÁCH DANH MỤC</h5>
 			<h5 class="mg-t-100 tx-16 tx-sm-18 tx-lg-20 text-black-50 fs-5">Tổng hợp các danh mục trong hệ thống</h5>
 		</div>
 		<div class="border border-start-0 border-end-0 align-items-center justify-content-center d-flex flex-column" style="height: 12vh; min-height: 12vh; width: 75vw">
@@ -35,18 +41,93 @@
 		</div>
 		@*<div class="border border-start-0 border-end-0 border-top-0 align-items-center justify-content-center d-flex flex-column" style="height: 12vh; width: 75vw">
 		</div>*@
-		<table class="table">
+		<table class="table table-striped">
 			<thead>
 				<tr>
-					<th scope="col" style="color: gray; font-weight: bold; width: 15vw">STT</th>
-					<th scope="col" style="color: gray; font-weight: bold; width: 25vw">MÃ DANH MỤC</th>
-					<th scope="col" style="color: gray; font-weight: bold">TÊN DANH MỤC</th>
-					<th scope="col" style="color: gray; font-weight: bold; text-align: right; width: 6vw">SỐ LƯỢNG</th>
+					<th scope="col" style="color: gray; font-weight: bold; width: 5vw">STT</th>
+					<th scope="col" style="color: gray; font-weight: bold; width: 10vw">MÃ DANH MỤC</th>
+					<th scope="col" style="color: gray; font-weight: bold; width: 20vw">TÊN DANH MỤC</th>
+					<th scope="col" style="color: gray; font-weight: bold; text-align: center;width: 15vw">THAO TÁC</th>
 				</tr>
 			</thead>
 			<tbody id="reportTableBody">
 			</tbody>
 		</table>
+	</div>
+	<div class="modal fade" id="addDMModal" tabindex="-1" aria-labelledby="themNDMModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" id="addDMModalDialog" style="min-width: 21vw">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="themNDMModalLabel">Thêm Danh Mục</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body d-flex justify-content-center">
+					<form class="d-flex flex-column align-items-center justify-content-between" style="width: 20vw; height: 25vh">
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw;min-height: 10vh">
+							<label for="name" style="color: gray; font-weight: 500">MÃ DANH MỤC</label>
+							<input type="text" autocomplete="off" id="createCatIdInput" class="form-control" style="min-width: 20vw; max-width: 15vw">
+							<div style="height: 5vh; width: 20vw">
+								<label id="catIdError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">TÊN</label>
+							<input type="text" autocomplete="off" id="createCatNameInput" class="form-control" style="min-width: 20vw; max-width: 20vw">
+							<div style="height: 3vh; width: 20vw">
+								<label id="catNameError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-md-flex">
+							<button type="button" class="form-control btn btn-secondary rounded px-3" id="createCatButton" style="background-color: #3B4863; width: 20vw" onclick="CreateCatButtonPress()">Lưu</button>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="updateDMModal" tabindex="-1" aria-labelledby="suaNDMModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" id="updateDMModalDialog" style="min-width: 21vw">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="themNDMModalLabel">Sửa Danh Mục</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body d-flex justify-content-center">
+					<form class="d-flex flex-column align-items-center justify-content-between" style="width: 20vw; height: 15vh">
+						<div class="form-group d-flex flex-column justify-content-center" style="min-width: 20vw; max-width: 20vw">
+							<label for="name" style="color: gray; font-weight: 500">TÊN</label>
+							<input type="text" autocomplete="off" id="updateCatNameInput" class="form-control" style="min-width: 20vw; max-width: 20vw">
+							<div style="height: 3vh; width: 20vw">
+								<label id="updateCatNameError" style="color: red"></label>
+							</div>
+						</div>
+						<div class="form-group d-md-flex">
+							<button type="button" class="form-control btn btn-secondary rounded px-3" id="updateCatButton" style="background-color: #3B4863; width: 20vw" onclick="UpdateCatButtonPress()">Sửa</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="deleteDMModal" tabindex="-1" aria-labelledby="xoaNDMModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" id="deleteDMModalDialog" style="min-width: 15vw">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="themNDMModalLabel">Xóa Danh Mục</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body d-flex justify-content-center">
+					<div class="d-flex flex-column align-items-center justify-content-between" style="width: 15vw; height: 9vh">
+						<label>Bạn có chắc muốn xóa danh mục này ?</label>
+						<div class="d-flex flex-row justify-content-between" style="width: 15vw">
+							<button type="button" class="form-control btn btn-primary rounded px-3" id="deleteCatButton" style="width: 7vw" onclick="DeleteCatButtonPress()">Xác nhận</button>
+							<button type="button" class="form-control btn btn-secondary rounded px-3" style="width: 7vw" data-bs-dismiss="modal">Hủy</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="d-flex justify-content-center" style="height: 12vh; width: 75vw">
 		<div class="d-flex flex-row justify-content-between align-items-center" style="width: 75vw; height: 5vh">
@@ -59,6 +140,7 @@
 		</div>
 	</div>
 </div>
+
 @section Scripts{
 	<script src="/js/DanhMuc.js"></script>
 }
