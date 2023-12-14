@@ -1,7 +1,9 @@
 ﻿var currentOrderPage = 1;
 var totalOrderPage = 0;
-var servicesRevenue = 0;
+var totalRevenue = 0;
 var othersRevenue = 0;
+const userIdRegex = /^[a-zA-Z0-9]{1,4}$/
+var userIdToCreate = "";
 
 
 function FormatCurrency(value) {
@@ -33,9 +35,12 @@ function FormatCurrency(value) {
 }
 
 function FormatDateTime(input) {
-    var Parts = input.split("/")
-    var DateResult = Parts[2] + '-' + Parts[1] + '-' + Parts[0] + ' ' + '00:00:00'
-    return DateResult
+    const fromDate = sessionStorage.getItem('fromDate')
+    const toDate = sessionStorage.getItem('toDate')
+    if (fromDate != null && toDate != null) {
+        document.getElementById('datepicker').value = fromDate
+        document.getElementById('datepicker1').value = toDate
+    }
 }
 
 function FetchDate() {
@@ -68,6 +73,92 @@ function WorkWithPages() {
     }
 }
 
+function CreateOrderButtonPress() {
+    var userId = document.getElementById('createuserIdInput').value
+    
+    if (userId === "" || fnbName === "" || fnbPrice === "" || orderIdToCreate === "" || orderIdToCreate === undefined) {
+        if (userId === "") {
+            document.getElementById("userIdError").textContent = "Vui lòng nhập mã khách hàng muốn mua hàng !"
+        }
+        else {
+            if (!userIdRegex.test(userId)) {
+                document.getElementById("userIdError").textContent = "Mã khách hàng có độ dài tối đa 4 kí tự chỉ bao gồm chữ cái và chữ số"
+            }
+            else {
+                document.getElementById("userIdError").textContent = ""
+            }
+        }
+
+        if (orderIdToCreate === "" || orderIdToCreate === undefined) {
+            document.getElementById("FnbError").textContent = "Vui lòng chọn mặt hàng muốn thêm !"
+        }
+        else {
+            document.getElementById("FnbError").textContent = ""
+        }
+    }
+    else {
+        var allInfoValid = 0;
+        document.getElementById("userIdError").textContent = ""
+        
+        document.getElementById("FnbError").textContent = ""
+        if (!userIdRegex.test(userId)) {
+            document.getElementById("userIdError").textContent = "Mã khách hàng có tối đa 4 kí tự chỉ bao gồm chữ cái và chữ số"
+        }
+        else {
+            ++allInfoValid
+        }
+
+        allInfoValid += 1
+        if (allInfoValid === 2) {
+            
+            if (inputFiles.length > 0) {
+                var fnb = {
+                    userId: userId,
+                    FnbName: fnbName,
+                    Price: fnbPrice,
+                    Image: fnbImageToCreate,
+                    Categoryid: orderIdToCreate
+                }
+                $.ajax({
+                    url: '/Admin/CreateOrder',
+                    type: 'POST',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(fnb)
+                })
+                    .done(function (result) {
+                        alert("Tạo đơn hàng thành công !")
+                        location.reload()
+                    })
+                    .fail(function (error) {
+                        alert(error.responseText)
+                    })
+            }
+            else {
+                var fnb = {
+                    userId: userId,
+                    FnbName: fnbName,
+                    Price: fnbPrice,
+                    Image: defaultImage,
+                    Categoryid: orderIdToCreate
+                }
+                $.ajax({
+                    url: '/Admin/CreateOrder',
+                    type: 'POST',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(fnb)
+                })
+                    .done(function (result) {
+                        alert("Tạo đơn hàng thành công !")
+                        location.reload()
+                    })
+                    .fail(function (error) {
+                        alert(error.responseText)
+                    })
+            }
+        }
+    }
+}
+
 function FetchOrderData(result) {
     if (result != null && result.length > 0) {
         totalOrderPage = Math.ceil(result.length / 10)
@@ -75,9 +166,7 @@ function FetchOrderData(result) {
         sessionStorage.setItem('totalOrderPage', totalOrderPage)
         currentOrderPage = parseInt(sessionStorage.getItem('currentOrderPage'))
         var orderData = JSON.parse(sessionStorage.getItem('orderData'))
-        var totalRevenue = 0;
         orderData.forEach(function (currentValue, index, arr) {
-            /*servicesRevenue += currentValue.total*/
             if (index + 1 > currentOrderPage * 10 - 10 && index + 1 <= currentOrderPage * 10) {
                 var totalPrice = currentValue.price * currentValue.total
                 $("#orderTableBody").append(`<tr id='orderRow${index + 1}'></tr>`)
@@ -103,6 +192,8 @@ function FetchOrderData(result) {
                     $(`#huyBtn${index}`).hide();
                     totalPrice = currentValue.total;
                     totalRevenue += totalPrice;
+                    sessionStorage.setItem('totalRevenue', totalRevenue);
+                    document.querySelector("#totalRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('totalRevenue'))) + ' đ';
                     $(`#totalPrice${index}`).text(FormatCurrency(totalPrice) + ' đ');
                     $(`#infoIcon${index}`).hide();
                 });
@@ -114,10 +205,13 @@ function FetchOrderData(result) {
                     totalPrice = 0;
                     $(`#totalPrice${index}`).text(FormatCurrency(totalPrice) + ' đ');
                 });
-                $(`#orderRow${index + 1}`).append(`<td class='red-text'>${FormatCurrency(totalPrice)} đ</td>`)
+                /*$(`#orderRow${index + 1}`).append(`<td class='red-text' id='totalPrice${index}'>${FormatCurrency(totalPrice)} đ</td>`)*/
+                var totalPrice = currentValue.price * currentValue.total;
+                var displayPrice = !isNaN(totalPrice) ? FormatCurrency(totalPrice) + ' đ' : '';
+                $(`#orderRow${index + 1}`).append(`<td class='red-text' id='totalPrice${index}'>${displayPrice}</td>`);
             }
         })
-        return servicesRevenue
+        return totalRevenue
     }
     else {
         sessionStorage.setItem('totalOrderPage', 1)
@@ -125,6 +219,33 @@ function FetchOrderData(result) {
         return 0
     }
 }
+
+function AddItemToOrder(item) {
+    var orderData = JSON.parse(sessionStorage.getItem('orderData')) || [];
+    orderData.push(item);
+    sessionStorage.setItem('orderData', JSON.stringify(orderData));
+
+    var index = orderData.length - 1;
+    $("#addFnbToOrderTableBody").append(`<tr id='orderRow${index + 1}'></tr>`);
+    $(`#orderRow${index + 1}`).append(`<th scope='row'>${item.fnbName}</th>`);
+    $(`#orderRow${index + 1}`).append(`<td>${item.amount}</td>`);
+    $(`#orderRow${index + 1}`).append(`<td>
+        <button type="button" class="btn btn-danger" id="removeBtn${index}"><i class="bi bi-trash"></i></button>
+    </td>`);
+
+    $(`#removeBtn${index}`).click(function () {
+        $(`#orderRow${index + 1}`).remove();
+        orderData.splice(index, 1);
+        sessionStorage.setItem('orderData', JSON.stringify(orderData));
+    });
+}
+
+$("#createOrderButton").click(function () {
+    var orderData = JSON.parse(sessionStorage.getItem('orderData'));
+    // Code to send `orderData` to the server and add it to `tbDonHang`
+});
+
+
 
 $(document).ready(function () {
     if (sessionStorage.getItem('firstRender') !== 'false') {
@@ -166,6 +287,7 @@ $(document).ready(function () {
             $("#mathangMenu").append("<li><a class='dropdown-item mathangItem' style='cursor: pointer'>" + "Mặt Hàng" + "</a></li>")
             result.forEach(function (currentValue, index, arr) {
                 $("#mathangMenu").append("<li><a class='dropdown-item mathangItem' " + `id=${currentValue.fnbId}` + "style='cursor: pointer'>" + currentValue.fnbName + "</a></li>")
+                $("#createMatHangMenu").append(`<li><a class='dropdown-item createOrderCatItem' data-order-to-create="${currentValue.fnbId}" id=createOrderItem${currentValue.fnbId} style='cursor: pointer'>${currentValue.fnbName}</a></li>`)
             })
         })
             .fail(function (error) {
@@ -190,8 +312,8 @@ $(document).ready(function () {
                 type: "GET",
             })
                 .done(function (result) {
-                    sessionStorage.setItem('servicesRevenue', FetchOrderData(result))
-                    document.querySelector("#servicesRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('servicesRevenue'))) + ' đ'
+                    sessionStorage.setItem('totalRevenue', FetchOrderData(result))
+                    document.querySelector("#totalRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('totalRevenue'))) + ' đ'
                     WorkWithPages()
                 })
                 .fail(function (error) {
@@ -207,7 +329,7 @@ $(document).ready(function () {
             })
                 .done(function (result) {
                     FetchOrderData(result)
-                    document.querySelector("#servicesRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('servicesRevenue'))) + ' đ'
+                    document.querySelector("#totalRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('totalRevenue'))) + ' đ'
                     WorkWithPages()
                 })
                 .fail(function (error) {
@@ -225,8 +347,9 @@ $(document).ready(function () {
                 })
                     .done(function (result) {
                         FetchOrderData(result)
-                        document.querySelector("#servicesRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('servicesRevenue'))) + ' đ'
+                        document.querySelector("#totalRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('totalRevenue'))) + ' đ'
                         WorkWithPages()
+                        
                     })
                     .fail(function (error) {
                         alert("Đã xảy ra lỗi khi tải dữ liệu !")
@@ -242,7 +365,7 @@ $(document).ready(function () {
                 })
                     .done(function (result) {
                         FetchOrderData(result)
-                        document.querySelector("#servicesRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('servicesRevenue'))) + ' đ'
+                        document.querySelector("#totalRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('totalRevenue'))) + ' đ'
                         WorkWithPages()
                     })
                     .fail(function (error) {
@@ -260,7 +383,7 @@ $(document).ready(function () {
                     })
                         .done(function (result) {
                             FetchOrderData(result)
-                            document.querySelector("#servicesRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('servicesRevenue'))) + ' đ'
+                            document.querySelector("#totalRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('totalRevenue'))) + ' đ'
                             WorkWithPages()
                         })
                         .fail(function (error) {
@@ -277,7 +400,7 @@ $(document).ready(function () {
                     })
                         .done(function (result) {
                             FetchOrderData(result)
-                            document.querySelector("#servicesRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('servicesRevenue'))) + ' đ'
+                            document.querySelector("#totalRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('totalRevenue'))) + ' đ'
                             WorkWithPages()
                         })
                         .fail(function (error) {
@@ -342,6 +465,12 @@ $(document).ready(function () {
         }
     });
 
+    $(document).on('click', '.createOrderCatItem', function (event) {
+        var itemValue = $(this).text();
+        document.querySelector("#createOrderCatContent").innerText = itemValue
+        orderIdToCreate = $(this).data('order-to-create').toString().trim()
+    })
+
     $(document).on('click', '#applyButton', function () {
         if (document.getElementById('datepicker').value === '' || document.getElementById('datepicker1').value === '') {
             alert("Bạn chưa điền đầy đủ ngày muốn truy vấn !")
@@ -389,6 +518,28 @@ $(document).ready(function () {
         location.reload()
     });
 
+    $('#createUserIdInput').on('input', function () {
+        document.getElementById("userIdError").textContent = ""
+        var userId = document.getElementById('createUserIdInput').value
+        if (userId === "") {
+            document.getElementById("userIdError").textContent = ""
+        }
+        else {
+            if (!userIdRegex.test(userId)) {
+                document.getElementById("userIdError").textContent = "Mã Khách hàng có độ dài tối đa 4 kí tự chỉ bao gồm chữ cái và chữ số"
+            }
+            else {
+                document.getElementById("userIdError").textContent = ""
+            }
+        }
+    })
+
+    /*Reset lại modal tạo đơn hàng*/
+    $('#addDHModal').on('show.bs.modal', function () {
+        document.getElementById("userIdError").textContent = ""
+        document.getElementById("FnbError").textContent = ""
+    })
+
     $(this).scrollTop(0)
 
     sessionStorage.setItem('firstRender', false)
@@ -407,4 +558,5 @@ $(document).ready(function () {
         todayHighlight: true
     });
 })
+
 

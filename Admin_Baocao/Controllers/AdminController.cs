@@ -415,27 +415,39 @@ namespace Admin_Baocao.Controllers
 			return Ok(result);
 		}
 
-		[HttpPost]
-		public IActionResult CreateOrder([FromBody] Fnb fnb)
+		/*[HttpPost]
+		public async Task<IActionResult> CreateOrder(string userId, List<Fnb> fnbs)
 		{
-			if (fnb != null)
+			if (string.IsNullOrEmpty(userId) || fnbs == null || fnbs.Count == 0)
 			{
-				var sameFnbsCount = _context.Fnbs.Count(aFnb => aFnb.FnbId == fnb.FnbId);
+				return BadRequest("User ID and items are required!");
+			}
+
+			var order = new BillSelectedFnbs
+			{
+				BillnoNavigation = new Billno { Userid = userId, Daytime = DateTime.Now },
+				Fnbs = new List<Fnb>()
+			};
+
+			foreach (var fnb in fnbs)
+			{
+				var sameFnbsCount = await _context.Fnbs.CountAsync(aFnb => aFnb.FnbId == fnb.FnbId);
+
 				if (sameFnbsCount > 0)
 				{
-					return BadRequest("Mã mặt hàng đã tồn tại trong hệ thống !");
+					order.Fnbs.Add(fnb);
 				}
 				else
 				{
-					_context.Fnbs.Add(fnb);
-					_context.SaveChanges();
-					return Ok();
+					return BadRequest($"Item with ID {fnb.FnbId} does not exist!");
 				}
 			}
-			return BadRequest("Không tìm thấy thông tin mặt hàng cần thêm !");
-		}
 
+			await _context.BillSelectedFnbs.AddAsync(order);
+			await _context.SaveChangesAsync();
 
+			return Ok();
+		}*/
 
 		public IActionResult Privacy()
         {

@@ -177,8 +177,8 @@
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FootNet.bundle.scp.css",
-      "PackagePath": "staticwebassets\\FootNet.bundle.scp.css"
+      "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FoodNet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FoodNet.bundle.scp.css"
     },
     {
       "Id": "D:\\Semester1_3th\\Web_Food_Net\\Admin_Baocao\\wwwroot\\Image\\AOV.png",
@@ -309,20 +309,20 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FootNet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FoodNet.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FootNet.props",
-      "PackagePath": "build\\FootNet.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FoodNet.props",
+      "PackagePath": "build\\FoodNet.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FootNet.props",
-      "PackagePath": "buildMultiTargeting\\FootNet.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FoodNet.props",
+      "PackagePath": "buildMultiTargeting\\FoodNet.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FootNet.props",
-      "PackagePath": "buildTransitive\\FootNet.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FoodNet.props",
+      "PackagePath": "buildTransitive\\FoodNet.props"
     }
   ],
   "ElementsToRemove": []

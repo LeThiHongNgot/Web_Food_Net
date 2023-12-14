@@ -1,4 +1,13 @@
-﻿#tbDonHang td .btn {
-    height: 38px;
-    width: 112px;
+﻿#tbDonHang {
+    max-height: 365px; /* Đặt chiều cao tối đa cho bảng */
+    overflow-y: auto; /* Thêm thanh cuộn dọc khi nó quá lớn */
 }
+
+    /* Tuỳ chỉnh các kiểu cụ thể của thanh cuộn nếu cần */
+    #tbDonHang::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    #tbDonHang::-webkit-scrollbar-thumb {
+        background-color: #888;
+    }
