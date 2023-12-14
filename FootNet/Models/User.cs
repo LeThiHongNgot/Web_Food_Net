@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace FootNet.Models
 {
@@ -8,7 +9,7 @@ namespace FootNet.Models
         public User()
         {
             Bills = new HashSet<Bill>();
-            Services = new HashSet<Service>();
+            UserSelectedServices = new HashSet<UserSelectedService>();
             Vouchers = new HashSet<Voucher>();
         }
 
@@ -23,8 +24,9 @@ namespace FootNet.Models
         public bool? Isadmin { get; set; }
 
         public virtual ICollection<Bill> Bills { get; set; }
+        public virtual ICollection<UserSelectedService> UserSelectedServices { get; set; }
 
-        public virtual ICollection<Service> Services { get; set; }
         public virtual ICollection<Voucher> Vouchers { get; set; }
     }
 }
+   

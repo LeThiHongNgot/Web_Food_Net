@@ -3,6 +3,7 @@
 
 }
 
+
 <div class="main-center">
     @* ------------------------Content on the left------------------------- *@
     <div class="center"> 
@@ -39,135 +40,160 @@
     <div id="allcartmenu">
             @*  ---------------------------Content menu --------------------------------- *@
             <div class="frame-menu">
-                <button type="button" class="btn btn-light "><iconify-icon icon="ic:round-all-inbox" class="icon-menu"></iconify-icon>Tất cả</button>
+                <button type="button" onclick="toggleall()" class="btn btn-light" >
+                    <iconify-icon icon="ic:round-all-inbox" class="icon-menu"></iconify-icon>Tất cả
+                </button>
+
+                <script>
+                    function showAllProducts() {
+                        var products = document.querySelectorAll('.cart-detail');
+
+                        products.forEach(function (product) {
+                            product.style.display = 'block';
+                        });
+                    }
+                </script>
                 <button type="button" onclick="togglefood()" class="btn btn-light "><iconify-icon icon="fluent:food-pizza-20-filled" class="icon-menu"></iconify-icon>Thức ăn</button>
-                <button type="button" class="btn btn-light "><iconify-icon icon="tdesign:drink" class="icon-menu"></iconify-icon>Nước uống</button>
+                <button type="button" onclick="toggledrink()" class="btn btn-light "><iconify-icon icon="tdesign:drink" class="icon-menu"></iconify-icon>Nước uống</button>
                 @* ---------------------------Search ---------------------------- *@
                 <div class="search">
-                    <input type="text" class="input-search" placeholder="Tìm kiếm" /><iconify-icon icon="lucide:scan-search" class="icon-search"></iconify-icon>
+                    <input type="text" class="input-search" placeholder="Tìm kiếm" oninput="searchProducts(this.value)" />
+                    <iconify-icon icon="lucide:scan-search" class="icon-search"></iconify-icon>
                 </div>
+
+                <script>
+                    function searchProducts(keyword) {
+                        var products = document.querySelectorAll('.cart-detail');
+
+                        keyword = keyword.toLowerCase();
+                        products.forEach(function (product) {
+                            var fnbName = product.querySelector('.cart-name').getAttribute('title').toLowerCase();
+
+                            if (fnbName.includes(keyword)) {
+                                product.style.display = 'block';
+                            } else {
+                                product.style.display = 'none';
+                            }
+                        });
+                    }
+                </script>
+
             </div>
             @* -----------------------DETAIL MENU FOOD------------------------------------------------------------------ *@
             <div class="menu-food" id="menufood">
                 <div class="form-food">
-                    <button type="button" class="btn btn-danger  btn-detail-food">Mì</button>
-                    <button type="button" class="btn btn-danger  btn-detail-food">Cơm</button>
-                    <button type="button" class="btn btn-danger  btn-detail-food">Nui</button>
+                    <button type="button" class="btn btn-danger  btn-detail-food" data-category="M0" onclick="filterProducts('M0')">Mì</button>
+                    <button type="button" class="btn btn-danger btn-detail-food" data-category="C0" onclick="filterProducts('C0')">Cơm</button>
+                    <button type="button" class="btn btn-danger  btn-detail-food" data-category="N0" onclick="filterProducts('N0')">Nui</button>
+                    <button type="button" class="btn btn-danger  btn-detail-food" data-category="L0" onclick="filterProducts('L0')">Lẩu</button>
+                    <button type="button" class="btn btn-danger  btn-detail-food" data-category="SN" onclick="filterProducts('SN')">Ăn vặt</button>
                 </div>
+                <script>
+                    function filterProducts(category) {
+                        var products = document.querySelectorAll('.cart-detail');
 
+                        products.forEach(function (product) {
+                            var fnbId = product.getAttribute('data-category');
+
+                            if (fnbId.startsWith(category)) {
+                                product.style.display = 'block';
+                            } else {
+                                product.style.display = 'none';
+                            }
+                        });
+                    }
+                </script>
+            </div>
+            <div class="menu-drink" id="menudrink">
+                <div class="form-food">
+                    <button type="button" class="btn btn-danger  btn-detail-food" data-category="D0" onclick="filterProducts('D0')">Nước giải khát</button>
+                    <button type="button" class="btn btn-danger  btn-detail-food" data-category="MT" onclick="filterProducts('MT')">Trà sữa</button>
+                    <button type="button" class="btn btn-danger  btn-detail-food" data-category="CF" onclick="filterProducts('CF')">Cafe</button>
+                    <button type="button" class="btn btn-danger  btn-detail-food" data-category="TE" onclick="filterProducts('TE')">Hồng Trà</button>
+                    <button type="button" class="btn btn-danger  btn-detail-food" data-category="SD" onclick="filterProducts('SD')">Soda</button>
+                </div>
             </div>
             <div class="frame-detail-cart" id="framedetailcart">
                 <div class="cart-select">
-                    <div class="cart-detail">
-                        <div class="cart-image">
-                            <img src="./Image/5TT/hinh/cafe/bacxiu.jpg" />
-                            <div class="price-cart">
-                                <div>14.000<sup>đ</sup></div><div></div>
+                    @model FootNet.ViewModels.UserFNb
+                    @foreach (var product in Model.Products)
+                    {
+                        <div class="cart-detail" data-category="@product.FnbId">
+                            <div class="cart-image">
+                                <img src="@product.Image" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" onclick="openPopupTopping('@product.FnbId', '@product.FnbName', @product.Price)" />
+                                <div class="price-cart">
+                                    <div>@($"{product.Price:N0}đ")<sup>đ</sup></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="formname">
+                                <div class="cart-name" data-bs-toggle="tooltip" data-bs-placement="top" title="@product.FnbName">@product.FnbName</div>
                             </div>
                         </div>
-                        <div class="cart-name" data-bs-toggle="tooltip" data-bs-placement="top" title="Cafe sữa full topping kèm kem tươi"> Cafe sữa full topping kèm kem tươi</div>
-                    </div>
-                    <div class="cart-detail">
-                        <div class="cart-image">
-                            <img src="./Image/5TT/hinh/cafe/bacxiu.jpg" />
-                            <div class="price-cart">
-                                <div>20.000<sup>đ</sup></div><div></div>
-                            </div>
-                        </div>
-                        <div class="cart-name" data-bs-toggle="tooltip" data-bs-placement="top" title="Cafe sữa full topping kèm kem tươi"> Cafe sữa full topping kèm kem tươi</div>
-                    </div><div class="cart-detail">
-
-                        <div class="cart-image">
-                            <img src="./Image/5TT/hinh/com/comboxao.jpg" />
-                            <div class="price-cart">
-                                <div>25.000<sup>đ</sup></div><div></div>
-                            </div>
-                        </div>
-                        <div class="cart-name" data-bs-toggle="tooltip" data-bs-placement="top" title="Cafe sữa full topping kèm kem tươi"> Cafe sữa full topping kèm kem tươi</div>
-                    </div><div class="cart-detail">
-                        <div class="cart-image">
-                            <img src="./Image/5TT/hinh/com/comchien_caman.jpg" />
-                            <div class="price-cart">
-                                <div>14.000<sup>đ</sup></div><div></div>
-                            </div>
-                        </div>
-                        <div class="cart-name" data-bs-toggle="tooltip" data-bs-placement="top" title="Cafe sữa full topping kèm kem tươi"> Cafe sữa full topping kèm kem tươi</div>
-                    </div><div class="cart-detail">
-
-                        <div class="cart-image">
-                            <img src="./Image/5TT/hinh/cafe/cacaosua.jpg" />
-                            <div class="price-cart">
-                                <div>14.000<sup>đ</sup></div><div></div>
-                            </div>
-                        </div>
-                        <div class="cart-name" data-bs-toggle="tooltip" data-bs-placement="top" title="Cafe sữa full topping kèm kem tươi"> Cafe sữa full topping kèm kem tươi</div>
-                    </div>
-                    <div class="cart-detail">
-
-                        <div class="cart-image">
-                            <img src="./Image/5TT/hinh/cafe/bacxiu.jpg" />
-                            <div class="price-cart">
-                                <div>14.000<sup>đ</sup></div><div></div>
-                            </div>
-                        </div>
-                        <div class="cart-name" data-bs-toggle="tooltip" data-bs-placement="top" title="Cafe sữa full topping kèm kem tươi"> Cafe sữa full topping kèm kem tươi</div>
-                    </div><div class="cart-detail">
-
-                        <div class="cart-image">
-                            <img src="./Image/5TT/hinh/cafe/bacxiu.jpg" />
-                            <div class="price-cart">
-                                <div>14.000<sup>đ</sup></div><div></div>
-                            </div>
-                        </div>
-                        <div class="cart-name" data-bs-toggle="tooltip" data-bs-placement="top" title="Cafe sữa full topping kèm kem tươi"> Cafe sữa full topping kèm kem tươi</div>
-                    </div>
+                    }
                 </div>
             </div>
     </div>
-    @* ----------------------------------------------------------- *@
-        <div  class="support-suggestions">
-            <div class="items-support"><img src="Image/Service/attitude.jpg" /></div>
-            <div class="items-support"><img src="Image/Service/clearchair.jpg" /></div>
-            <div class="items-support"><img src="Image/Service/clearkeyboard.jpg" /></div>
-            <div class="items-support"><img src="Image/Service/cool.jpg" /></div>
-            <div class="items-support"><img src="Image/Service/fooddrink.jpg" /></div>
-            <div class="items-support"><img src="Image/Service/hot.jpg" /></div>
-            <div class="items-support"><img src="Image/Service/keyboard.jpg" /></div>
 
+      <Fnb>
+            
+    @* ----------------------------------------------------------- *@
+            <div class="support-suggestions">
+                <div class="items-support" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"><img src="Image/Service/attitude.jpg" /></div>
+                <div class="items-support" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"><img src="Image/Service/clearchair.jpg" /></div>
+                <div class="items-support" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"><img src="Image/Service/clearkeyboard.jpg" /></div>
+                <div class="items-support" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"><img src="Image/Service/cool.jpg" /></div>
+                <div class="items-support" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"><img src="Image/Service/fooddrink.jpg" /></div>
+                <div class="items-support" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"><img src="Image/Service/hot.jpg" /></div>
+                <div class="items-support" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal"><img src="Image/Service/keyboard.jpg" /></div>
+
+                <div class="items-support"></div>
     </div>
  </div>
     @* -------------------------------------------------------------------------------------------- *@
-    <div class="center"> 
+    <div class="center">
         <div class="login-register" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">ĐĂNG NHẬP/ĐĂNG KÝ</div>
         @* ------------------------CART---------------------------------------------- *@
         <div class="frame-content-cart" id="carthistory">
-            <div class="menu-history-cart "><div id="cart">Giỏ hàng</div><div>Lịch sử</div></div>
+            <div class="menu-history-cart "><div id="cart" onclick="history()">Giỏ hàng</div><div onclick="history()">Lịch sử</div></div>
             @* -------------------------------------------------------------------- *@
-            <div class="cart-bought-embrace">
-                <div class="cart-bought">
-                    <div class="img-cart-bought"><iconify-icon icon="emojione:stuffed-flatbread"></iconify-icon></div>
-                    <div class="content-cart-bought">
-                        <div class="title" data-bs-toggle="tooltip" data-bs-placement="top" title="Mì xào cay thái lan kèm xúc xích và trứng">Mì xào cay thái lan kèm xúc xích và trứng</div>
-                        <div>47.0000<sup>đ</sup></div>
-                        <div class="Increase-decrease-quanlity">
-                            <button class="Increase" onclick="decreaseQuantity()">-</button>
-                            <input id="quantityInput" class="Increase-decrease" oninput="validateNumericInput(this)" type="text" value="1" />
-                            <button class="Increase" onclick="increaseQuantity()">+</button>
+            <div id="cart-order" class="cartorderhistory">
+                <div class="cart-bought-embrace">
+                    <div class="cart-bought">
+                         <img class="img-cart-bought"  id="img-product" title="Image" src="" alt="Product Image" />
+                        <div class="content-cart-bought">
+                            <div class="title" data-bs-toggle="tooltip" data-bs-placement="top" title="FnBName">FnBName</div>
+                            <div class="totalPrice">0<sup>đ</sup></div>
+                            <div class="Increase-decrease-quanlity">
+                                <button class="Increase" onclick="decreaseQuantity()">-</button>
+                                <input id="quantityInput" class="Increase-decrease" oninput="validateNumericInput(this)" type="text" value="1" />
+                                <button class="Increase" onclick="increaseQuantity()">+</button>
+                            </div>
+                            <div>Topping:</div>
+                            <div class="topping" data-bs-toggle="tooltip" data-bs-placement="top"> </div>
                         </div>
-                        <div>Topping:</div>
-                        <div class="topping" data-bs-toggle="tooltip" data-bs-placement="top" title=" Xúc xích hung khói thêm">- Xúc xích hung khói thêm</div>
                     </div>
                 </div>
-               
-            </div>
-            @* ------------------------------------ *@
-            <div class="order">
-                <div class="into-money">
-                    <div> Thành tiền:</div>
-                    <div class="money">47.000<sup>đ</sup></div>    
+                @* ------------------------------------ *@
+                <div class="order">
+                    <div class="into-money">
+                        <div>Thành tiền:</div>
+                        <div class="money">0<sup>đ</sup></div>
+                    </div>
+                    <input class="discount-code-input" type="text" placeholder="Mã giảm giá" />
+                    <button type="button" class="btn btn-warning btn-order">ĐẶT HÀNG</button>
                 </div>
-                <input class="discount-code-input" type="text" placeholder="Mã giảm giá" />
-                <button type="button" class="btn btn-warning btn-order">ĐẶT HÀNG</button>
+            </div>
+            <div class="none-cart" style="display:none;">
+                <img class="img-nonecart" src="~/Image/nonecart.png" />
+            </div>
+            <div style="display:none;" class="cart-bought-emb" id="history">
+                <div class="cart-bought">
+                    <div class="historycart">
+                        <div class="title" data-bs-toggle="tooltip" data-bs-placement="top" title="Mì xào cay thái lan kèm xúc xích và trứng">Mì xào cay thái lan kèm xúc xích và trứng</div>
+                        <div>47.0000<sup>đ</sup></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="chat"></div>
@@ -179,55 +205,90 @@
                 <div class="massage-name">Lehongngot<div style="color:White; margin-left:2px">Hôm nay quán có món mới à.......</div></div>
                 <div class="time-chat">22:00</div>
                 <div class="massage-name">KimHang:<div style="color:White; margin-left:2px">hello mọi người.......</div></div>
-                <div class="time-chat">22:00</div>        
+                <div class="time-chat">22:00</div>
             </div>
         </div>
         @* --------------------------------*@
         <div class="frame-cart-chat">
             <div class="select-cart" onclick="toggleCart()"><iconify-icon class="icon-cart-chat" icon="raphael:cart"></iconify-icon>Giỏ hàng</div>
             <div class="select-chat" onclick="toggleChat()"><iconify-icon class="icon-cart-chat" icon="basil:notification-solid"></iconify-icon>Thông báo</div>
-        </div>    
+        </div>
     </div>
-   </div>
+</div>
  @* -------------------------------------------------------------------Login/Regiter------------------------------------------- *@
-
 <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="" id="login">
-                <div class="from-login" >
+                <div class="from-login">
                     <div style="margin-bottom:30px">ĐĂNG NHẬP</div>
                     <div class="content-login">
                         <label>Email</label>
                         <input class="input-login-register" type="text" />
                         <label>Mật khẩu</label>
-                        <input asp-for ="Password" class="input-login-register"  />
+                        <input class="input-login-register" onclick="loginUser()" />
                         <div class=" btn-login-register"><button class="btn btn-danger">ĐĂNG NHẬP</button> <button class="btn btn-secondary" onclick="showregister()">ĐĂNG KÝ</button></div>
                     </div>
                 </div>
-             </div>
-            @model FootNet.ViewModels.AddUserViewModels
-            <div class="hide-show" id="register">
-                <div class="from-register" method="post" >
+            </div>
+          
+               <div class="hide-show" id="register">
+                <form class="from-register" id="registerForm" method="post" asp-action="/Create" asp-controller="/Home">
                     <div style="margin-bottom:30px">ĐĂNG KÝ</div>
                     <div class="content-login">
                         <label>Email</label>
-                        <input class="input-login-register" asp-for="Email" type="text" />
-                        <span asp-validation-for="Email"></span>
+                        <input class="input-login-register" type="text" name="Email" />
+                        <span></span>
                         <label>Mật khẩu</label>
-                        <input asp-for="Password" class="input-login-register" />
-                        <span asp-validation-for="Password"></span>
+                        <input class="input-login-register" type="password" name="Password" />
                         <label>Xác nhận mật khẩu</label>
-                        <input asp-for="Verify" class="input-login-register" />
-                        <span asp-validation-for="Verify"></span>
+                        <input class="input-login-register" type="password" name="ConfirmPassword" />
                         <label>Tên hiển thị</label>
-                        <input class="input-login-register" asp-for="Username" type="text" />
-                        <div class=" btn-login-register"><button class="btn btn-danger" asp-controller="HomeController" asp-action="Add" type="submit">ĐĂNG KÝ</button> <button class="btn btn-secondary" onclick="showregister()">ĐĂNG NHẬP</button></div>
+                        <input class="input-login-register" type="text" name="Username" />
+                        <div class="btn-login-register">
+                            <button class="btn btn-danger" type="submit">ĐĂNG KÝ</button>
+                            <button class="btn btn-secondary" onclick="showregister()">ĐĂNG NHẬP</button>
+                        </div>
                     </div>
+                </form>
+            </div>
+                
+            
+           
+        </div>
+    </div>
+</div>
+
+@*---------------------------------------Service popup-------------------------------------*@
+<div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="feedback">
+                <input class="inputfeedback" placeholder="Cập Nhật Game/Phần Mềm" type="text" />
+                <div class="button-topping">
+                    <button class="btn btn-secondary">GHI CHÚ</button>
+                    <button class="btn btn-secondary" style=" margin-left:20px;">XÁC NHẬN</button>
                 </div>
             </div>
+        </div>
     </div>
- </div>
 </div>
+@*-------------------------TOPPING----------------------------------*@
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="from-topping">
+                <div style="margin-bottom:30px;margin-left:38%">CHỌN TOPPING</div>
+                <div class="add-cart">Nếu không muốn thêm topping, bạn có thể bỏ qua bằng cách nhấn bút<span> THÊM VÀO GIỎ </span>để bỏ qua bước này.</div>
+                <div class="input-check" id="popupContent">
+                </div>
+
+                <button class="btn btn-danger" data-bs-dismiss="modal" onclick="confirmOrder()">XÁC NHẬN</button>
+                <button class="btn btn-secondary" data-bs-dismiss="modal">HỦY</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 

@@ -7,7 +7,7 @@ namespace FootNet.Models
     {
         public Topping()
         {
-            Fnbs = new HashSet<Fnb>();
+            FnbSelectedToppings = new HashSet<FnbSelectedTopping>();
         }
 
         public string Toppingid { get; set; } = null!;
@@ -15,6 +15,6 @@ namespace FootNet.Models
         public int? Amount { get; set; }
         public double? Price { get; set; }
 
-        public virtual ICollection<Fnb> Fnbs { get; set; }
+        public virtual ICollection<FnbSelectedTopping> FnbSelectedToppings { get; set; }
     }
 }

@@ -17,18 +17,21 @@ namespace FootNet.Models
         }
 
         public virtual DbSet<Bill> Bills { get; set; } = null!;
+        public virtual DbSet<BillSelectedFnb> BillSelectedFnbs { get; set; } = null!;
         public virtual DbSet<Category> Categories { get; set; } = null!;
         public virtual DbSet<Fnb> Fnbs { get; set; } = null!;
+        public virtual DbSet<FnbSelectedTopping> FnbSelectedToppings { get; set; } = null!;
         public virtual DbSet<Service> Services { get; set; } = null!;
         public virtual DbSet<Topping> Toppings { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
+        public virtual DbSet<UserSelectedService> UserSelectedServices { get; set; } = null!;
         public virtual DbSet<Voucher> Vouchers { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer("Data Source=LETHIHONGNGOT\\MSSQLSERVER04;Initial Catalog=QLNet;Integrated Security=True");
             }
         }
@@ -85,27 +88,43 @@ namespace FootNet.Models
                     .WithMany(p => p.Bills)
                     .HasForeignKey(d => d.Voucherid)
                     .HasConstraintName("FK_BILL_BILL_DISC_VOUCHER");
+            });
 
-                entity.HasMany(d => d.Fnbs)
-                    .WithMany(p => p.Billnos)
-                    .UsingEntity<Dictionary<string, object>>(
-                        "BillSelectedFnb",
-                        l => l.HasOne<Fnb>().WithMany().HasForeignKey("FnbId").OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK_BILL_SEL_BILL_SELE_FNB"),
-                        r => r.HasOne<Bill>().WithMany().HasForeignKey("Billno").OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK_BILL_SEL_BILL_SELE_BILL"),
-                        j =>
-                        {
-                            j.HasKey("Billno", "FnbId");
+            modelBuilder.Entity<BillSelectedFnb>(entity =>
+            {
+                entity.HasKey(e => new { e.Billno, e.FnbId });
 
-                            j.ToTable("BILL_SELECTED_FNB");
+                entity.ToTable("BILL_SELECTED_FNB");
 
-                            j.HasIndex(new[] { "FnbId" }, "BILL_SELECTED_FNB2_FK");
+                entity.HasIndex(e => e.FnbId, "BILL_SELECTED_FNB2_FK");
 
-                            j.HasIndex(new[] { "Billno" }, "BILL_SELECTED_FNB_FK");
+                entity.HasIndex(e => e.Billno, "BILL_SELECTED_FNB_FK");
 
-                            j.IndexerProperty<string>("Billno").HasMaxLength(50).IsUnicode(false).HasColumnName("BILLNO").IsFixedLength();
+                entity.Property(e => e.Billno)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("BILLNO")
+                    .IsFixedLength();
 
-                            j.IndexerProperty<string>("FnbId").HasMaxLength(50).IsUnicode(false).HasColumnName("FNB_ID").IsFixedLength();
-                        });
+                entity.Property(e => e.FnbId)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("FNB_ID")
+                    .IsFixedLength();
+
+                entity.Property(e => e.Amount).HasColumnName("AMOUNT");
+
+                entity.HasOne(d => d.BillnoNavigation)
+                    .WithMany(p => p.BillSelectedFnbs)
+                    .HasForeignKey(d => d.Billno)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_BILL_SEL_BILL_SELE_BILL");
+
+                entity.HasOne(d => d.Fnb)
+                    .WithMany(p => p.BillSelectedFnbs)
+                    .HasForeignKey(d => d.FnbId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_BILL_SEL_BILL_SELE_FNB");
             });
 
             modelBuilder.Entity<Category>(entity =>
@@ -166,6 +185,43 @@ namespace FootNet.Models
                     .HasConstraintName("FK_FNB_FNB_INHER_CATEGORY");
             });
 
+            modelBuilder.Entity<FnbSelectedTopping>(entity =>
+            {
+                entity.HasKey(e => new { e.Toppingid, e.FnbId });
+
+                entity.ToTable("FNB_SELECTED_TOPPING");
+
+                entity.HasIndex(e => e.FnbId, "FNB_SELECTED_TOPPING2_FK");
+
+                entity.HasIndex(e => e.Toppingid, "FNB_SELECTED_TOPPING_FK");
+
+                entity.Property(e => e.Toppingid)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("TOPPINGID")
+                    .IsFixedLength();
+
+                entity.Property(e => e.FnbId)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("FNB_ID")
+                    .IsFixedLength();
+
+                entity.Property(e => e.PriceTp).HasColumnName("PriceTP");
+
+                entity.HasOne(d => d.Fnb)
+                    .WithMany(p => p.FnbSelectedToppings)
+                    .HasForeignKey(d => d.FnbId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_FNB_SELE_FNB_SELEC_FNB");
+
+                entity.HasOne(d => d.Topping)
+                    .WithMany(p => p.FnbSelectedToppings)
+                    .HasForeignKey(d => d.Toppingid)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_FNB_SELE_FNB_SELEC_TOPPING");
+            });
+
             modelBuilder.Entity<Service>(entity =>
             {
                 entity.HasKey(e => e.Servicesid);
@@ -181,6 +237,8 @@ namespace FootNet.Models
                 entity.Property(e => e.Description)
                     .HasMaxLength(100)
                     .HasColumnName("DESCRIPTION");
+
+                entity.Property(e => e.Image).HasColumnName("IMAGE");
 
                 entity.Property(e => e.Servicesname)
                     .HasMaxLength(50)
@@ -204,27 +262,6 @@ namespace FootNet.Models
                 entity.Property(e => e.Toppingname)
                     .HasMaxLength(50)
                     .HasColumnName("TOPPINGNAME");
-
-                entity.HasMany(d => d.Fnbs)
-                    .WithMany(p => p.Toppings)
-                    .UsingEntity<Dictionary<string, object>>(
-                        "FnbSelectedTopping",
-                        l => l.HasOne<Fnb>().WithMany().HasForeignKey("FnbId").OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK_FNB_SELE_FNB_SELEC_FNB"),
-                        r => r.HasOne<Topping>().WithMany().HasForeignKey("Toppingid").OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK_FNB_SELE_FNB_SELEC_TOPPING"),
-                        j =>
-                        {
-                            j.HasKey("Toppingid", "FnbId");
-
-                            j.ToTable("FNB_SELECTED_TOPPING");
-
-                            j.HasIndex(new[] { "FnbId" }, "FNB_SELECTED_TOPPING2_FK");
-
-                            j.HasIndex(new[] { "Toppingid" }, "FNB_SELECTED_TOPPING_FK");
-
-                            j.IndexerProperty<string>("Toppingid").HasMaxLength(50).IsUnicode(false).HasColumnName("TOPPINGID").IsFixedLength();
-
-                            j.IndexerProperty<string>("FnbId").HasMaxLength(50).IsUnicode(false).HasColumnName("FNB_ID").IsFixedLength();
-                        });
             });
 
             modelBuilder.Entity<User>(entity =>
@@ -265,27 +302,6 @@ namespace FootNet.Models
                     .HasMaxLength(50)
                     .HasColumnName("USERNAME");
 
-                entity.HasMany(d => d.Services)
-                    .WithMany(p => p.Users)
-                    .UsingEntity<Dictionary<string, object>>(
-                        "UserSelectedService",
-                        l => l.HasOne<Service>().WithMany().HasForeignKey("Servicesid").OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK_USER_SEL_USER_SELE_SERVICES"),
-                        r => r.HasOne<User>().WithMany().HasForeignKey("Userid").OnDelete(DeleteBehavior.ClientSetNull).HasConstraintName("FK_USER_SEL_USER_SELE_USER"),
-                        j =>
-                        {
-                            j.HasKey("Userid", "Servicesid");
-
-                            j.ToTable("USER_SELECTED_SERVICES");
-
-                            j.HasIndex(new[] { "Servicesid" }, "USER_SELECTED_SERVICES2_FK");
-
-                            j.HasIndex(new[] { "Userid" }, "USER_SELECTED_SERVICES_FK");
-
-                            j.IndexerProperty<string>("Userid").HasMaxLength(50).IsUnicode(false).HasColumnName("USERID").IsFixedLength();
-
-                            j.IndexerProperty<string>("Servicesid").HasMaxLength(50).IsUnicode(false).HasColumnName("SERVICESID").IsFixedLength();
-                        });
-
                 entity.HasMany(d => d.Vouchers)
                     .WithMany(p => p.Users)
                     .UsingEntity<Dictionary<string, object>>(
@@ -306,6 +322,43 @@ namespace FootNet.Models
 
                             j.IndexerProperty<string>("Voucherid").HasMaxLength(50).IsUnicode(false).HasColumnName("VOUCHERID").IsFixedLength();
                         });
+            });
+
+            modelBuilder.Entity<UserSelectedService>(entity =>
+            {
+                entity.HasKey(e => new { e.Userid, e.Servicesid });
+
+                entity.ToTable("USER_SELECTED_SERVICES");
+
+                entity.HasIndex(e => e.Servicesid, "USER_SELECTED_SERVICES2_FK");
+
+                entity.HasIndex(e => e.Userid, "USER_SELECTED_SERVICES_FK");
+
+                entity.Property(e => e.Userid)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("USERID")
+                    .IsFixedLength();
+
+                entity.Property(e => e.Servicesid)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("SERVICESID")
+                    .IsFixedLength();
+
+                entity.Property(e => e.Description).HasColumnName("DESCRIPTION");
+
+                entity.HasOne(d => d.Services)
+                    .WithMany(p => p.UserSelectedServices)
+                    .HasForeignKey(d => d.Servicesid)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_USER_SEL_USER_SELE_SERVICES");
+
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.UserSelectedServices)
+                    .HasForeignKey(d => d.Userid)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_USER_SEL_USER_SELE_USER");
             });
 
             modelBuilder.Entity<Voucher>(entity =>
