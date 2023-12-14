@@ -2345,9 +2345,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\Admin_Baocao.csproj",
-      "projectName": "Admin_Baocao",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\Admin_Baocao.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\FootNet.csproj",
+      "projectName": "FootNet",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\FootNet.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\obj\\",
       "projectStyle": "PackageReference",

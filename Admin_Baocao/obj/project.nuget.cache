@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KnlVETo211h/qtYxRW7BxpYTqd4foU5H+dhX1vd60Tmkt6B/6WXVW7onJE0J/K+xK9Jz30FBPgQ3LHdI52SC3g==",
+  "dgSpecHash": "811y7rkY7Ah6S10DXlFf3Ujy7C0pp1eCfgM1B1uDxqD/0ycW/Vy6ZydT/YuEkujFnnV8IJh5JmRglzqG7i4SKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\Admin_Baocao.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\CN NET\\Admin_Baocao\\Admin_Baocao\\FootNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
