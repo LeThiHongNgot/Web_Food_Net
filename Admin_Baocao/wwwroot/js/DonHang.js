@@ -35,6 +35,9 @@ function FormatCurrency(value) {
 }
 
 function FormatDateTime(input) {
+    var Parts = input.split("/")
+    var DateResult = Parts[2] + '-' + Parts[1] + '-' + Parts[0] + ' ' + '00:00:00'
+    return DateResult
     const fromDate = sessionStorage.getItem('fromDate')
     const toDate = sessionStorage.getItem('toDate')
     if (fromDate != null && toDate != null) {
@@ -74,9 +77,9 @@ function WorkWithPages() {
 }
 
 function CreateOrderButtonPress() {
-    var userId = document.getElementById('createuserIdInput').value
+    var userId = document.getElementById('createUserIdInput').value
     
-    if (userId === "" || fnbName === "" || fnbPrice === "" || orderIdToCreate === "" || orderIdToCreate === undefined) {
+    if (userId === "" || orderIdToCreate === "" || orderIdToCreate === undefined) {
         if (userId === "") {
             document.getElementById("userIdError").textContent = "Vui lòng nhập mã khách hàng muốn mua hàng !"
         }
@@ -112,48 +115,42 @@ function CreateOrderButtonPress() {
         if (allInfoValid === 2) {
             
             if (inputFiles.length > 0) {
-                var fnb = {
+                var order = {
                     userId: userId,
-                    FnbName: fnbName,
-                    Price: fnbPrice,
-                    Image: fnbImageToCreate,
-                    Categoryid: orderIdToCreate
-                }
+                    fnbs: fnbs
+                };
                 $.ajax({
                     url: '/Admin/CreateOrder',
                     type: 'POST',
                     contentType: "application/json; charset=utf-8",
-                    data: JSON.stringify(fnb)
+                    data: JSON.stringify(order)
                 })
                     .done(function (result) {
-                        alert("Tạo đơn hàng thành công !")
-                        location.reload()
+                        alert("Tạo đơn hàng thành công !");
+                        location.reload();
                     })
                     .fail(function (error) {
-                        alert(error.responseText)
-                    })
+                        alert(error.responseText);
+                    });
             }
             else {
-                var fnb = {
+                var order = {
                     userId: userId,
-                    FnbName: fnbName,
-                    Price: fnbPrice,
-                    Image: defaultImage,
-                    Categoryid: orderIdToCreate
-                }
+                    fnbs: fnbs
+                };
                 $.ajax({
                     url: '/Admin/CreateOrder',
                     type: 'POST',
                     contentType: "application/json; charset=utf-8",
-                    data: JSON.stringify(fnb)
+                    data: JSON.stringify(order)
                 })
                     .done(function (result) {
-                        alert("Tạo đơn hàng thành công !")
-                        location.reload()
+                        alert("Tạo đơn hàng thành công !");
+                        location.reload();
                     })
                     .fail(function (error) {
-                        alert(error.responseText)
-                    })
+                        alert(error.responseText);
+                    });
             }
         }
     }
@@ -205,7 +202,6 @@ function FetchOrderData(result) {
                     totalPrice = 0;
                     $(`#totalPrice${index}`).text(FormatCurrency(totalPrice) + ' đ');
                 });
-                /*$(`#orderRow${index + 1}`).append(`<td class='red-text' id='totalPrice${index}'>${FormatCurrency(totalPrice)} đ</td>`)*/
                 var totalPrice = currentValue.price * currentValue.total;
                 var displayPrice = !isNaN(totalPrice) ? FormatCurrency(totalPrice) + ' đ' : '';
                 $(`#orderRow${index + 1}`).append(`<td class='red-text' id='totalPrice${index}'>${displayPrice}</td>`);
@@ -220,31 +216,53 @@ function FetchOrderData(result) {
     }
 }
 
-function AddItemToOrder(item) {
-    var orderData = JSON.parse(sessionStorage.getItem('orderData')) || [];
-    orderData.push(item);
-    sessionStorage.setItem('orderData', JSON.stringify(orderData));
-
-    var index = orderData.length - 1;
-    $("#addFnbToOrderTableBody").append(`<tr id='orderRow${index + 1}'></tr>`);
-    $(`#orderRow${index + 1}`).append(`<th scope='row'>${item.fnbName}</th>`);
-    $(`#orderRow${index + 1}`).append(`<td>${item.amount}</td>`);
-    $(`#orderRow${index + 1}`).append(`<td>
-        <button type="button" class="btn btn-danger" id="removeBtn${index}"><i class="bi bi-trash"></i></button>
-    </td>`);
-
-    $(`#removeBtn${index}`).click(function () {
-        $(`#orderRow${index + 1}`).remove();
-        orderData.splice(index, 1);
-        sessionStorage.setItem('orderData', JSON.stringify(orderData));
-    });
-}
-
 $("#createOrderButton").click(function () {
     var orderData = JSON.parse(sessionStorage.getItem('orderData'));
-    // Code to send `orderData` to the server and add it to `tbDonHang`
-});
+    orderData.forEach(function (currentValue, index, arr) {
+        if (index + 1 > currentOrderPage * 10 - 10 && index + 1 <= currentOrderPage * 10) {
+            var totalPrice = currentValue.price * currentValue.total
+            $("#orderTableBody").append(`<tr id='orderRow${index + 1}'></tr>`)
+            $(`#orderRow${index + 1}`).append(`<th scope='row'>${index + 1}</th>`)
+            $(`#orderRow${index + 1}`).append(`<td class="fw-light">${currentValue.daytime}</td>`)
+            $(`#orderRow${index + 1}`).append(`<td >${currentValue.userId}</td>`)
+            $(`#orderRow${index + 1}`).append(`<td class='nowrap'>
+                                            <p class='blue-text mb-0'>${currentValue.fnbName}</p>
+                                            <div>
+                                              <i class='bi bi-receipt-cutoff me-2'><span class='red-text ms-2'></span></i>                                            
+                                            </div>
+                                            </td>`)
+            $(`#orderRow${index + 1}`).append(`<td class='red-text'>${currentValue.amount}</td>`)
+            $(`#orderRow${index + 1}`).append(`<td class='red-text'>${FormatCurrency(currentValue.total)} đ</td>`)
+            $(`#orderRow${index + 1}`).append(`<td>
+                <button type="button" class="btn btn-success me-2" id="chapNhanBtn${index}">CHẤP NHẬN</button>
+                <button type = "button" class="btn btn-danger  me-2" id="huyBtn${index}">HỦY</button>
+															<span class="text-danger" id="infoIcon${index}"><i class="bi bi-info-circle"></i></span>
+															<span class="qua-text"><i class="bi bi-person-check"></i></span>
+															</td>`)
+            $(`#chapNhanBtn${index}`).click(function () {
+                $(this).text("HOÀN THÀNH");
+                $(`#huyBtn${index}`).hide();
+                totalPrice = currentValue.total;
+                totalRevenue += totalPrice;
+                sessionStorage.setItem('totalRevenue', totalRevenue);
+                document.querySelector("#totalRevenue").innerText = FormatCurrency(parseInt(sessionStorage.getItem('totalRevenue'))) + ' đ';
+                $(`#totalPrice${index}`).text(FormatCurrency(totalPrice) + ' đ');
+                $(`#infoIcon${index}`).hide();
+            });
 
+            $(`#huyBtn${index}`).click(function () {
+                $(`#chapNhanBtn${index}`).hide();
+                $(this).css('height', $('#chapNhanBtn' + index).css('height'));
+                $(this).css('width', $('#chapNhanBtn' + index).css('width'));
+                totalPrice = 0;
+                $(`#totalPrice${index}`).text(FormatCurrency(totalPrice) + ' đ');
+            });
+            var totalPrice = currentValue.price * currentValue.total;
+            var displayPrice = !isNaN(totalPrice) ? FormatCurrency(totalPrice) + ' đ' : '';
+            $(`#orderRow${index + 1}`).append(`<td class='red-text' id='totalPrice${index}'>${displayPrice}</td>`);
+        }
+    })
+});
 
 
 $(document).ready(function () {
@@ -287,7 +305,7 @@ $(document).ready(function () {
             $("#mathangMenu").append("<li><a class='dropdown-item mathangItem' style='cursor: pointer'>" + "Mặt Hàng" + "</a></li>")
             result.forEach(function (currentValue, index, arr) {
                 $("#mathangMenu").append("<li><a class='dropdown-item mathangItem' " + `id=${currentValue.fnbId}` + "style='cursor: pointer'>" + currentValue.fnbName + "</a></li>")
-                $("#createMatHangMenu").append(`<li><a class='dropdown-item createOrderCatItem' data-order-to-create="${currentValue.fnbId}" id=createOrderItem${currentValue.fnbId} style='cursor: pointer'>${currentValue.fnbName}</a></li>`)
+                $("#createMatHangMenu").append(`<li><a class='dropdown-item createOrderFnbContent' data-order-to-create="${currentValue.fnbId}" id=createOrderItem${currentValue.fnbId} style='cursor: pointer'>${currentValue.fnbName}</a></li>`)
             })
         })
             .fail(function (error) {
@@ -465,11 +483,26 @@ $(document).ready(function () {
         }
     });
 
-    $(document).on('click', '.createOrderCatItem', function (event) {
+    $(document).on('click', '.createOrderFnbContent', function (event) {
         var itemValue = $(this).text();
-        document.querySelector("#createOrderCatContent").innerText = itemValue
-        orderIdToCreate = $(this).data('order-to-create').toString().trim()
-    })
+        document.querySelector("#createOrderFnbContent").innerText = itemValue;
+        orderIdToCreate = $(this).data('order-to-create').toString().trim();
+
+        // Tạo một hàng mới trong bảng với thông tin về mặt hàng đã chọn
+        var index = $("#addFnbToOrderTableBody tr").length; // Lấy số lượng hàng hiện tại trong bảng
+        $("#addFnbToOrderTableBody").append(`<tr id='createOrderRow${index + 1}'></tr>`);
+        $(`#createOrderRow${index + 1}`).append(`<th scope='row'>${itemValue}</th>`);
+        $(`#createOrderRow${index + 1}`).append(`<td><input type='number' min='1' value='1' id='quantity${index + 1}'></td>`);
+        $(`#createOrderRow${index + 1}`).append(`<td>
+        <button type="button" class="btn btn-light" id="removeBtn${index + 1}"><i class="bi bi-trash"></i></button>
+    </td>`);
+
+        // Thêm sự kiện click cho nút "Xóa"
+        $(`#removeBtn${index + 1}`).click(function () {
+            $(`#createOrderRow${index + 1}`).remove();
+        });
+    });
+
 
     $(document).on('click', '#applyButton', function () {
         if (document.getElementById('datepicker').value === '' || document.getElementById('datepicker1').value === '') {

@@ -1,4 +1,5 @@
 ﻿using Admin_Baocao.Models;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -426,22 +427,8 @@ namespace Admin_Baocao.Controllers
 			var order = new BillSelectedFnbs
 			{
 				BillnoNavigation = new Billno { Userid = userId, Daytime = DateTime.Now },
-				Fnbs = new List<Fnb>()
+				Fnbs = fnbs
 			};
-
-			foreach (var fnb in fnbs)
-			{
-				var sameFnbsCount = await _context.Fnbs.CountAsync(aFnb => aFnb.FnbId == fnb.FnbId);
-
-				if (sameFnbsCount > 0)
-				{
-					order.Fnbs.Add(fnb);
-				}
-				else
-				{
-					return BadRequest($"Item with ID {fnb.FnbId} does not exist!");
-				}
-			}
 
 			await _context.BillSelectedFnbs.AddAsync(order);
 			await _context.SaveChangesAsync();
