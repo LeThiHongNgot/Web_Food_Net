@@ -1,7 +1,7 @@
 # Internet Cafe Food Management
 ## Overview
 
-The **Web Food Net** project is an admin dashboard for managing food categories, products, and orders. It includes functionalities to generate reports, manage categories, view products, and handle orders. 
+The **Internet Cafe Food Management** project is an admin dashboard for managing food categories, products, and orders. It includes functionalities to generate reports, manage categories, view products, and handle orders. 
 The back-end is developed using **ASP.NET Core MVC**, 
 while the front-end uses **HTML**, **CSS**, **JavaScript**, and **Bootstrap** for a responsive user interface.
 
