@@ -67,3 +67,41 @@ while the front-end uses **HTML**, **CSS**, **JavaScript**, and **Bootstrap** fo
   - View and manage food categories and products.
   - Generate and view various reports related to categories, products, and sales.
   - Filter orders by date range and product.
+
+## Project Features
+
+### Dashboard View
+![Dashboard Screenshot](./images/dashboard.png)
+
+### View All Orders
+![Dashboard Screenshot](./images/view_all_orders.png)
+
+### Add Order
+![Add Order](./images/add_order.png)
+
+### View All Products
+![View All Products](./images/view_all_products.png)
+
+### Add Product
+![Add Product](./images/add_product.png)
+
+### Update Product
+![Update Product](./images/update_product.png)
+
+### Delete Product
+![Delete Product](./images/delete_product.png)
+
+### View All Categories
+![View All Categories](./images/view_all_categories.png)
+
+### Add Category
+![Add Category](./images/add_category.png)
+
+### Update Category
+![Update Category](./images/update_category.png)
+
+### Delete Category
+![Delete Category](./images/delete_category.png)
+
+### View Report
+![View Report](./images/view_report.png)
