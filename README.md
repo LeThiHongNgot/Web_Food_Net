@@ -31,11 +31,10 @@ while the front-end uses **HTML**, **CSS**, **JavaScript**, and **Bootstrap** fo
 ## Setup and Installation
 
 1. Clone this repository to your local machine.
-2. Install dependencies using:
-   ```bash
+  ```bash
    git clone --branch feat_dhang_mhang_nmhang https://github.com/LeThiHongNgot/Web_Food_Net.git
-   ```
-3. Install the required dependencies using:
+   ``` 
+2. Install the required dependencies using:
    ```bash
    # Bootstrap (frontend package via NuGet)
    dotnet add package bootstrap --version 5.3.2
@@ -48,13 +47,13 @@ while the front-end uses **HTML**, **CSS**, **JavaScript**, and **Bootstrap** fo
    dotnet add package Microsoft.AspNetCore.Mvc
    dotnet add package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
    ```
-4. Configure your database connection in the appsettings.json file:
+3. Configure your database connection in the appsettings.json file:
   ```bash
   "ConnectionStrings": {
     "QLNet": "Data Source=.\\SQLEXPRESS;Initial Catalog=QLNet;Integrated Security=True"
   }
   ```
-5. Run the application:
+4. Run the application:
   ```bash
   dotnet run
   ```
