@@ -1,4 +1,4 @@
-# Web Food Net
+# Internet Cafe Food Management
 ## Overview
 
 The **Web Food Net** project is an admin dashboard for managing food categories, products, and orders. It includes functionalities to generate reports, manage categories, view products, and handle orders. 
